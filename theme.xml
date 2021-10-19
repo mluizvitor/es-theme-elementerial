@@ -1,0 +1,219 @@
+<!--
+  Theme: Material Strawberry
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <fontRegular>./assets/fonts/Inter-Regular.otf</fontRegular>
+    <fontBold>./assets/fonts/Inter-Bold.otf</fontBold>
+    <fontLight>./assets/fonts/Inter-Light.otf</fontLight>
+    <fontHelper>./assets/fonts/FiraSansCondensed-Regular.ttf</fontHelper>
+
+    <subset.themesettings>Choose the flavor</subset.themesettings>
+    <subset.ratiosettings>Choose screen aspect ratio</subset.ratiosettings>
+  </variables>
+
+  <subset name="Flavor" displayName="${subset.themesettings}">
+    <include name="strawberry" displayName="Strawberry">./settings/colors/strawberry/main.xml</include>
+    <include name="orange" displayName="Orange">./settings/colors/orange/main.xml</include>
+    <include name="banana" displayName="Banana">./settings/colors/banana/main.xml</include>
+    <include name="lime" displayName="Lime">./settings/colors/lime/main.xml</include>
+    <include name="mint" displayName="Mint">./settings/colors/mint/main.xml</include>
+    <include name="blueberry" displayName="Blueberry">./settings/colors/blueberry/main.xml</include>
+    <include name="grape" displayName="Grape">./settings/colors/grape/main.xml</include>
+    <include name="bubblegun" displayName="Bubblegun">./settings/colors/bubblegun/main.xml</include>
+    <include name="cocoa" displayName="Cocoa">./settings/colors/cocoa/main.xml</include>
+    <include name="silver" displayName="Silver">./settings/colors/silver/main.xml</include>
+    <include name="slate" displayName="Slate">./settings/colors/slate/main.xml</include>
+  </subset>
+
+  <subset name="Ratio" displayName="${subset.ratiosettings}">
+    <include name="ratio32" displayName="3:2 | 480x320">./settings/ratio32.xml</include>
+    <include name="ratio43" displayName="4:3 | 640x480">./settings/ratio43.xml</include>
+    <include name="ratio169" displayName="16:9 | 1280x720 | 1366x768 | 1920x1080">./settings/ratio169.xml</include>
+  </subset>
+
+  <view name="system, basic, detailed">
+    <helpsystem name="help">
+      <fontPath>${fontHelper}</fontPath>
+    </helpsystem>
+  </view>
+
+  <view name="basic, detailed">
+    <text name="logoText">
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${header2F}</fontSize>
+      <alignment>left</alignment>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${bodyF}</fontSize>
+      <alignment>left</alignment>
+      <horizontalMargin>0.045</horizontalMargin>
+      <lineSpacing>1.55</lineSpacing>
+      <origin>0 0</origin>
+    </textlist>
+
+    <image name="background" extra="true">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+    </image>
+  </view>
+
+  <view name="detailed">
+    <textlist name="gamelist">
+      <size>0.5 0.775</size>
+    </textlist>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
+      <color></color>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <color></color>
+    </datetime>
+
+    <rating name="md_rating">
+      <origin>0.5 0.5</origin>
+      <pos>0.675 0.875</pos>
+    </rating>
+
+    <image name="md_marquee">
+      <pos>0.75 0.25</pos>
+      <origin>0.5 0.5</origin>
+      <size>0.35 h</size>
+      <zIndex>26</zIndex>
+    </image>
+
+    <image name="md_image">
+      <pos>0.75 0.575</pos>
+      <origin>0.5 0.5</origin>
+      <size>0.45 h</size>
+      <zIndex>25</zIndex>
+    </image>
+  </view>
+
+  <!-- Menu Settings -->
+  <view name="menu">
+    <menuText name="menutext">
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${bodyF}</fontSize>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <fontPath>${fontLight}</fontPath>
+      <fontSize>${tinyF}</fontSize>
+    </menuTextSmall>
+
+    <menuText name="menutitle">
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${header1F}</fontSize>
+    </menuText>
+
+    <menuBackground name="menubg">
+      <size>1 1</size>
+    </menuBackground>
+
+    <menuButton name="menubutton">
+      <path>./assets/button-normal.png</path>
+      <filledPath>./assets/button-hover.png</filledPath>
+    </menuButton>
+
+    <menuSwitch name="menuswitch">
+      <pathOn>./assets/switch-on.png</pathOn>
+      <pathOff>./assets/switch-off.png</pathOff>
+    </menuSwitch>
+
+    <menuText name="menufooter">
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${tinyF}</fontSize>
+    </menuText>
+  </view>
+
+  <!-- Carousel Config -->
+  <view name="system">
+    <!-- Cards position -->
+    <carousel name="systemcarousel">
+      <origin>0.5 0</origin>
+      <pos>0.5 0</pos>
+      <logoScale>1.4</logoScale>
+      <color></color>
+      <defaultTransition>fade</defaultTransition>
+      <systemInfoDelay>0</systemInfoDelay>
+    </carousel>
+
+    <!-- System Name -->
+    <text name="systemName" extra="true">
+      <text>${system.fullName}</text>
+      <origin>0 0</origin>
+      <fontSize>${header1F}</fontSize>
+      <alignment>left</alignment>
+      <fontPath>${fontBold}</fontPath>
+      <zIndex>90</zIndex>
+    </text>
+
+    <!-- Total games per system -->
+    <text name="systemInfo">
+      <backgroundColor>00000000</backgroundColor>
+      <forceUppercase>0</forceUppercase>
+      <fontSize>${bodyF}</fontSize>
+      <origin>0 0</origin>
+      <alignment>left</alignment>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>${fontLight}</fontPath>
+    </text>
+
+    <!-- System Logo -->
+    <image name="logo">
+      <path>./assets/logos/${system.theme}.png</path>
+    </image>
+
+    <!-- Logo Fallback -->
+    <text name="logoText" extra="true">
+      <fontPath>${fontRegular}</fontPath>
+      <color>${primaryColor}</color>
+      <origin>0 0</origin>
+      <fontSize>0.0375</fontSize>
+    </text>
+
+    <!-- System Background -->
+    <image name="cover_fallback" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>28</zIndex>
+    </image>
+
+    <!-- System Background -->
+    <image name="cover" extra="true">
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>29</zIndex>
+    </image>
+
+    <!-- System Background -->
+    <image name="carouselFrame" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>30</zIndex>
+    </image>
+  </view>
+
+  <!-- Clock Settings -->
+  <view name="screen">
+    <text name="clock">
+      <origin>0 0</origin>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${tinyF}</fontSize>
+      <color>efefef</color>
+    </text>
+  </view>
+
+</theme>

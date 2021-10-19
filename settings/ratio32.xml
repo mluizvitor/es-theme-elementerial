@@ -1,0 +1,88 @@
+<!--
+  Theme: Material Strawberry
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <header1F>0.062</header1F>
+    <header2F>0.058</header2F>
+    <bodyF>0.034</bodyF>
+    <tinyF>0.030</tinyF>
+  </variables>
+
+  <view name="system, basic, detailed">
+    <helpsystem name="help">
+      <fontSize>${tinyF}</fontSize>
+    </helpsystem>
+  </view>
+
+  <view name="basic, detailed">
+    <text name="logoText">
+      <pos>0.045 0.09</pos>
+      <origin>0 0.5</origin>
+    </text>
+
+    <textlist name="gamelist">
+      <selectorHeight>0.089</selectorHeight>
+      <selectorOffsetY>-0.005</selectorOffsetY>
+      <pos>0 0.18</pos>
+      <size>1 0.775</size>
+    </textlist>
+
+    <image name="background" extra="true">
+      <path>./../assets/ratio32/background.png</path>
+    </image>
+  </view>
+
+  <!-- Menu Settings -->
+  <view name="menu">
+    <menuBackground name="menubg">
+      <path>./../assets/ratio32/background2.png</path>
+    </menuBackground>
+  </view>
+
+  <!-- Carousel Config -->
+  <view name="system">
+    <!-- Cards position -->
+    <carousel name="systemcarousel">
+      <size>1.75 1</size>
+      <logoSize>1 0.27</logoSize>
+      <maxLogoCount>6</maxLogoCount>
+      <logoPos>0.115 0.545</logoPos>
+    </carousel>
+
+    <!-- System Name -->
+    <text name="systemName" extra="true">
+      <pos>0.0825 0.3</pos>
+    </text>
+
+    <!-- Total games per system -->
+    <text name="systemInfo">
+      <pos>0.0825 0.41</pos>
+    </text>
+
+    <image name="cover_fallback" extra="true">
+      <path>./../assets/ratio32/background.png</path>
+    </image>
+
+    <image name="cover" extra="true">
+      <path>./assets/systems/x480/${system.theme}.png</path>
+    </image>
+
+    <image name="carouselFrame" extra="true">
+      <path>./../assets/ratio32/carousel.png</path>
+    </image>
+  </view>
+
+
+  <!-- Clock Settings -->
+  <view name="screen">
+    <text name="clock">
+      <pos>0.775 -0.055</pos>
+    </text>
+  </view>
+
+</theme>
