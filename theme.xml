@@ -7,10 +7,10 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <fontRegular>./assets/fonts/Inter-Regular.otf</fontRegular>
-    <fontBold>./assets/fonts/Inter-Bold.otf</fontBold>
-    <fontLight>./assets/fonts/Inter-Light.otf</fontLight>
-    <fontHelper>./assets/fonts/FiraSansCondensed-Regular.ttf</fontHelper>
+    <fontRegular>./assets/fonts/Inter/Inter-Regular.otf</fontRegular>
+    <fontBold>./assets/fonts/Inter/Inter-Bold.otf</fontBold>
+    <fontLight>./assets/fonts/Inter/Inter-Light.otf</fontLight>
+    <fontHelper>./assets/fonts/RobotoCondensed/RobotoCondensed-Light.ttf</fontHelper>
 
     <subset.themesettings>Choose the flavor (Color)</subset.themesettings>
     <subset.variantSet>Choose the topping (variant)</subset.variantSet>
@@ -35,7 +35,6 @@
     <include name="ratio43" displayName="4:3 | 640x480">./settings/ratios/ratio43.xml</include>
     <include name="ratio169" displayName="16:9 | 720p | 1080p">./settings/ratios/ratio169.xml</include>
   </subset>
-
 
   <view name="system, basic, detailed">
     <helpsystem name="help">
