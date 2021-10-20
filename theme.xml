@@ -113,7 +113,7 @@
 
     <menuText name="menutitle">
       <fontPath>${fontBold}</fontPath>
-      <fontSize>${header1F}</fontSize>
+      <fontSize>${header2F}</fontSize>
     </menuText>
 
     <menuBackground name="menubg">
@@ -126,8 +126,8 @@
     </menuButton>
 
     <menuSwitch name="menuswitch">
-      <pathOn>./assets/switch-on.png</pathOn>
-      <pathOff>./assets/switch-off.png</pathOff>
+      <pathOn>./assets/switch-on.svg</pathOn>
+      <pathOff>./assets/switch-off.svg</pathOff>
     </menuSwitch>
 
     <menuText name="menufooter">
@@ -215,6 +215,21 @@
       <fontSize>${tinyF}</fontSize>
       <color>efefef</color>
     </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <color>efefef</color>
+    </batteryIndicator>
+
+    <controllerActivity name="controllerActivity">
+      <origin>0 0</origin>
+      <pos>0.01 0.012</pos>
+      <size>0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./assets/pin.svg</imagePath>
+      <color>efefef88</color>
+      <activityColor>${primaryColor}aa</activityColor>
+      <hotkeyColor>${primaryColor}</hotkeyColor>
+    </controllerActivity>
   </view>
 
 </theme>
