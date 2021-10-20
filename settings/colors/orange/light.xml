@@ -10,6 +10,7 @@
     <backgroundColor>FFF2EB</backgroundColor>
     <primaryColor>F37329</primaryColor>
     <secondaryColor>2E2A28</secondaryColor>
+    <sectionColor>a62100</sectionColor>
   </variables>
 
   <view name="system, basic, detailed">
@@ -49,7 +50,7 @@
     </menuText>
 
     <menuTextSmall name="menutextsmall">
-      <color>${secondaryColor}</color>
+      <color>${sectionColor}</color>
     </menuTextSmall>
 
     <menuBackground name="menubg">
