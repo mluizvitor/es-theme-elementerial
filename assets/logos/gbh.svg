@@ -1,0 +1,28 @@
+<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" x1="58.769" x2="71.208" y2="103.75" gradientTransform="translate(1.3711e-6)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#68b723" offset="0"/>
+   <stop stop-color="#206b00" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="80.364" x2="71.062" y1="84.667" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#005402" offset="0"/>
+   <stop stop-color="#007d09" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect x="1.25e-7" y="1.3549e-6" width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
+  <rect x="-1.123e-6" width="127" height="84.667" ry="4.2333" fill="url(#b)" style="paint-order:stroke markers fill"/>
+  <g transform="matrix(.35508 0 0 .35508 90.408 63.307)" fill="#0f6">
+   <path d="m-167.97-58.526 4.3392-9.6838 1.905 9.6838h-6.2442m61.41-25.321-11.774 27.384-5.2123-27.384h-10.134l-14.42 40.349-6.7469-40.349h-12.647l-19.156 43.498 2.8575-18.177h-19.024l-1.5081 9.3662h7.9904l-0.92604 5.0006c-4.5508 1.8785-12.277 1.1642-15.584-4.7625-2.0902-3.7571-4.0481-12.118 4.7625-19.817 7.1967-6.2706 19.632-7.4083 26.802-4.1275 0 0 0.89959-5.2652 1.5875-10.134-13.785-4.7625-24.5-0.79375-31.671 3.6512-9.816 6.006-14.526 15.24-13.229 27.781 1.4552 14.526 20.267 23.707 36.221 14.446 0.18521-0.07937 0.26458-0.15875 0.42333-0.18521l-1.5346 3.3867h10.716l6.7469-14.949h11.853l2.5929 14.949h17.462l8.89-27.914 7.3025 27.914h6.8262l11.721-30.903 4.6302 31.089h10.239l-3.7306-50.112z" stroke-width=".26458"/>
+   <polyline transform="matrix(.26458 0 0 .26458 -225.04 -85.143)" points="508.5 194.4 616.6 194.4 623.1 154 555.5 154 560.8 120.3 619.7 120.3 626.1 79.8 566.7 79.8 571.8 46.3 639.5 46.3 645.9 5.8 538.6 5.8 508.5 194.4"/>
+   <polyline transform="matrix(.26458 0 0 .26458 -225.04 -85.143)" points="1043.8 65.1 1019.6 3.6 975.2 3.6 1021 103.1 1006.8 192.2 1045.7 192.2 1057.5 113.4 1127.4 3.6 1082 3.6 1043.8 65.1"/>
+   <path d="m26.944-54.054c-2.7517 8.255-9.4192 13.07-14.843 10.61-5.3975-2.4077-7.5935-11.112-4.8154-19.42 2.7781-8.3344 9.4192-13.044 14.817-10.636 5.424 2.4342 7.62 11.139 4.8419 19.447m-3.9952-29.342c-11.377-2.6194-23.204 6.4294-26.405 20.214-3.1485 13.811 3.466 27.12 14.817 29.766 11.377 2.5929 23.178-6.4558 26.405-20.241 3.1485-13.811-3.4925-27.12-14.817-29.739z" stroke-width=".26458"/>
+   <path d="m-23.618-63.447h-7.0908l1.561-9.2604h6.6675c7.2496 0 5.7679 9.2604-1.1377 9.2604m-1.2435 20.161h-9.0487l1.5875-9.9483h8.5725c8.1756 0 7.9375 9.9483-1.1112 9.9483zm6.006-39.979c-5.5298-0.07937-19.209 0-19.209 0h0.10583l-7.9375 49.556h23.098c9.525 0 23.416-13.996 10.742-25.426 12.965-13.467 0.10583-23.971-6.7998-24.13z" stroke-width=".26458"/>
+  </g>
+  <text x="48.880257" y="71.306084" fill="#00ff66" font-family="sans-serif" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="48.880257" y="71.306084" fill="#00ff66" font-family="Inter" font-size="10.583px" font-weight="300" stroke-width=".26458" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">hacks</tspan></text>
+ </g>
+ <style type="text/css">.st0{fill:#FC0C18;}
+	.st1{fill:#FC0C18;}</style>
+ <style type="text/css">.st0{fill:#FC0C18;}
+	.st1{fill:#FC0C18;}</style>
+</svg>
