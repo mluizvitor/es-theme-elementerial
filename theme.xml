@@ -209,6 +209,7 @@
 
     <!-- System Background -->
     <image name="cover" extra="true">
+      <path>./assets/systems/${system.theme}.jpg</path>
       <size>1 0</size>
       <origin>0 0</origin>
       <pos>0 0</pos>

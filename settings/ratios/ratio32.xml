@@ -49,9 +49,9 @@
     <!-- Cards position -->
     <carousel name="systemcarousel">
       <size>1.75 1</size>
-      <logoSize>1 0.27</logoSize>
+      <logoSize>1 0.28</logoSize>
       <maxLogoCount>6</maxLogoCount>
-      <logoPos>0.115 0.545</logoPos>
+      <logoPos>0.125 0.545</logoPos>
     </carousel>
 
     <!-- System Name -->
@@ -66,10 +66,6 @@
 
     <image name="cover_fallback" extra="true">
       <path>./assets/ratio32/background.png</path>
-    </image>
-
-    <image name="cover" extra="true">
-      <path>./assets/systems/x480/${system.theme}.png</path>
     </image>
 
     <image name="carouselFrame" extra="true">

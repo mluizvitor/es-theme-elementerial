@@ -68,10 +68,6 @@
       <path>./assets/ratio169/background.png</path>
     </image>
 
-    <image name="cover" extra="true">
-      <path>./assets/systems/x1920/${system.theme}.png</path>
-    </image>
-
     <image name="carouselFrame" extra="true">
       <path>./assets/ratio169/carousel.png</path>
     </image>
