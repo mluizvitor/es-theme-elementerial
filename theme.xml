@@ -110,6 +110,24 @@
       <fontSize>${tinyF}</fontSize>
     </menuTextSmall>
 
+    <menuIcons name="menuicons">
+      <iconSystem>./assets/icons/cog.svg</iconSystem>
+      <iconUpdates>./assets/icons/update.svg</iconUpdates>
+      <iconControllers>./assets/icons/gamepad.svg</iconControllers>
+      <iconGames>./assets/icons/gamepad-variant-outline.svg</iconGames>
+      <iconUI>./assets/icons/brush-variant.svg</iconUI>
+      <iconSound>./assets/icons/volume-high.svg</iconSound>
+      <iconNetwork>./assets/icons/wifi.svg</iconNetwork>
+      <iconScraper>./assets/icons/image.svg</iconScraper>
+      <iconAdvanced>./assets/icons/tune-variant.svg</iconAdvanced>
+      <iconQuit>./assets/icons/exit-to-app.svg</iconQuit>
+      <iconRetroachievements>./assets/icons/trophy.svg</iconRetroachievements>
+      <iconKodi>./assets/icons/kodi.svg</iconKodi>
+      <iconRestart>./assets/icons/restart.svg</iconRestart>
+      <iconShutdown>./assets/icons/power.svg</iconShutdown>
+      <iconFastShutdown>./assets/icons/power.svg</iconFastShutdown>
+    </menuIcons>
+
     <menuText name="menutitle">
       <fontPath>${fontBold}</fontPath>
       <fontSize>${header2F}</fontSize>
