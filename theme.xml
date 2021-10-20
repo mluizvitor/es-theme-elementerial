@@ -12,8 +12,9 @@
     <fontLight>./assets/fonts/Inter-Light.otf</fontLight>
     <fontHelper>./assets/fonts/FiraSansCondensed-Regular.ttf</fontHelper>
 
-    <subset.themesettings>Choose the flavor</subset.themesettings>
-    <subset.ratiosettings>Choose screen aspect ratio</subset.ratiosettings>
+    <subset.themesettings>Choose the flavor (Color)</subset.themesettings>
+    <subset.variantSet>Choose the topping (variant)</subset.variantSet>
+    <subset.ratiosettings>Choose your cup (Screen)</subset.ratiosettings>
   </variables>
 
   <subset name="Flavor" displayName="${subset.themesettings}">
@@ -26,7 +27,6 @@
     <include name="grape" displayName="Grape">./settings/colors/grape/main.xml</include>
     <include name="bubblegun" displayName="Bubblegun">./settings/colors/bubblegun/main.xml</include>
     <include name="cocoa" displayName="Cocoa">./settings/colors/cocoa/main.xml</include>
-    <include name="silver" displayName="Silver">./settings/colors/silver/main.xml</include>
     <include name="slate" displayName="Slate">./settings/colors/slate/main.xml</include>
   </subset>
 

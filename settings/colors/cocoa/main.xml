@@ -6,10 +6,6 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <variables>
-    <subset.variantSet>Choose the topping</subset.variantSet>
-  </variables>
-
   <subset name="Topping" displayName="${subset.variantSet}">
     <include name="dark" displayName="Chocolate Sauce | Dark">./dark.xml</include>
     <include name="light" displayName="Vanilla Sauce | Light">./light.xml</include>
