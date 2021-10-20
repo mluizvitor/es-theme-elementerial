@@ -33,14 +33,14 @@
     </textlist>
 
     <image name="background" extra="true">
-      <path>./../assets/ratio43/background.png</path>
+      <path>./assets/ratio43/background.png</path>
     </image>
   </view>
 
   <!-- Menu Settings -->
   <view name="menu">
     <menuBackground name="menubg">
-      <path>./../assets/ratio43/background2.png</path>
+      <path>./assets/ratio43/background2.png</path>
     </menuBackground>
   </view>
 
@@ -65,11 +65,11 @@
     </text>
 
     <image name="cover_fallback" extra="true">
-      <path>./../assets/ratio43/background.png</path>
+      <path>./assets/ratio43/background.png</path>
     </image>
 
     <image name="carouselFrame" extra="true">
-      <path>./../assets/ratio43/carousel.png</path>
+      <path>./assets/ratio43/carousel.png</path>
     </image>
   </view>
 

@@ -9,8 +9,8 @@
   <variables>
     <header1F>0.062</header1F>
     <header2F>0.058</header2F>
-    <bodyF>0.034</bodyF>
-    <tinyF>0.030</tinyF>
+    <bodyF>0.036</bodyF>
+    <tinyF>0.032</tinyF>
   </variables>
 
   <view name="system, basic, detailed">
@@ -33,14 +33,14 @@
     </textlist>
 
     <image name="background" extra="true">
-      <path>./../assets/ratio32/background.png</path>
+      <path>./assets/ratio32/background.png</path>
     </image>
   </view>
 
   <!-- Menu Settings -->
   <view name="menu">
     <menuBackground name="menubg">
-      <path>./../assets/ratio32/background2.png</path>
+      <path>./assets/ratio32/background2.png</path>
     </menuBackground>
   </view>
 
@@ -56,16 +56,16 @@
 
     <!-- System Name -->
     <text name="systemName" extra="true">
-      <pos>0.0825 0.3</pos>
+      <pos>0.0825 0.28</pos>
     </text>
 
     <!-- Total games per system -->
     <text name="systemInfo">
-      <pos>0.0825 0.41</pos>
+      <pos>0.0825 0.39</pos>
     </text>
 
     <image name="cover_fallback" extra="true">
-      <path>./../assets/ratio32/background.png</path>
+      <path>./assets/ratio32/background.png</path>
     </image>
 
     <image name="cover" extra="true">
@@ -73,7 +73,7 @@
     </image>
 
     <image name="carouselFrame" extra="true">
-      <path>./../assets/ratio32/carousel.png</path>
+      <path>./assets/ratio32/carousel.png</path>
     </image>
   </view>
 
@@ -81,7 +81,7 @@
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <pos>0.775 -0.055</pos>
+      <pos>0.775 -0.075</pos>
     </text>
   </view>
 

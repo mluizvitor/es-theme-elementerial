@@ -31,10 +31,11 @@
   </subset>
 
   <subset name="Ratio" displayName="${subset.ratiosettings}">
-    <include name="ratio32" displayName="3:2 | 480x320">./settings/ratio32.xml</include>
-    <include name="ratio43" displayName="4:3 | 640x480">./settings/ratio43.xml</include>
-    <include name="ratio169" displayName="16:9 | 1280x720 | 1366x768 | 1920x1080">./settings/ratio169.xml</include>
+    <include name="ratio32" displayName="3:2 | 480x320">./settings/ratios/ratio32.xml</include>
+    <include name="ratio43" displayName="4:3 | 640x480">./settings/ratios/ratio43.xml</include>
+    <include name="ratio169" displayName="16:9 | 720p | 1080p">./settings/ratios/ratio169.xml</include>
   </subset>
+
 
   <view name="system, basic, detailed">
     <helpsystem name="help">
