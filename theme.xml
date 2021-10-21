@@ -40,13 +40,20 @@
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
     </helpsystem>
+
+    <text name="logoText">
+      <color>00000000</color>
+    </text>
   </view>
 
   <view name="basic, detailed">
-    <text name="logoText">
+    <text name="system_name" extra="true">
+      <text>${system.fullName}</text>
       <fontPath>${fontBold}</fontPath>
       <fontSize>${header2F}</fontSize>
+      <forceUppercase>0</forceUppercase>
       <alignment>left</alignment>
+      <zIndex>50</zIndex>
     </text>
 
     <textlist name="gamelist">
@@ -58,7 +65,7 @@
       <origin>0 0</origin>
     </textlist>
 
-    <image name="background" extra="true">
+    <image name="background">
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
@@ -178,7 +185,6 @@
     <!-- Total games per system -->
     <text name="systemInfo">
       <backgroundColor>00000000</backgroundColor>
-      <forceUppercase>0</forceUppercase>
       <fontSize>${bodyF}</fontSize>
       <origin>0 0</origin>
       <alignment>left</alignment>

@@ -21,7 +21,7 @@
   </view>
 
   <view name="basic, detailed">
-    <text name="logoText">
+    <text name="system_name">
       <color>${secondaryColor}</color>
     </text>
 
