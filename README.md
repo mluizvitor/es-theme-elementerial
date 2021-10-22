@@ -32,15 +32,15 @@ Além disso a maioria dos sistemas também não têm um plano de fundo.
 
 ### Suportados atualmente:
 
-![Versão](https://img.shields.io/badge/Total_Suportado:_14-68b723?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Total_Suportado:_18-68b723?style=for-the-badge)
 
-3DO, Amiga, Amiga CD32, Amstrad CPC, Atari ST, Atomiswave, Final Burn Neo, Gameboy, Gameboy Color, Gameboy Advance, Gameboy Advance Hacks, Genesis, Gamegear, NES, SNES.
+3DO, Amiga, Amiga CD32, Amstrad CPC, Atari 800, Atari 2600, Atari 5200, Atari 7800, Atari ST, Atomiswave, Final Burn Neo, Gameboy, Gameboy Color, Gameboy Advance, Gameboy Advance Hacks, Genesis, Gamegear, NES, SNES.
 
 ---
 
 ### Planejados:
 
-Atari 800, Atari 2600, Atari 5200, Atari 7800, Atari Lynx, Commodore 16, Commodore 64, Commodore 128,
+Atari Lynx, Commodore 16, Commodore 64, Commodore 128,
 Coleco Vision, Capcom 1, Capcom 2, Capcom 3, Daphne, Doom, Ms DOS, Dreamcast, EasyRPG, Wolfenstein, Famicom, Famicom Disk System, , Game&Watch, Intellivision, Java, Mame, MasterSystem, Mega CD, Megadrive, Megaduck, MSX, MSX2, N64, Naomi, NDS, NeoGeo, NeoGeo CD, NeoGeo Pocket, NeoGeo Pocket Color, Odissey², OpenBor, Pc, NEC Pc88, NEC Pc98, PC Engine, PC Engine CD, PC Engine Super Grafx, PC-FX, PICO-8, Pokémini, Ports, PSP, PSPminis, PlayStation, ResidualVM, Satellaview, Saturn, SC-3000, ScummVM, Sega 32x, Sega C, Super Famicom, SG-1000, Super Gameboy, SNES Media Enhancement System, Solarus, Sufami, SuperVision, TurboGrafx 16, TurboGrafx 16 CD, Tic-80, Uzebox, Vectrex, VIC-20, Videopac, VirtualBoy, WonderSwan, WonderSwan Color, Sharp X68000, Sinclair ZX81, ZX Spectrum.
 
 ### Ferramentas do sistema planejados
