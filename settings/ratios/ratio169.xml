@@ -32,15 +32,20 @@
       <size>1 0.775</size>
     </textlist>
 
-    <image name="background" extra="true">
-      <path>./assets/ratio169/background.png</path>
+    <image name="cover_list_fallback" extra="true">
+      <path>./assets/ratio169/background2.png</path>
+    </image>
+
+    <image name="background">
+      <path>./assets/ratio169/carousel.png</path>
     </image>
   </view>
+
 
   <!-- Menu Settings -->
   <view name="menu">
     <menuBackground name="menubg">
-      <path>./assets/ratio169/background2.png</path>
+      <path>./assets/ratio169/menu.png</path>
     </menuBackground>
   </view>
 
@@ -77,7 +82,7 @@
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <pos>0.865 0.004</pos>
+      <pos>0.87 0.004</pos>
     </text>
   </view>
 

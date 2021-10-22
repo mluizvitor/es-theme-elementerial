@@ -26,21 +26,26 @@
     </text>
 
     <textlist name="gamelist">
-      <selectorHeight>0.089</selectorHeight>
+      <selectorHeight>0.087</selectorHeight>
       <selectorOffsetY>-0.005</selectorOffsetY>
       <pos>0 0.18</pos>
       <size>1 0.775</size>
     </textlist>
 
-    <image name="background" extra="true">
-      <path>./assets/ratio43/background.png</path>
+    <image name="cover_list_fallback" extra="true">
+      <path>./assets/ratio43/background2.png</path>
+    </image>
+
+    <image name="background">
+      <path>./assets/ratio43/carousel.png</path>
     </image>
   </view>
+
 
   <!-- Menu Settings -->
   <view name="menu">
     <menuBackground name="menubg">
-      <path>./assets/ratio43/background2.png</path>
+      <path>./assets/ratio43/menu.png</path>
     </menuBackground>
   </view>
 

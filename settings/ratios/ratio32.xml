@@ -9,7 +9,7 @@
   <variables>
     <header1F>0.062</header1F>
     <header2F>0.058</header2F>
-    <bodyF>0.036</bodyF>
+    <bodyF>0.038</bodyF>
     <tinyF>0.032</tinyF>
   </variables>
 
@@ -26,21 +26,25 @@
     </text>
 
     <textlist name="gamelist">
-      <selectorHeight>0.089</selectorHeight>
+      <selectorHeight>0.095</selectorHeight>
       <selectorOffsetY>-0.005</selectorOffsetY>
       <pos>0 0.18</pos>
       <size>1 0.775</size>
     </textlist>
 
-    <image name="background" extra="true">
-      <path>./assets/ratio32/background.png</path>
+    <image name="cover_list_fallback" extra="true">
+      <path>./assets/ratio32/background2.png</path>
+    </image>
+
+    <image name="background">
+      <path>./assets/ratio32/carousel.png</path>
     </image>
   </view>
 
   <!-- Menu Settings -->
   <view name="menu">
     <menuBackground name="menubg">
-      <path>./assets/ratio32/background2.png</path>
+      <path>./assets/ratio32/menu.png</path>
     </menuBackground>
   </view>
 

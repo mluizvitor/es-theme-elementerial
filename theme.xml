@@ -70,6 +70,23 @@
       <origin>0 0</origin>
       <size>1 1</size>
     </image>
+
+    <image name="cover_list_fallback" extra="true">
+      <color>${backgroundColor}</color>
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>-10</zIndex>
+    </image>
+
+    <image name="cover_list" extra="true">
+      <path>./assets/systems/${system.theme}.jpg</path>
+      <opacity>0.3</opacity>
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>-5</zIndex>
+    </image>
   </view>
 
   <view name="detailed">
