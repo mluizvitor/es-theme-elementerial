@@ -31,59 +31,60 @@
       <pos>0 0.18</pos>
       <size>1 0.775</size>
     </textlist>
-
-    <image name="cover_list_fallback" extra="true">
-      <path>./assets/ratio43/background2.png</path>
-    </image>
-
-    <image name="background">
-      <path>./assets/ratio43/carousel.png</path>
-    </image>
   </view>
 
+  <image name="cover_list_fallback" extra="true">
+    <path>./assets/ratio43/background2.png</path>
+  </image>
 
-  <!-- Menu Settings -->
-  <view name="menu">
-    <menuBackground name="menubg">
-      <path>./assets/ratio43/menu.png</path>
-    </menuBackground>
-  </view>
-
-  <!-- Carousel Config -->
-  <view name="system">
-    <!-- Cards position -->
-    <carousel name="systemcarousel">
-      <size>1.6 1</size>
-      <logoSize>1 0.27</logoSize>
-      <maxLogoCount>4.5</maxLogoCount>
-      <logoPos>0.1 0.545</logoPos>
-    </carousel>
-
-    <!-- System Name -->
-    <text name="systemName" extra="true">
-      <pos>0.105 0.3</pos>
-    </text>
-
-    <!-- Total games per system -->
-    <text name="systemInfo">
-      <pos>0.105 0.41</pos>
-    </text>
-
-    <image name="cover_fallback" extra="true">
-      <path>./assets/ratio43/background.png</path>
-    </image>
-
-    <image name="carouselFrame" extra="true">
-      <path>./assets/ratio43/carousel.png</path>
-    </image>
-  </view>
+  <image name="background">
+    <path>./assets/ratio43/carousel.png</path>
+  </image>
+</view>
 
 
-  <!-- Clock Settings -->
-  <view name="screen">
-    <text name="clock">
-      <pos>0.75 -0.065</pos>
-    </text>
-  </view>
+<!-- Menu Settings -->
+<view name="menu">
+  <menuBackground name="menubg">
+    <path>./assets/ratio43/menu.png</path>
+  </menuBackground>
+</view>
+
+<!-- Carousel Config -->
+<view name="system">
+  <!-- Cards position -->
+  <carousel name="systemcarousel">
+    <size>1.6 1</size>
+    <logoSize>1 0.27</logoSize>
+    <maxLogoCount>4.5</maxLogoCount>
+    <logoPos>0.1 0.545</logoPos>
+  </carousel>
+
+  <!-- System Name -->
+  <text name="systemName" extra="true">
+    <pos>0.105 0.3</pos>
+  </text>
+
+  <!-- Total games per system -->
+  <text name="systemInfo">
+    <pos>0.105 0.41</pos>
+  </text>
+
+  <image name="cover_fallback" extra="true">
+    <path>./assets/ratio43/background.png</path>
+  </image>
+
+  <image name="carouselFrame" extra="true">
+    <path>./assets/ratio43/carousel.png</path>
+  </image>
+</view>
+
+
+<!-- Clock Settings -->
+<view name="screen">
+  <text name="clock">
+    <pos>0.75 -0.065</pos>
+  </text>
+</view>
 
 </theme>
