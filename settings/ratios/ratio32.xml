@@ -77,7 +77,6 @@
     </image>
   </view>
 
-
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
