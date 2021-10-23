@@ -64,6 +64,11 @@
     <menuText name="menutitle">
       <color>${secondaryColor}</color>
     </menuText>
+
+    <menuTextEdit name="menutextedit">
+      <inactive>./assets/color-specific/slate/input_inactive-dark.svg</inactive>
+      <active>./assets/color-specific/slate/input_active-dark.svg</active>
+    </menuTextEdit>
   </view>
 
   <view name="system">
