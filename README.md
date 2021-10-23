@@ -1,6 +1,6 @@
 # Sobre
 
-![Versão](https://img.shields.io/badge/Versão_1.1020-de3e80?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Versão_1.1023-de3e80?style=for-the-badge)
 
 Elementerial é um tema construido totalmente do ZERO para o EmulationStation.
 É baseado na interface do Android TV usando alguns princípios do Material Design com a adição da paleta de cores do elementaryOS.
