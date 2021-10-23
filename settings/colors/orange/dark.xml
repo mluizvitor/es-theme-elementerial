@@ -21,7 +21,7 @@
   </view>
 
   <view name="basic, detailed">
-    <text name="logoText">
+    <text name="system_name">
       <color>${secondaryColor}</color>
     </text>
 
@@ -64,6 +64,11 @@
     <menuText name="menutitle">
       <color>${secondaryColor}</color>
     </menuText>
+
+    <menuTextEdit name="menutextedit">
+      <inactive>./assets/color-specific/orange/input_inactive-dark.svg</inactive>
+      <active>./assets/color-specific/orange/input_active-dark.svg</active>
+    </menuTextEdit>
   </view>
 
   <view name="system">
