@@ -12,9 +12,9 @@
     <fontLight>./assets/fonts/Inter/Inter-Light.otf</fontLight>
     <fontHelper>./assets/fonts/RobotoCondensed/RobotoCondensed-Light.ttf</fontHelper>
 
-    <subset.themesettings>Choose the flavor (Color)</subset.themesettings>
-    <subset.variantSet>Choose the topping (variant)</subset.variantSet>
-    <subset.ratiosettings>Choose your cup (Screen)</subset.ratiosettings>
+    <subset.themesettings>Flavor (Main Color)</subset.themesettings>
+    <subset.variantSet>Topping (Variant)</subset.variantSet>
+    <subset.ratiosettings>Cup (Screen)</subset.ratiosettings>
   </variables>
 
   <subset name="Flavor" displayName="${subset.themesettings}">
