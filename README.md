@@ -1,9 +1,27 @@
 # Sobre
 
-![Versão](https://img.shields.io/badge/Versão_1.1023-de3e80?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Versão_1.1025-de3e80?style=for-the-badge)
 
 Elementerial é um tema construido totalmente do ZERO para o EmulationStation.
 É baseado na interface do Android TV usando alguns princípios do Material Design com a adição da paleta de cores do elementaryOS.
+
+Este tema conta com 10 cores principais:
+
+* Strawberry (Vermelho)
+* Orange (Laranja)
+* Banana (Amarelo)
+* Lime (Verde)
+* Mint (Turquesa)
+* Blueberry (Azul)
+* Grape (Roxo)
+* Bubblegun (Rosa)
+* Cocoa (Marrom)
+* Slate (Cinza azulado)
+
+E três variações:
+* Chocolate Sauce (Escuro)
+* Vanilla Sauce (Claro)
+* Both Sauces (Híbrido)
 
 # Feito com
 
@@ -24,15 +42,13 @@ não é assegurado compatibilidade total.
 
 # Sistemas suportados
 
-Este tema ainda está em construção, portanto, ainda não é possível determinar o total de sistemas suportados.
+Este tema ainda está em construção, portanto, a lista de sistemas suportados está em constante mudança.
 Dito isso, ao instalar o tema no estado atual, é possível ver muitos itens com o logo "placeholder" ou até mesmo sem logo de sistema.
 Além disso a maioria dos sistemas também não têm um plano de fundo.
 
-## Lista de sistemas:
+## Suportados atualmente:
 
-### Suportados atualmente:
-
-![Versão](https://img.shields.io/badge/Sistemas_Suportados:_21-68b723?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Sistemas_Suportados:_31-68b723?style=for-the-badge)
 
 3DO,
 Amiga,
@@ -48,21 +64,31 @@ Atomiswave,
 Coleco Vision,
 Famicom,
 Final Burn Neo,
-Gameboy,
-Gameboy Color,
+Gameboy & Hacks,
+Gameboy Color & Hacks,
 Gameboy Advance & Hacks,
-Gamegear,
-NES,
+Gamegear & Hacks,
+MasterSystem,
+Megadrive / Genesis & Hacks,
+MS-DOS / PC,
+MSX,
+MSX2,
+NES & Hacks,
+Nintendo 64,
+Nintendo DS,
 Ports,
-SNES.
+PSP,
+PSP Minis,
+Super Famicom,
+Super Nintendo & Hacks.
 
-**Coleções:** 2 Jogadores, 4 Jogadores, Arcade, Arcade Vertical, Capturas de Tela, Coleções personalizadas Ferramentas, Favoritos, Todos os Jogos, Nunca Jogado, Último jogado, RetroAchievements, MPlayer.
+**Coleções:** 2 Jogadores, 4 Jogadores, Arcade, Arcade Vertical, Capturas de Tela, Coleções personalizadas, Ferramentas, Favoritos, Todos os Jogos, Nunca Jogado, Último jogado, RetroAchievements, MPlayer.
 
 ---
 
-### Planejados:
+## Planejados:
 
-Commodore 16, Commodore 64, Commodore 128, Capcom 1, Capcom 2, Capcom 3, Daphne, Doom, Ms DOS, Dreamcast, EasyRPG, Wolfenstein, Famicom Disk System, Game&Watch, Genesis, Intellivision, Java, Mame, MasterSystem, Mega CD, Megadrive, Megaduck, MSX, MSX2, N64, Naomi, NDS, NeoGeo, NeoGeo CD, NeoGeo Pocket, NeoGeo Pocket Color, Odissey², OpenBor, Pc, NEC Pc88, NEC Pc98, PC Engine, PC Engine CD, PC Engine Super Grafx, PC-FX, PICO-8, Pokémini, PSP, PSPminis, PlayStation, ResidualVM, Satellaview, Saturn, SC-3000, ScummVM, Sega 32x, Sega C, Super Famicom, SG-1000, Super Gameboy, SNES Media Enhancement System, Solarus, Sufami, SuperVision, TurboGrafx 16, TurboGrafx 16 CD, Tic-80, Uzebox, Vectrex, VIC-20, Videopac, VirtualBoy, WonderSwan, WonderSwan Color, Sharp X68000, Sinclair ZX81, ZX Spectrum.
+Commodore 16, Commodore 64, Commodore 128, Capcom 1, Capcom 2, Capcom 3, Daphne, Doom, Dreamcast, EasyRPG, Wolfenstein, Famicom Disk System, Game&Watch, Intellivision, Java, Mame, Megaduck, Naomi, NeoGeo, NeoGeo CD, NeoGeo Pocket, NeoGeo Pocket Color, Odissey², OpenBor, NEC Pc88, NEC Pc98, PC Engine, PC Engine CD, PC Engine Super Grafx, PC-FX, PICO-8, Pokémini, PlayStation, ResidualVM, Satellaview, Saturn, SC-3000, ScummVM, Sega 32x, Sega CD / Mega CD, SG-1000, Super Gameboy, SNES MSU-1, Solarus, Sufami, SuperVision, TurboGrafx 16, TurboGrafx 16 CD, Tic-80, Uzebox, Vectrex, VIC-20, Videopac, VirtualBoy, WonderSwan, WonderSwan Color, Sharp X68000, Sinclair ZX81, ZX Spectrum.
 
 # Licença
 
