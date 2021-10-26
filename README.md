@@ -23,6 +23,23 @@ E três variações:
 * Vanilla Sauce (Claro)
 * Both Sauces (Híbrido)
 
+# Amostra grátis
+## Tela Inicial
+![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png)
+:------------------------------:|:-------------------------------:
+Strawberry + Chocolate Sauce    | Grape + Vanilla Sauce
+
+## Lista de jogos
+![](./.github/GamelistDark.png) | ![](./.github/GamelistLight.png)
+:------------------------------:|:-------------------------------:
+Mint + Chocolate Sauce          | Banana + Vanilla Sauce
+
+## Menu
+![](./.github/MenuDark.png)     | ![](./.github/MenuLight.png)
+:------------------------------:|:-------------------------------:
+Bubblegun + Chocolate Sauce     | Slate + Vanilla Sauce
+
+
 # Feito com
 
 ![Inkscape](https://img.shields.io/badge/Inkscape-273445?style=for-the-badge&logo=Inkscape&logoColor=white)
