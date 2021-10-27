@@ -1,5 +1,5 @@
 <!--
-  Theme: Material Strawberry
+  Theme: Elementerial
   Author: mluizvitor
 -->
 
@@ -33,7 +33,7 @@
     </textlist>
 
     <image name="cover_list_fallback" extra="true">
-      <path>./assets/ratio169/background2.png</path>
+      <path>./assets/ratio169/background.png</path>
     </image>
 
     <image name="background">
