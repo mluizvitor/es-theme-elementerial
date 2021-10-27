@@ -1,0 +1,20 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <mainColor>DE3E80</mainColor>
+    <onMainColor>FFEBF4</onMainColor>
+
+    <backgroundDarkColor>352F31</backgroundDarkColor>
+    <backgroundLightColor>FFEBF4</backgroundLightColor>
+
+    <sectionDarkColor>fe9ab8</sectionDarkColor>
+    <sectionLightColor>bc245d</sectionLightColor>
+  </variables>
+
+</theme>

@@ -17,17 +17,23 @@
     <subset.ratiosettings>Cup (Screen)</subset.ratiosettings>
   </variables>
 
-  <subset name="Flavor" displayName="${subset.themesettings}">
-    <include name="strawberry" displayName="Strawberry">./settings/colors/strawberry/main.xml</include>
-    <include name="orange" displayName="Orange">./settings/colors/orange/main.xml</include>
-    <include name="banana" displayName="Banana">./settings/colors/banana/main.xml</include>
-    <include name="lime" displayName="Lime">./settings/colors/lime/main.xml</include>
-    <include name="mint" displayName="Mint">./settings/colors/mint/main.xml</include>
-    <include name="blueberry" displayName="Blueberry">./settings/colors/blueberry/main.xml</include>
-    <include name="grape" displayName="Grape">./settings/colors/grape/main.xml</include>
-    <include name="bubblegun" displayName="Bubblegun">./settings/colors/bubblegun/main.xml</include>
-    <include name="cocoa" displayName="Cocoa">./settings/colors/cocoa/main.xml</include>
-    <include name="slate" displayName="Slate">./settings/colors/slate/main.xml</include>
+  <subset name="themeFlavor" displayName="${subset.themesettings}">
+    <include name="strawberry" displayName="strawberry">./settings/colors/strawberry.xml</include>
+    <include name="orange" displayName="orange">./settings/colors/orange.xml</include>
+    <include name="banana" displayName="banana">./settings/colors/banana.xml</include>
+    <include name="lime" displayName="lime">./settings/colors/lime.xml</include>
+    <include name="mint" displayName="mint">./settings/colors/mint.xml</include>
+    <include name="blueberry" displayName="blueberry">./settings/colors/blueberry.xml</include>
+    <include name="grape" displayName="grape">./settings/colors/grape.xml</include>
+    <include name="bubblegun" displayName="bubblegun">./settings/colors/bubblegun.xml</include>
+    <include name="cocoa" displayName="cocoa">./settings/colors/cocoa.xml</include>
+    <include name="slate" displayName="slate">./settings/colors/slate.xml</include>
+  </subset>
+
+  <subset name="themeTopping" displayName="${subset.variantSet}">
+    <include name="dark" displayName="Chocolate Sauce">./settings/colors/commom-dark.xml</include>
+    <include name="light" displayName="Vanilla Sauce">./settings/colors/commom-light.xml</include>
+    <include name="hybrid" displayName="Both Sauces">./settings/colors/commom-hybrid.xml</include>
   </subset>
 
   <subset name="Ratio" displayName="${subset.ratiosettings}">
