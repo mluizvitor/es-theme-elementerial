@@ -1,0 +1,221 @@
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system, basic, detailed">
+    <helpsystem name="help">
+      <fontPath>${fontHelper}</fontPath>
+    </helpsystem>
+
+    <text name="logoText">
+      <color>00000000</color>
+    </text>
+  </view>
+
+  <view name="basic, detailed">
+    <text name="system_name" extra="true">
+      <text>${system.fullName}</text>
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${header2F}</fontSize>
+      <forceUppercase>0</forceUppercase>
+      <alignment>left</alignment>
+      <zIndex>50</zIndex>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${bodyF}</fontSize>
+      <alignment>left</alignment>
+      <origin>0 0</origin>
+    </textlist>
+
+    <image name="background">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+    </image>
+
+    <image name="cover_list_fallback" extra="true">
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>-10</zIndex>
+    </image>
+
+    <image name="cover_list" extra="true">
+      <path>./assets/systems/${system.theme}.jpg</path>
+      <opacity>0.3</opacity>
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>-5</zIndex>
+    </image>
+  </view>
+
+  <view name="detailed">
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
+      <color></color>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <color></color>
+    </datetime>
+
+    <rating name="md_rating">
+      <path>./assets/icons/star.svg</path>
+      <unfilledPath>./assets/icons/star_border.svg</unfilledPath>
+    </rating>
+  </view>
+
+  <!-- Carousel Config -->
+  <view name="system">
+    <!-- Cards position -->
+    <carousel name="systemcarousel">
+      <origin>0.5 0</origin>
+      <pos>0.5 0</pos>
+      <color></color>
+      <defaultTransition>fade</defaultTransition>
+      <systemInfoDelay>0</systemInfoDelay>
+    </carousel>
+
+    <!-- System Name -->
+    <text name="systemName" extra="true">
+      <text>${system.fullName}</text>
+      <origin>0 0</origin>
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${header1F}</fontSize>
+      <lineSpacing>1</lineSpacing>
+      <alignment>left</alignment>
+      <zIndex>90</zIndex>
+    </text>
+
+    <!-- Total games per system -->
+    <text name="systemInfo">
+      <backgroundColor>00000000</backgroundColor>
+      <origin>0 0</origin>
+      <fontSize>${bodyF}</fontSize>
+      <alignment>left</alignment>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>${fontLight}</fontPath>
+      <lineSpacing>1</lineSpacing>
+    </text>
+
+    <!-- System Logo -->
+    <image name="logo">
+      <path>./assets/logos/${system.theme}.svg</path>
+    </image>
+
+    <!-- Logo Fallback -->
+    <text name="logoText" extra="true">
+      <origin>0 0</origin>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${bodyF}</fontSize>
+    </text>
+
+    <!-- System Background -->
+    <image name="cover_fallback" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>27</zIndex>
+    </image>
+
+    <!-- System Background -->
+    <image name="cover" extra="true">
+      <path>./assets/systems/${system.theme}.jpg</path>
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>28</zIndex>
+    </image>
+
+    <!-- System Background -->
+    <image name="carouselFrame" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>30</zIndex>
+    </image>
+  </view>
+
+  <!-- Clock Settings -->
+  <view name="screen">
+    <text name="clock">
+      <origin>0 0</origin>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${tinyF}</fontSize>
+      <lineSpacing>1</lineSpacing>
+      <alignment>right</alignment>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+    </batteryIndicator>
+
+    <controllerActivity name="controllerActivity">
+      <origin>0 0</origin>
+      <pos>0.01 0.012</pos>
+      <size>0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./assets/pin.svg</imagePath>
+    </controllerActivity>
+  </view>
+
+  <!-- Menu Settings -->
+  <view name="menu">
+    <menuText name="menutext">
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${bodyF}</fontSize>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <fontPath>${fontLight}</fontPath>
+      <fontSize>${tinyF}</fontSize>
+    </menuTextSmall>
+
+    <menuGroup name="menugroup">
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${tinyF}</fontSize>
+    </menuGroup>
+
+    <menuIcons name="menuicons">
+      <iconSystem>./assets/icons/cog.svg</iconSystem>
+      <iconUpdates>./assets/icons/update.svg</iconUpdates>
+      <iconControllers>./assets/icons/gamepad.svg</iconControllers>
+      <iconGames>./assets/icons/gamepad-variant-outline.svg</iconGames>
+      <iconUI>./assets/icons/brush-variant.svg</iconUI>
+      <iconSound>./assets/icons/volume-high.svg</iconSound>
+      <iconNetwork>./assets/icons/wifi.svg</iconNetwork>
+      <iconScraper>./assets/icons/image.svg</iconScraper>
+      <iconAdvanced>./assets/icons/tune-variant.svg</iconAdvanced>
+      <iconQuit>./assets/icons/exit-to-app.svg</iconQuit>
+      <iconRetroachievements>./assets/icons/trophy.svg</iconRetroachievements>
+      <iconKodi>./assets/icons/kodi.svg</iconKodi>
+      <iconRestart>./assets/icons/restart.svg</iconRestart>
+      <iconShutdown>./assets/icons/power.svg</iconShutdown>
+      <iconFastShutdown>./assets/icons/power.svg</iconFastShutdown>
+    </menuIcons>
+
+    <menuText name="menutitle">
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${header2F}</fontSize>
+    </menuText>
+
+    <menuBackground name="menubg">
+      <size>1 1</size>
+    </menuBackground>
+
+    <menuButton name="menubutton">
+      <path>./assets/button-normal.png</path>
+      <filledPath>./assets/button-hover.png</filledPath>
+    </menuButton>
+
+    <menuSwitch name="menuswitch">
+      <pathOn>./assets/switch-on.svg</pathOn>
+      <pathOff>./assets/switch-off.svg</pathOff>
+    </menuSwitch>
+
+    <menuText name="menufooter">
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${tinyF}</fontSize>
+    </menuText>
+  </view>
+</theme>
