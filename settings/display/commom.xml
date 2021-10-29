@@ -5,10 +5,6 @@
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
     </helpsystem>
-
-    <text name="logoText">
-      <color>00000000</color>
-    </text>
   </view>
 
   <view name="basic, detailed">
@@ -19,6 +15,10 @@
       <forceUppercase>0</forceUppercase>
       <alignment>left</alignment>
       <zIndex>50</zIndex>
+    </text>
+
+    <text name="logoText">
+      <color>00000000</color>
     </text>
 
     <textlist name="gamelist">
@@ -101,7 +101,7 @@
 
     <!-- System Logo -->
     <image name="logo">
-      <default>./assets/logos/zzz-generic.svg</default>
+      <path>./assets/logos/zzz-generic.svg</path>
       <path>./assets/logos/${system.theme}.svg</path>
     </image>
 
