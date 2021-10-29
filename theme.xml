@@ -37,9 +37,9 @@
   </subset>
 
   <subset name="Ratio" displayName="${subset.ratiosettings}">
-    <include name="ratio32" displayName="3:2 | 480x320">./settings/ratios/ratio32.xml</include>
-    <include name="ratio43" displayName="4:3 | 640x480">./settings/ratios/ratio43.xml</include>
-    <include name="ratio169" displayName="16:9 | 720p | 1080p">./settings/ratios/ratio169.xml</include>
+    <include name="ratio32" displayName="3:2 | 480x320">./settings/display/ratio32.xml</include>
+    <include name="ratio43" displayName="4:3 | 640x480">./settings/display/ratio43.xml</include>
+    <include name="ratio169" displayName="16:9 | 720p | 1080p">./settings/display/ratio169.xml</include>
   </subset>
 
   <subset name="teste" displayName="Teste" appliesTo="teste,teste">
@@ -47,6 +47,6 @@
     <include name="não" displayName="não"/>
   </subset>
 
-  <include>./settings/ratios/commom.xml</include>
+  <include>./settings/display/commom.xml</include>
 
 </theme>

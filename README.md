@@ -23,6 +23,17 @@ E três variações:
 * Vanilla Sauce (Claro)
 * Both Sauces (Híbrido)
 
+# Compatibilidade
+
+Elementerial foi criado especificamente para as resoluções abaixo:
+
+- **480x320** (Proporção 3:2), testado no Anbernic RG351M rodando 351Elec
+- **640x480** (Proporção 4:3), testado em Máquina Virtual rodando Batocera v32 x86_64
+- **1920x1080** (Proporção 16:9), testado em computador real rodando Batocera v32 x86_64
+
+\* É possível utilizar este tema em outras resoluções e sistemas baseados no EmulationStation, porém,
+não é assegurado compatibilidade total.
+
 # Amostra grátis
 ## Tela Inicial
 ![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png)
@@ -38,24 +49,6 @@ Mint + Chocolate Sauce          | Banana + Vanilla Sauce
 ![](./.github/MenuDark.png)     | ![](./.github/MenuLight.png)
 :------------------------------:|:-------------------------------:
 Bubblegun + Chocolate Sauce     | Slate + Vanilla Sauce
-
-
-# Feito com
-
-![Inkscape](https://img.shields.io/badge/Inkscape-273445?style=for-the-badge&logo=Inkscape&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-c6262e?style=for-the-badge&logo=figma&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0d52bf?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-
-# Compatibilidade
-
-Elementerial foi criado especificamente para as resoluções abaixo:
-
-- **480x320** (Proporção 3:2), testado no Anbernic RG351M rodando 351Elec
-- **640x480** (Proporção 4:3), testado em Máquina Virtual rodando Batocera v32 x86_64
-- **1920x1080** (Proporção 16:9), testado em computador real rodando Batocera v32 x86_64
-
-\* É possível utilizar este tema em outras resoluções e sistemas baseados no EmulationStation, porém,
-não é assegurado compatibilidade total.
 
 # Sistemas suportados
 
@@ -117,3 +110,11 @@ Algumas [fontes](./assets/fonts/) estão licenciadas sobre a Apache 2.0 e SIL Op
 Alguns dos [ícones](./assets/icons/) estão licensiados sobre a Apache 2.0 ou suas respectivas lincenças.
 
 Todos os arquivos de código e de imagens não especificadas acima estão licensiados sobre a [licença MIT](./LICENSE).
+
+# Feito com
+
+![Inkscape](https://img.shields.io/badge/Inkscape-273445?style=for-the-badge&logo=Inkscape&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0d52bf?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-c6262e?style=for-the-badge&logo=figma&logoColor=white)
+![E](https://img.shields.io/badge/E-f37329?style=for-the-badge&logoColor=white)
+![Amor](https://img.shields.io/badge/Amor-de3e80?style=for-the-badge&logoColor=white)
