@@ -1,0 +1,31 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <!-- Carousel Config -->
+  <view name="system">
+    <!-- System Background -->
+    <image name="custom_bg" extra="true">
+      <!-- Default image with some instructions -->
+      <path ifSubset="Ratio:ratio32">./assets/ratio32/bg-info.webp</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/bg-info.webp</path>
+      <path ifSubset="Ratio:ratio169">./assets/ratio169/bg-info.webp</path>
+
+      <!-- Less important to Most important format. Overides info background -->
+      <path>./assets/custom/custombg.png</path>
+      <path>./assets/custom/custombg.webp</path>
+      <path>./assets/custom/custombg.jpg</path>
+      <path>./assets/custom/custombg.jpeg</path>
+
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>29</zIndex>
+    </image>
+  </view>
+
+</theme>

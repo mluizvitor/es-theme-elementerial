@@ -1,0 +1,117 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <header1F>0.0625</header1F>
+    <header2F>0.056250</header2F>
+    <bodyF>0.037500</bodyF>
+    <tinyF>0.031250</tinyF>
+  </variables>
+
+  <view name="system, basic, detailed">
+    <helpsystem name="help">
+      <fontSize>${tinyF}</fontSize>
+    </helpsystem>
+  </view>
+
+  <view name="basic, detailed">
+    <text name="system_name">
+      <pos>0.033333 0.087500</pos>
+      <origin>0 0.5</origin>
+    </text>
+
+    <textlist name="gamelist">
+      <selectorHeight>0.096875</selectorHeight>
+      <pos>0 0.175</pos>
+      <size>1 0.75</size>
+      <horizontalMargin>0.033333</horizontalMargin>
+      <lineSpacing>1.75</lineSpacing>
+    </textlist>
+
+    <image name="cover_list_fallback" extra="true">
+      <path>./assets/ratio32/background.png</path>
+    </image>
+
+    <image name="background">
+      <path>./assets/ratio32/carousel.png</path>
+    </image>
+  </view>
+
+  <view name="detailed">
+    <textlist name="gamelist">
+      <size>0.5 0.75</size>
+    </textlist>
+
+    <image name="md_image">
+      <pos>0.75 0.3</pos>
+      <origin>0.5 0</origin>
+      <maxSize>0.45 0.537500</maxSize>
+      <zIndex>25</zIndex>
+      <roundCorners>0.02</roundCorners>
+    </image>
+
+    <image name="md_marquee">
+      <pos>0.75 0.175</pos>
+      <origin>0.5 0</origin>
+      <maxSize>0.4 0.225</maxSize>
+      <zIndex>26</zIndex>
+    </image>
+
+    <rating name="md_rating">
+      <origin>0 0</origin>
+      <pos>0.625 0.85</pos>
+      <size>0.075</size>
+    </rating>
+  </view>
+
+  <!-- Menu Settings -->
+  <view name="menu">
+    <menuBackground name="menubg">
+      <path>./assets/ratio32/menu.png</path>
+    </menuBackground>
+  </view>
+
+  <!-- Carousel Config -->
+  <view name="system">
+    <!-- Cards position -->
+    <carousel name="systemcarousel">
+      <size>1.75 1</size>
+      <logoSize>1 0.275</logoSize>
+      <logoScale>1.4</logoScale>
+      <maxLogoCount>6</maxLogoCount>
+      <logoPos>0.125 0.545</logoPos>
+    </carousel>
+
+    <!-- System Name -->
+    <text name="systemName" extra="true">
+      <pos>0.08333 0.275</pos>
+    </text>
+
+    <!-- Total games per system -->
+    <text name="systemInfo">
+      <pos>0.08333 0.375</pos>
+    </text>
+
+    <image name="cover_fallback" extra="true">
+      <path>./assets/ratio32/background.png</path>
+    </image>
+
+    <image name="osdBackground" extra="true">
+      <path>./assets/ratio32/osd-bg.png</path>
+    </image>
+  </view>
+
+  <!-- Clock Settings -->
+  <view name="screen">
+    <text name="clock">
+      <pos>0.7 0.02</pos>
+      <size>0.125 0.1</size>
+    </text>
+  </view>
+
+</theme>
