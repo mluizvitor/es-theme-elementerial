@@ -1,6 +1,6 @@
 # Sobre
 
-![Versão](https://img.shields.io/badge/Versão_1.1025-de3e80?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Versão_1.1102-de3e80?style=for-the-badge)
 
 Elementerial é um tema construido totalmente do ZERO para o EmulationStation.
 É baseado na interface do Android TV usando alguns princípios do Material Design com a adição da paleta de cores do elementaryOS.
@@ -58,7 +58,7 @@ Além disso a maioria dos sistemas também não têm um plano de fundo.
 
 ## Suportados atualmente:
 
-![Versão](https://img.shields.io/badge/Sistemas_Suportados:_31-68b723?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Sistemas_Suportados:_43-68b723?style=for-the-badge)
 
 3DO,
 Amiga,
@@ -71,9 +71,14 @@ Atari 7800,
 Atari Lynx,
 Atari ST,
 Atomiswave,
+Capcom PlaySystem 1,
+Capcom PlaySystem 2,
+Capcom PlaySystem 3,
 Coleco Vision,
 Famicom,
+Famicom Disk System,
 Final Burn Neo,
+Game&Watch,
 Gameboy & Hacks,
 Gameboy Color & Hacks,
 Gameboy Advance & Hacks,
@@ -87,18 +92,25 @@ NES & Hacks,
 Nintendo 64,
 Nintendo DS,
 Ports,
+Pokémini,
 PSP,
 PSP Minis,
+Satellaview,
+Sufami,
+Super Gameboy,
 Super Famicom,
-Super Nintendo & Hacks.
+Super Nintendo, Hacks & MSU-1,
+VirtualBoy,
+WonderSwan,
+WonderSwan Color.
 
-**Coleções:** 2 Jogadores, 4 Jogadores, Arcade, Arcade Vertical, Capturas de Tela, Coleções personalizadas, Ferramentas, Favoritos, Todos os Jogos, Nunca Jogado, Último jogado, RetroAchievements, MPlayer.
+**Coleções:** 2 Jogadores, 4 Jogadores, Arcade, Arcade Vertical, Jogos de Pistola, Capturas de Tela, Coleções personalizadas, Ferramentas, Favoritos, Todos os Jogos, Nunca Jogado, Último jogado, RetroAchievements, MPlayer.
 
 ---
 
 ## Planejados:
 
-Commodore 16, Commodore 64, Commodore 128, Capcom 1, Capcom 2, Capcom 3, Daphne, Doom, Dreamcast, EasyRPG, Wolfenstein, Famicom Disk System, Game&Watch, Intellivision, Java, Mame, Megaduck, Naomi, NeoGeo, NeoGeo CD, NeoGeo Pocket, NeoGeo Pocket Color, Odissey², OpenBor, NEC Pc88, NEC Pc98, PC Engine, PC Engine CD, PC Engine Super Grafx, PC-FX, PICO-8, Pokémini, PlayStation, ResidualVM, Satellaview, Saturn, SC-3000, ScummVM, Sega 32x, Sega CD / Mega CD, SG-1000, Super Gameboy, SNES MSU-1, Solarus, Sufami, SuperVision, TurboGrafx 16, TurboGrafx 16 CD, Tic-80, Uzebox, Vectrex, VIC-20, Videopac, VirtualBoy, WonderSwan, WonderSwan Color, Sharp X68000, Sinclair ZX81, ZX Spectrum.
+Commodore 16, Commodore 64, Commodore 128, Daphne, Doom, Dreamcast, EasyRPG, Wolfenstein,  Intellivision, Java, Mame, Megaduck, Naomi, NeoGeo, NeoGeo CD, NeoGeo Pocket, NeoGeo Pocket Color, Odissey², OpenBor, NEC Pc88, NEC Pc98, PC Engine, PC Engine CD, PC Engine Super Grafx, PC-FX, PICO-8, PlayStation, ResidualVM, Saturn, SC-3000, ScummVM, Sega 32x, Sega CD / Mega CD, SG-1000, Solarus, SuperVision, TurboGrafx 16, TurboGrafx 16 CD, Tic-80, Uzebox, Vectrex, VIC-20, Videopac, Sharp X68000, Sinclair ZX81, ZX Spectrum.
 
 # Licença
 
