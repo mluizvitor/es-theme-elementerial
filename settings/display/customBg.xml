@@ -15,6 +15,7 @@
 
       <!-- Less important to Most important format -->
       <path>./assets/custom/custombg.png</path>
+      <path>./assets/custom/custombg.webp</path>
       <path>./assets/custom/custombg.jpg</path>
       <path>./assets/custom/custombg.jpeg</path>
 
