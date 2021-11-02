@@ -17,7 +17,7 @@
     <subset.ratiosettings>Cup (Screen)</subset.ratiosettings>
   </variables>
 
-  <subset name="themeFlavor" displayName="${subset.themesettings}">
+  <subset name="Flavor" displayName="${subset.themesettings}">
     <include name="strawberry" displayName="strawberry">./settings/colors/strawberry.xml</include>
     <include name="orange" displayName="orange">./settings/colors/orange.xml</include>
     <include name="banana" displayName="banana">./settings/colors/banana.xml</include>
@@ -30,7 +30,7 @@
     <include name="slate" displayName="slate">./settings/colors/slate.xml</include>
   </subset>
 
-  <subset name="themeTopping" displayName="${subset.variantSet}">
+  <subset name="Topping" displayName="${subset.variantSet}">
     <include name="dark" displayName="Chocolate Sauce">./settings/colors/commom-dark.xml</include>
     <include name="light" displayName="Vanilla Sauce">./settings/colors/commom-light.xml</include>
     <include name="hybrid" displayName="Both Sauces">./settings/colors/commom-hybrid.xml</include>
@@ -42,9 +42,9 @@
     <include name="ratio169" displayName="16:9 | 720p | 1080p">./settings/display/ratio169.xml</include>
   </subset>
 
-  <subset name="teste" displayName="Teste" appliesTo="teste,teste">
-    <include name="sim" displayName="sim"/>
-    <include name="não" displayName="não"/>
+  <subset name="custom_background" displayName="Enable Custom Background?">
+    <include name="no" displayName="No"/>
+    <include name="yes" displayName="Yes">./settings/display/customBg.xml</include>
   </subset>
 
   <include>./settings/display/commom.xml</include>

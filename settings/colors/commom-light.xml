@@ -82,6 +82,11 @@
   </view>
 
   <view name="system">
+    <carousel name="systemcarousel">
+      <color>${backgroundLightColor}1a</color>
+      <colorEnd>${backgroundLightColor}cc</colorEnd>
+    </carousel>
+
     <!-- System Name -->
     <text name="systemName" extra="true">
       <color>${backgroundDarkColor}</color>

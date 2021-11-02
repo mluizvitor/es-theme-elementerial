@@ -100,16 +100,13 @@
     <image name="cover_fallback" extra="true">
       <path>./assets/ratio43/background.png</path>
     </image>
-
-    <image name="carouselFrame" extra="true">
-      <path>./assets/ratio43/carousel.png</path>
-    </image>
   </view>
 
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <pos>0.74 -0.03</pos>
+      <pos>0.67 0.02</pos>
+      <size>0.14 0.1</size>
     </text>
   </view>
 
