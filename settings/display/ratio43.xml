@@ -100,6 +100,10 @@
     <image name="cover_fallback" extra="true">
       <path>./assets/ratio43/background.png</path>
     </image>
+
+    <image name="osdBackground" extra="true">
+      <path>./assets/ratio43/osd-bg.png</path>
+    </image>
   </view>
 
   <!-- Clock Settings -->

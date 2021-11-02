@@ -108,7 +108,7 @@
     </image>
 
     <!-- System Background -->
-    <image name="carouselFrame" extra="true">
+    <image name="osdBackground" extra="true">
       <color>${backgroundDarkColor}</color>
     </image>
   </view>

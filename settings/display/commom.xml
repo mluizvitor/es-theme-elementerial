@@ -127,6 +127,13 @@
       <pos>0 0</pos>
       <zIndex>28</zIndex>
     </image>
+
+    <image name="osdBackground" extra="true">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>30</zIndex>
+    </image>
   </view>
 
   <!-- Clock Settings -->
