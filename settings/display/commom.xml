@@ -153,7 +153,7 @@
 
     <controllerActivity name="controllerActivity">
       <origin>0 0</origin>
-      <pos>0.01 0.012</pos>
+      <pos>0.016666 0.025</pos>
       <size>0.025</size>
       <itemSpacing>0.003</itemSpacing>
       <imagePath>./assets/pin.svg</imagePath>

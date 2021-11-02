@@ -102,7 +102,8 @@
     </image>
 
     <image name="carouselFrame" extra="true">
-      <path>./assets/ratio32/carousel.png</path>
+      <path ifSubset="custom_background:yes">./assets/ratio32/carousel-custombg.png</path>
+      <path ifSubset="custom_background:no">./assets/ratio32/carousel.png</path>
     </image>
   </view>
 

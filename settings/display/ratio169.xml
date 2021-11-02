@@ -89,7 +89,7 @@
 
     <!-- System Name -->
     <text name="systemName" extra="true">
-      <pos>0.11666 0.275</pos>
+      <pos>0.11666 0.3</pos>
     </text>
 
     <!-- Total games per system -->
@@ -102,14 +102,16 @@
     </image>
 
     <image name="carouselFrame" extra="true">
-      <path>./assets/ratio169/carousel.png</path>
+      <path ifSubset="custom_background:yes">./assets/ratio169/carousel-custombg.png</path>
+      <path ifSubset="custom_background:no">./assets/ratio169/carousel.png</path>
     </image>
   </view>
 
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <pos>0.875 0.015</pos>
+      <pos>0.865 0.015</pos>
+      <size>0.06 0.1</size>
     </text>
   </view>
 
