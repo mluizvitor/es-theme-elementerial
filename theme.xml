@@ -42,9 +42,9 @@
     <include name="ratio169" displayName="16:9 | 720p | 1080p">./settings/display/ratio169.xml</include>
   </subset>
 
-  <subset name="Custom Background" displayName="Enable Custom Background?">
-    <include name="customBgNo" displayName="No"/>
-    <include name="customBgYes" displayName="Yes">./settings/display/customBg.xml</include>
+  <subset name="custom_background" displayName="Enable Custom Background?">
+    <include name="no" displayName="No"/>
+    <include name="yes" displayName="Yes">./settings/display/customBg.xml</include>
   </subset>
 
   <include>./settings/display/commom.xml</include>

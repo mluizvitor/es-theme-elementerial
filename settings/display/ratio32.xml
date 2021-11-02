@@ -100,10 +100,6 @@
     <image name="cover_fallback" extra="true">
       <path>./assets/ratio32/background.png</path>
     </image>
-
-    <image name="carouselFrame" extra="true">
-      <path>./assets/ratio32/carousel.png</path>
-    </image>
   </view>
 
   <!-- Clock Settings -->
