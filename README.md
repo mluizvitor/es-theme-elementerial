@@ -58,7 +58,7 @@ Além disso a maioria dos sistemas também não têm um plano de fundo.
 
 ## Suportados atualmente:
 
-![Versão](https://img.shields.io/badge/Sistemas_Suportados:_43-68b723?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Sistemas_Suportados:_50-68b723?style=for-the-badge)
 
 3DO,
 Amiga,
@@ -75,6 +75,7 @@ Capcom PlaySystem 1,
 Capcom PlaySystem 2,
 Capcom PlaySystem 3,
 Coleco Vision,
+Dreamcast,
 Famicom,
 Famicom Disk System,
 Final Burn Neo,
@@ -88,6 +89,7 @@ Megadrive / Genesis & Hacks,
 MS-DOS / PC,
 MSX,
 MSX2,
+Naomi,
 NES & Hacks,
 Nintendo 64,
 Nintendo DS,
@@ -96,6 +98,11 @@ Pokémini,
 PSP,
 PSP Minis,
 Satellaview,
+Saturn,
+SC-3000,
+Sega 32x,
+Sega CD / Mega CD,
+SG-1000,
 Sufami,
 Super Gameboy,
 Super Famicom,
@@ -110,7 +117,7 @@ WonderSwan Color.
 
 ## Planejados:
 
-Commodore 16, Commodore 64, Commodore 128, Daphne, Doom, Dreamcast, EasyRPG, Wolfenstein,  Intellivision, Java, Mame, Megaduck, Naomi, NeoGeo, NeoGeo CD, NeoGeo Pocket, NeoGeo Pocket Color, Odissey², OpenBor, NEC Pc88, NEC Pc98, PC Engine, PC Engine CD, PC Engine Super Grafx, PC-FX, PICO-8, PlayStation, ResidualVM, Saturn, SC-3000, ScummVM, Sega 32x, Sega CD / Mega CD, SG-1000, Solarus, SuperVision, TurboGrafx 16, TurboGrafx 16 CD, Tic-80, Uzebox, Vectrex, VIC-20, Videopac, Sharp X68000, Sinclair ZX81, ZX Spectrum.
+Commodore 16, Commodore 64, Commodore 128, Daphne, Doom, EasyRPG, Wolfenstein, Intellivision, Java, Mame, Megaduck, NeoGeo, NeoGeo CD, NeoGeo Pocket, NeoGeo Pocket Color, Odissey², OpenBor, NEC Pc88, NEC Pc98, PC Engine, PC Engine CD, PC Engine Super Grafx, PC-FX, PICO-8, PlayStation, ResidualVM, ScummVM, Solarus, SuperVision, TurboGrafx 16, TurboGrafx 16 CD, Tic-80, Uzebox, Vectrex, VIC-20, Videopac, Sharp X68000, Sinclair ZX81, ZX Spectrum.
 
 # Licença
 
