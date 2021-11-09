@@ -19,7 +19,7 @@
       <fontSize>${header2F}</fontSize>
       <forceUppercase>0</forceUppercase>
       <alignment>left</alignment>
-      <zIndex>35</zIndex>
+      <zIndex>40</zIndex>
     </text>
 
     <text name="logoText">
@@ -100,8 +100,9 @@
       <fontSize>${bodyF}</fontSize>
       <alignment>left</alignment>
       <forceUppercase>0</forceUppercase>
-      <fontPath>${fontLight}</fontPath>
+      <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
+      <zIndex>39</zIndex>
     </text>
 
     <!-- System Logo -->
@@ -139,7 +140,7 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-      <zIndex>40</zIndex>
+      <zIndex>100</zIndex>
     </image>
   </view>
 
