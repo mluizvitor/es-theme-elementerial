@@ -83,8 +83,8 @@
 
   <view name="system">
     <carousel name="systemcarousel">
-      <color>${backgroundLightColor}1a</color>
-      <colorEnd>${backgroundLightColor}cc</colorEnd>
+      <color ifSubset="custom_background:no">${backgroundLightColor}1a</color>
+      <color ifSubset="custom_background:yes">${backgroundLightColor}4d</color>
     </carousel>
 
     <!-- System Name -->
