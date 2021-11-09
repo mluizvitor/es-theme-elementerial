@@ -26,6 +26,17 @@
       <pos>0 0</pos>
       <zIndex>29</zIndex>
     </image>
+
+    <image name="custom_bg_fg" extra="true">
+      <path ifSubset="Ratio:ratio32">./assets/ratio32/custom-bg-fg.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/custom-bg-fg.png</path>
+      <path ifSubset="Ratio:ratio169">./assets/ratio169/custom-bg-fg.png</path>
+
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>30</zIndex>
+    </image>
   </view>
 
 </theme>

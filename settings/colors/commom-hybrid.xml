@@ -114,6 +114,10 @@
       <color>${backgroundDarkColor}</color>
     </image>
 
+    <image name="custom_bg_fg" extra="true">
+      <color>${backgroundDarkColor}</color>
+    </image>
+
     <!-- System Background -->
     <image name="osdBackground" extra="true">
       <color>${backgroundDarkColor}</color>
