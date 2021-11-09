@@ -35,6 +35,7 @@
     </image>
 
     <image name="cover_list_fallback" extra="true">
+      <path>./assets/background.png</path>
       <size>1 0</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -113,6 +114,7 @@
 
     <!-- System Background -->
     <image name="cover_fallback" extra="true">
+      <path>./assets/background.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -132,7 +134,7 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-      <zIndex>30</zIndex>
+      <zIndex>35</zIndex>
     </image>
   </view>
 

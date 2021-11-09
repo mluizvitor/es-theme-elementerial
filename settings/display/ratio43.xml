@@ -33,10 +33,6 @@
       <lineSpacing>1.75</lineSpacing>
     </textlist>
 
-    <image name="cover_list_fallback" extra="true">
-      <path>./assets/ratio43/background.png</path>
-    </image>
-
     <image name="background">
       <path>./assets/ratio43/carousel.png</path>
     </image>
@@ -96,10 +92,6 @@
     <text name="systemInfo">
       <pos>0.08333 0.375</pos>
     </text>
-
-    <image name="cover_fallback" extra="true">
-      <path>./assets/ratio43/background.png</path>
-    </image>
 
     <image name="osdBackground" extra="true">
       <path>./assets/ratio43/osd-bg.png</path>
