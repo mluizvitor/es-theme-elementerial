@@ -1,3 +1,8 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
 <theme>
   <formatVersion>7</formatVersion>
 
@@ -14,7 +19,7 @@
       <fontSize>${header2F}</fontSize>
       <forceUppercase>0</forceUppercase>
       <alignment>left</alignment>
-      <zIndex>50</zIndex>
+      <zIndex>35</zIndex>
     </text>
 
     <text name="logoText">
@@ -85,7 +90,7 @@
       <fontSize>${header1F}</fontSize>
       <lineSpacing>1</lineSpacing>
       <alignment>left</alignment>
-      <zIndex>90</zIndex>
+      <zIndex>35</zIndex>
     </text>
 
     <!-- Total games per system -->
@@ -118,7 +123,7 @@
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>27</zIndex>
+      <zIndex>25</zIndex>
     </image>
 
     <!-- System Background -->
@@ -127,14 +132,14 @@
       <size>1 0</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>28</zIndex>
+      <zIndex>26</zIndex>
     </image>
 
     <image name="osdBackground" extra="true">
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-      <zIndex>35</zIndex>
+      <zIndex>40</zIndex>
     </image>
   </view>
 

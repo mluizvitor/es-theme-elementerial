@@ -24,7 +24,7 @@
       <size>1 0</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>29</zIndex>
+      <zIndex>27</zIndex>
     </image>
 
     <image name="custom_bg_fg" extra="true">
@@ -35,7 +35,7 @@
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>30</zIndex>
+      <zIndex>28</zIndex>
     </image>
   </view>
 
