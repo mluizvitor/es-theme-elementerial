@@ -206,6 +206,7 @@
     </menuText>
 
     <menuBackground name="menubg">
+      <path>./assets/menu.png</path>
       <size>1 1</size>
     </menuBackground>
 

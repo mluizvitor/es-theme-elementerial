@@ -65,13 +65,6 @@
     </rating>
   </view>
 
-  <!-- Menu Settings -->
-  <view name="menu">
-    <menuBackground name="menubg">
-      <path>./assets/ratio32/menu.png</path>
-    </menuBackground>
-  </view>
-
   <!-- Carousel Config -->
   <view name="system">
     <!-- Cards position -->
