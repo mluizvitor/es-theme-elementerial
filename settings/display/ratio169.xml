@@ -109,12 +109,12 @@
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <pos>0.8 0.08125</pos>
+      <pos>0.715 0.025</pos>
       <size>0.175 0.1</size>
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <pos>0.95125 0.018750</pos>
+      <pos>0.96 0.0222222</pos>
       <!-- 48x48 → 1920x1080 -->
       <size>0.025 0.044444</size>
 
