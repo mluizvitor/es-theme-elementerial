@@ -1,6 +1,6 @@
 # Sobre
 
-![Versão](https://img.shields.io/badge/Versão_1.1105-de3e80?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Versão_1.1110-de3e80?style=for-the-badge)
 
 Elementerial é um tema construido totalmente do ZERO para o EmulationStation.
 É baseado na interface do Android TV usando alguns princípios do Material Design com a adição da paleta de cores do elementaryOS.
@@ -58,7 +58,7 @@ Além disso a maioria dos sistemas também não têm um plano de fundo.
 
 ## Suportados atualmente:
 
-![Versão](https://img.shields.io/badge/Sistemas_Suportados:_54-68b723?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Sistemas_Suportados:_58-68b723?style=for-the-badge)
 
 3DO,
 Amiga,
@@ -172,6 +172,5 @@ Todos os arquivos de código e de imagens não especificadas acima estão licens
 
 ![Inkscape](https://img.shields.io/badge/Inkscape-273445?style=for-the-badge&logo=Inkscape&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0d52bf?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-c6262e?style=for-the-badge&logo=figma&logoColor=white)
 ![E](https://img.shields.io/badge/E-f37329?style=for-the-badge&logoColor=white)
 ![Amor](https://img.shields.io/badge/Amor-de3e80?style=for-the-badge&logoColor=white)
