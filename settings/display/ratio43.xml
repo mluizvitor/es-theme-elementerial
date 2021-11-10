@@ -33,10 +33,6 @@
       <lineSpacing>1.75</lineSpacing>
     </textlist>
 
-    <image name="cover_list_fallback" extra="true">
-      <path>./assets/ratio43/background.png</path>
-    </image>
-
     <image name="background">
       <path>./assets/ratio43/carousel.png</path>
     </image>
@@ -51,7 +47,7 @@
       <pos>0.75 0.3</pos>
       <origin>0.5 0</origin>
       <maxSize>0.45 0.537500</maxSize>
-      <zIndex>25</zIndex>
+      <zIndex>30</zIndex>
       <roundCorners>0.02</roundCorners>
     </image>
 
@@ -59,7 +55,7 @@
       <pos>0.75 0.175</pos>
       <origin>0.5 0</origin>
       <maxSize>0.4 0.225</maxSize>
-      <zIndex>26</zIndex>
+      <zIndex>31</zIndex>
     </image>
 
     <rating name="md_rating">
@@ -67,13 +63,6 @@
       <pos>0.625 0.85</pos>
       <size>0.075</size>
     </rating>
-  </view>
-
-  <!-- Menu Settings -->
-  <view name="menu">
-    <menuBackground name="menubg">
-      <path>./assets/ratio43/menu.png</path>
-    </menuBackground>
   </view>
 
   <!-- Carousel Config -->
@@ -96,10 +85,6 @@
     <text name="systemInfo">
       <pos>0.08333 0.375</pos>
     </text>
-
-    <image name="cover_fallback" extra="true">
-      <path>./assets/ratio43/background.png</path>
-    </image>
 
     <image name="osdBackground" extra="true">
       <path>./assets/ratio43/osd-bg.png</path>

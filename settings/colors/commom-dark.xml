@@ -83,8 +83,8 @@
 
   <view name="system">
     <carousel name="systemcarousel">
-      <color>${backgroundDarkColor}1a</color>
-      <colorEnd>${backgroundDarkColor}cc</colorEnd>
+      <color ifSubset="custom_background:no">${backgroundDarkColor}1a</color>
+      <color ifSubset="custom_background:yes">${backgroundDarkColor}4d</color>
     </carousel>
 
     <!-- System Name -->
@@ -104,6 +104,10 @@
 
     <!-- System Background -->
     <image name="cover_fallback" extra="true">
+      <color>${backgroundDarkColor}</color>
+    </image>
+
+    <image name="custom_bg_fg" extra="true">
       <color>${backgroundDarkColor}</color>
     </image>
 
