@@ -141,13 +141,10 @@
     <text name="clock">
       <origin>0 0</origin>
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${tinyF}</fontSize>
+      <fontSize>${bodyF}</fontSize>
       <lineSpacing>1</lineSpacing>
       <alignment>right</alignment>
     </text>
-
-    <batteryIndicator name="batteryIndicator">
-    </batteryIndicator>
 
     <controllerActivity name="controllerActivity">
       <origin>0 0</origin>

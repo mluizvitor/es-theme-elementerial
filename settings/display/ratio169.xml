@@ -109,9 +109,24 @@
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <pos>0.865 0.015</pos>
-      <size>0.06 0.1</size>
+      <pos>0.715 0.025</pos>
+      <size>0.175 0.1</size>
     </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.96 0.0222222</pos>
+      <!-- 48x48 → 1920x1080 -->
+      <size>0.025 0.044444</size>
+
+      <!-- Assets -->
+      <full>./assets/ratio169/battery-full.png</full>
+      <at75>./assets/ratio169/battery-75.png</at75>
+      <at50>./assets/ratio169/battery-50.png</at50>
+      <at25>./assets/ratio169/battery-25.png</at25>
+      <empty>./assets/ratio169/battery-empty.png</empty>
+      <incharge>./assets/ratio169/battery-charging.png</incharge>
+      <networkIcon>./assets/ratio169/wifi.png</networkIcon>
+    </batteryIndicator>
   </view>
 
 </theme>
