@@ -107,7 +107,6 @@
 
     <!-- System Logo -->
     <image name="logo">
-      <path>./assets/logos/zzz-generic.svg</path>
       <path>./assets/logos/${system.theme}.svg</path>
     </image>
 
