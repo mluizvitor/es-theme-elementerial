@@ -90,7 +90,7 @@
       <fontSize>${header1F}</fontSize>
       <lineSpacing>1</lineSpacing>
       <alignment>left</alignment>
-      <zIndex>35</zIndex>
+      <zIndex>50</zIndex>
     </text>
 
     <!-- Total games per system -->
@@ -102,7 +102,7 @@
       <forceUppercase>0</forceUppercase>
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
-      <zIndex>39</zIndex>
+      <zIndex>50</zIndex>
     </text>
 
     <!-- System Logo -->
