@@ -1,6 +1,6 @@
 # Sobre
 
-![Versão](https://img.shields.io/badge/Versão_1.1110-de3e80?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Versão_1.1119-de3e80?style=for-the-badge)
 
 Elementerial é um tema construido totalmente do ZERO para o EmulationStation.
 É baseado na interface do Android TV usando alguns princípios do Material Design com a adição da paleta de cores do elementaryOS.
@@ -58,7 +58,7 @@ Além disso a maioria dos sistemas também não têm um plano de fundo.
 
 ## Suportados atualmente:
 
-![Versão](https://img.shields.io/badge/Sistemas_Suportados:_68-68b723?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Sistemas_Suportados:_75-68b723?style=for-the-badge)
 
 3DO,
 Amiga,
@@ -82,6 +82,7 @@ Commodore VIC-20,
 Daphne,
 Doom,
 Dreamcast,
+EasyRPG,
 Famicom,
 Famicom Disk System,
 Final Burn Neo,
@@ -90,6 +91,7 @@ Gameboy & Hacks,
 Gameboy Color & Hacks,
 Gameboy Advance & Hacks,
 Gamegear & Hacks,
+Java,
 Mame,
 MasterSystem,
 Megadrive / Genesis & Hacks,
@@ -106,24 +108,29 @@ NeoGeo Pocket Color,
 NES & Hacks,
 Nintendo 64,
 Nintendo DS,
+OpenBor,
 PC Engine / TurboGrafx 16,
 PC Engine CD / TurboGrafx CD,
 PC Engine SuperGrafx,
 PC-FX,
+PICO-8,
 Ports,
 Pokémini,
 PSP,
 PSP Minis,
 Satellaview,
 Saturn,
+ScummVM,
 SC-3000,
 Sega 32x,
 Sega CD / Mega CD,
 SG-1000,
+Solarus,
 Sufami,
 Super Gameboy,
 Super Famicom,
 Super Nintendo, Hacks & MSU-1,
+Tic-80,
 VirtualBoy,
 Wolfenstein,
 WonderSwan,
@@ -135,25 +142,19 @@ WonderSwan Color.
 
 ## Planejados:
 
-EasyRPG,
+Channel F,
 Intellivision,
-Java,
 Megaduck,
 Odissey²,
-OpenBor,
-PICO-8,
 PlayStation,
-ResidualVM,
-ScummVM,
-Solarus,
 SuperVision,
-Tic-80,
 Uzebox,
 Vectrex,
 Videopac,
+Sharp X1,
 Sharp X68000,
 Sinclair ZX81,
-ZX Spectrum.
+Sinclair ZX Spectrum.
 
 # Licença
 
