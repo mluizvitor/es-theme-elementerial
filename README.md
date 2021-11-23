@@ -1,6 +1,6 @@
 # Sobre
 
-![Versão](https://img.shields.io/badge/Versão_1.1119-de3e80?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Versão_1.1123-de3e80?style=for-the-badge)
 
 Elementerial é um tema construido totalmente do ZERO para o EmulationStation.
 É baseado na interface do Android TV usando alguns princípios do Material Design com a adição da paleta de cores do elementaryOS.
@@ -58,7 +58,7 @@ Além disso a maioria dos sistemas também não têm um plano de fundo.
 
 ## Suportados atualmente:
 
-![Versão](https://img.shields.io/badge/Sistemas_Suportados:_75-68b723?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Sistemas_Suportados:_80-68b723?style=for-the-badge)
 
 3DO,
 Amiga,
@@ -114,6 +114,7 @@ PC Engine CD / TurboGrafx CD,
 PC Engine SuperGrafx,
 PC-FX,
 PICO-8,
+PlayStation,
 Ports,
 Pokémini,
 PSP,
@@ -125,6 +126,10 @@ SC-3000,
 Sega 32x,
 Sega CD / Mega CD,
 SG-1000,
+Sharp X1,
+Sharp X68000,
+Sinclair ZX81,
+Sinclair ZX Spectrum,
 Solarus,
 Sufami,
 Super Gameboy,
@@ -146,15 +151,11 @@ Channel F,
 Intellivision,
 Megaduck,
 Odissey²,
-PlayStation,
 SuperVision,
 Uzebox,
 Vectrex,
-Videopac,
-Sharp X1,
-Sharp X68000,
-Sinclair ZX81,
-Sinclair ZX Spectrum.
+Videopac.
+
 
 # Licença
 
