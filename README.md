@@ -157,6 +157,8 @@ WonderSwan Color.
 Todos os [logos de sistemas de videogame e computador](./assets/logos/) utilizados são de propriedade de suas respectivas
 Desenvolvedoras/Produtoras/Distribuidoras/Licenciadoras.
 
+Algumas artes de logo foram reaproveitadas do tema [Carbon](https://github.com/RetroPie/es-theme-carbon/) e do tema [Art Book](https://github.com/anthonycaccese/es-theme-art-book-3-2).
+
 Algumas [fontes](./assets/fonts/) estão licenciadas sobre a Apache 2.0 e SIL Open Font License.
 
 Alguns dos [ícones](./assets/icons/) estão licensiados sobre a Apache 2.0 ou suas respectivas lincenças.
