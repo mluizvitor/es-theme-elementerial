@@ -13,13 +13,13 @@
     <tinyF>0.031250</tinyF>
   </variables>
 
-  <view name="system, basic, detailed">
+  <view name="system, basic, detailed, grid">
     <helpsystem name="help">
       <fontSize>${tinyF}</fontSize>
     </helpsystem>
   </view>
 
-  <view name="basic, detailed">
+  <view name="basic, detailed, grid">
     <text name="system_name">
       <pos>0.033333 0.087500</pos>
       <origin>0 0.5</origin>
@@ -63,6 +63,18 @@
       <pos>0.625 0.85</pos>
       <size>0.075</size>
     </rating>
+  </view>
+
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <pos>0 0.175</pos>
+      <size>1 0.75</size>
+
+      <!--480x320 / 16x8-->
+      <margin>0.033333 0.025</margin>
+      <!--480x320 / 16x0-->
+      <padding>0.033333 0</padding>
+    </imagegrid>
   </view>
 
   <!-- Carousel Config -->
