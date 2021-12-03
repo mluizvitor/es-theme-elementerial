@@ -6,14 +6,16 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <view name="system, basic, detailed">
+  <!--Configurações de ajuda-->
+  <view name="system, basic, detailed, grid">
     <helpsystem name="help">
       <textColor>${backgroundDarkColor}</textColor>
       <iconColor>${mainColor}</iconColor>
     </helpsystem>
   </view>
 
-  <view name="basic, detailed">
+  <!--Configurações de cores nas listas de jogos-->
+  <view name="basic, detailed, grid">
     <text name="system_name">
       <color>${backgroundDarkColor}</color>
     </text>
@@ -38,6 +40,7 @@
     </rating>
   </view>
 
+  <!--Configurações da view "detailed"-->
   <view name="detailed">
     <rating name="md_rating">
       <unfilledColor>${mainColor}</unfilledColor>
@@ -81,6 +84,23 @@
     </menuTextEdit>
   </view>
 
+  <!--Configurações da view "grid"-->
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <gameImage>./assets/icons/cartridge-light.png</gameImage>
+      <folderImage>./assets/icons/folder-light.png</folderImage>
+    </imagegrid>
+
+    <text name="gridtile">
+      <color>${backgroundDarkColor}</color>
+    </text>
+
+    <text name="gridtile:selected">
+      <color>${onMainColor}</color>
+    </text>
+  </view>
+
+  <!-- Carousel Config -->
   <view name="system">
     <carousel name="systemcarousel">
       <color ifSubset="custom_background:no">${backgroundLightColor}1a</color>
