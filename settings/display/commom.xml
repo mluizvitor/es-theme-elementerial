@@ -6,13 +6,15 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <view name="system, basic, detailed">
+  <!--Configurações de ajuda-->
+  <view name="system, basic, detailed, grid">
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
     </helpsystem>
   </view>
 
-  <view name="basic, detailed">
+  <!--Configurações comuns de views-->
+  <view name="basic, detailed, grid">
     <text name="system_name" extra="true">
       <text>${system.fullName}</text>
       <fontPath>${fontBold}</fontPath>
@@ -57,6 +59,7 @@
     </image>
   </view>
 
+  <!--Configurações da view "detailed"-->
   <view name="detailed">
     <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
       <color></color>
@@ -69,6 +72,71 @@
     <rating name="md_rating">
       <path>./assets/icons/star.svg</path>
       <unfilledPath>./assets/icons/star_border.svg</unfilledPath>
+    </rating>
+  </view>
+
+  <!--Confugurações da view "grid"-->
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>3 2</autoLayout>
+      <scrollLoop>false</scrollLoop>
+    </imagegrid>
+
+    <gridtile name="default, selected">
+      <selectionMode>full</selectionMode>
+      <imageSizeMode>minSize</imageSizeMode>
+    </gridtile>
+
+    <gridtile name="default">
+      <padding>0 0</padding>
+      <backgroundColor>00000000</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+
+    <gridtile name="selected">
+      <padding ifSubset="Ratio:ratio32">4 4</padding>
+      <padding ifSubset="Ratio:ratio43">16 16</padding>
+      <padding ifSubset="Ratio:ratio169">24 24</padding>
+      <backgroundCornerSize>0.05</backgroundCornerSize>
+      <backgroundColor>${mainColor}</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+
+    <image name="gridtile.image">
+      <roundCorners ifSubset="Ratio:ratio32">0.07</roundCorners>
+    </image>
+
+    <ninepatch name="gridtile.background">
+      <path>./assets/menu.png</path>
+      <cornerSize>16 16</cornerSize>
+    </ninepatch>
+
+    <!--<image name="gridtile.marquee">-->
+    <!--  <color>FFFFFFFF</color>-->
+    <!--  <pos>0.5 0.5</pos>-->
+    <!--  <origin>0.5 0.5</origin>-->
+    <!--  <maxSize>0.7 0.7</maxSize>-->
+    <!--</image>-->
+
+    <!--<image name="gridtile.marquee:selected">-->-->
+    <!--  <color>FFFFFFFF</color>-->
+    <!--  <maxSize>0.9 0.9</maxSize>-->
+    <!--</image>-->
+
+    <text name="gridtile">
+      <fontSize>${tinyF}</fontSize>
+      <fontPath>${fontRegular}</fontPath>
+      <alignment>center</alignment>
+      <size>1 0.225</size>
+      <singleLineScroll>false</singleLineScroll>
+      <padding>0.06 0.0075</padding>
+      <lineSpacing>1</lineSpacing>
+    </text>
+
+    <rating name="md_rating">
+      <pos>1 1</pos>
+      <color>00000000</color>
     </rating>
   </view>
 
