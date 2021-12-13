@@ -1,0 +1,84 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <subset name="GridImage" displayName="Image type" appliesTo="grid">
+    <include name="gridscreenshot" displayName="Screenshot"/>
+    <include name="gridthumbnail" displayName="Thumbnail"/>
+    <include name="gridlogo" displayName="Logo"/>
+  </subset>
+
+  <!--Confugurações da view "grid"-->
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>3 2</autoLayout>
+      <scrollLoop>false</scrollLoop>
+
+      <imageSource ifSubset="GridImage:gridscreenshot">image</imageSource>
+      <imageSource ifSubset="GridImage:gridthumbnail">thumbnail</imageSource>
+      <imageSource ifSubset="GridImage:gridlogo">marquee</imageSource>
+    </imagegrid>
+
+    <gridtile name="default, selected">
+      <selectionMode>full</selectionMode>
+      <imageSizeMode ifSubset="GridImage:gridscreenshot|gridthumbnail">minSize</imageSizeMode>
+      <imageSizeMode ifSubset="GridImage:gridlogo">maxSize</imageSizeMode>
+    </gridtile>
+
+    <gridtile name="default">
+      <padding>0 0</padding>
+      <backgroundColor>00000000</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+
+    <gridtile name="selected">
+      <padding ifSubset="Ratio:ratio32">4 4</padding>
+      <padding ifSubset="Ratio:ratio43">16 16</padding>
+      <padding ifSubset="Ratio:ratio169">24 24</padding>
+      <backgroundCornerSize>0.05</backgroundCornerSize>
+      <backgroundColor>${mainColor}</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+
+    <image name="gridtile.image">
+      <roundCorners ifSubset="Ratio:ratio32">0.07</roundCorners>
+    </image>
+
+    <ninepatch name="gridtile.background">
+      <path>./assets/menu.png</path>
+      <cornerSize>16 16</cornerSize>
+    </ninepatch>
+
+    <!--<image name="gridtile.marquee">-->
+    <!--  <color>FFFFFFFF</color>-->
+    <!--  <pos>0.5 0.5</pos>-->
+    <!--  <origin>0.5 0.5</origin>-->
+    <!--  <maxSize>0.7 0.7</maxSize>-->
+    <!--</image>-->
+
+    <!--<image name="gridtile.marquee:selected">-->-->
+    <!--  <color>FFFFFFFF</color>-->
+    <!--  <maxSize>0.9 0.9</maxSize>-->
+    <!--</image>-->
+
+    <text name="gridtile">
+      <fontSize>${tinyF}</fontSize>
+      <fontPath>${fontRegular}</fontPath>
+      <alignment>center</alignment>
+      <size>1 0.225</size>
+      <singleLineScroll>false</singleLineScroll>
+      <padding>0.06 0.0075</padding>
+      <lineSpacing>1</lineSpacing>
+    </text>
+
+    <rating name="md_rating">
+      <pos>1 1</pos>
+      <color>00000000</color>
+    </rating>
+  </view>
+</theme>

@@ -48,5 +48,7 @@
   </subset>
 
   <include>./settings/display/commom.xml</include>
+  <include>./settings/display/grid.xml</include>
+  <include>./settings/display/boxes.xml</include>
 
 </theme>
