@@ -38,8 +38,6 @@
 
   <subset name="Ratio" displayName="${subset.ratiosettings}">
     <include name="ratio32" displayName="3:2 | 480x320">./settings/display/ratio32.xml</include>
-    <include name="ratio43" displayName="4:3 | 640x480">./settings/display/ratio43.xml</include>
-    <include name="ratio169" displayName="16:9 | 720p | 1080p">./settings/display/ratio169.xml</include>
   </subset>
 
   <subset name="custom_background" displayName="Enable Custom Background?">

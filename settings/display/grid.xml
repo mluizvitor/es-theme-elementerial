@@ -38,8 +38,7 @@
 
     <gridtile name="selected">
       <padding ifSubset="Ratio:ratio32">4 4</padding>
-      <padding ifSubset="Ratio:ratio43">16 16</padding>
-      <padding ifSubset="Ratio:ratio169">24 24</padding>
+
       <backgroundCornerSize>0.05</backgroundCornerSize>
       <backgroundColor>${mainColor}</backgroundColor>
       <imageColor>FFFFFFFF</imageColor>
