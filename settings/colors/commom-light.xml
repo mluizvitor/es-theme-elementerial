@@ -100,6 +100,15 @@
     </text>
   </view>
 
+  <customView name="boxes" inherits="grid">
+    <text name="gridtile">
+      <color>${backgroundLightColor}</color>
+    </text>
+    <text name="gridtile:selected">
+      <color>${backgroundLightColor}</color>
+    </text>
+  </customView>
+
   <!-- Carousel Config -->
   <view name="system">
     <carousel name="systemcarousel">

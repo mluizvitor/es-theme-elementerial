@@ -9,19 +9,25 @@
   <subset name="GridImage" displayName="Image type" appliesTo="grid">
     <include name="gridscreenshot" displayName="Screenshot"/>
     <include name="gridthumbnail" displayName="Thumbnail"/>
-    <include name="gridlogo" displayName="Logo"/>
   </subset>
 
   <!--Confugurações da view "grid"-->
+
+
   <view name="grid">
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
-      <autoLayout>3 2</autoLayout>
+      <autoLayout ifSubset="Ratio:ratio32">3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
 
       <imageSource ifSubset="GridImage:gridscreenshot">image</imageSource>
       <imageSource ifSubset="GridImage:gridthumbnail">thumbnail</imageSource>
-      <imageSource ifSubset="GridImage:gridlogo">marquee</imageSource>
+
+      <!-- Tamanhos para ratio32 -->
+      <pos ifSubset="Ratio:ratio32">0 0.21875</pos>      <!--480x320 / 0h 70v-->
+      <size ifSubset="Ratio:ratio32">1 0.70625</size>      <!--480x320 / 480h 226v-->
+      <margin ifSubset="Ratio:ratio32">0.033333 0.025</margin>      <!--480x320 / 16x8-->
+      <padding ifSubset="Ratio:ratio32">0.05 0</padding>      <!--480x320 / 24x0-->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -48,31 +54,25 @@
       <roundCorners ifSubset="Ratio:ratio32">0.07</roundCorners>
     </image>
 
+    <image name="gridtile.image:selected">
+      <roundCorners ifSubset="Ratio:ratio32">0.07</roundCorners>
+    </image>
+
     <ninepatch name="gridtile.background">
       <path>./assets/menu.png</path>
       <cornerSize>16 16</cornerSize>
     </ninepatch>
 
-    <!--<image name="gridtile.marquee">-->
-    <!--  <color>FFFFFFFF</color>-->
-    <!--  <pos>0.5 0.5</pos>-->
-    <!--  <origin>0.5 0.5</origin>-->
-    <!--  <maxSize>0.7 0.7</maxSize>-->
-    <!--</image>-->
-
-    <!--<image name="gridtile.marquee:selected">-->-->
-    <!--  <color>FFFFFFFF</color>-->
-    <!--  <maxSize>0.9 0.9</maxSize>-->
-    <!--</image>-->
-
     <text name="gridtile">
       <fontSize>${tinyF}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
-      <size>1 0.225</size>
       <singleLineScroll>false</singleLineScroll>
-      <padding>0.06 0.0075</padding>
-      <lineSpacing>1</lineSpacing>
+      <lineSpacing>1.1</lineSpacing>
+
+      <!-- Tamanhos para ratio32 -->
+      <size ifSubset="Ratio:ratio32">1 0.225</size>      <!-- 100%h 72v-->
+      <padding ifSubset="Ratio:ratio32">0.05 -0.0075</padding>      <!--480x320 / 24h x centro horizontal-->
     </text>
 
     <rating name="md_rating">

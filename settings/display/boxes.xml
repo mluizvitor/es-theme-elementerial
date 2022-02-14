@@ -15,11 +15,13 @@
   <!--Confugurações da view "grid"-->
   <customView name="boxes" inherits="grid">
     <imagegrid name="gamegrid">
-      <scrollDirection>vertical</scrollDirection>
+      <scrollDirection>horizontal</scrollDirection>
       <autoLayout>2 2</autoLayout>
       <scrollLoop>false</scrollLoop>
 
       <imageSource>image</imageSource>
+
+      <margin ifSubset="Ratio:ratio32">0.033333 0.05</margin>      <!--480x320 / 16x16-->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -30,17 +32,21 @@
     <gridtile name="default">
       <padding>0 0</padding>
       <backgroundColor>00000000</backgroundColor>
-      <imageColor>666666FF</imageColor>
+      <imageColor>808080FF</imageColor>
     </gridtile>
 
     <gridtile name="selected">
       <padding ifSubset="Ratio:ratio32">4 4</padding>
       <backgroundColor>${mainColor}</backgroundColor>
-      <imageColor>22222222</imageColor>
+      <imageColor>333333ff</imageColor>
     </gridtile>
 
     <image name="gridtile.image">
-      <roundCorners ifSubset="Ratio:ratio32">0.07</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio32">0.06</roundCorners>
+    </image>
+
+    <image name="gridtile.image:selected">
+      <roundCorners ifSubset="Ratio:ratio32">0.05</roundCorners>
     </image>
 
     <ninepatch name="gridtile.background">
@@ -57,7 +63,7 @@
 
     <image name="gridtile.marquee:selected">
       <color>FFFFFFFF</color>
-      <maxSize>0.9 0.9</maxSize>
+      <maxSize>0.8 0.8</maxSize>
     </image>
 
     <text name="gridtile">

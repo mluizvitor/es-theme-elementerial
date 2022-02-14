@@ -16,7 +16,7 @@
 
   <!--Configurações de cores nas listas de jogos-->
   <view name="basic, detailed, grid">
-    <text name="system_name">
+    <text name="system_name, md_name">
       <color>${backgroundLightColor}</color>
     </text>
 
@@ -99,6 +99,15 @@
       <color>${onMainColor}</color>
     </text>
   </view>
+
+  <customView name="boxes" inherits="grid">
+    <text name="gridtile">
+      <color>${backgroundLightColor}</color>
+    </text>
+    <text name="gridtile:selected">
+      <color>${backgroundLightColor}</color>
+    </text>
+  </customView>
 
   <!-- Carousel Config -->
   <view name="system">

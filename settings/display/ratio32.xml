@@ -19,63 +19,67 @@
     </helpsystem>
   </view>
 
-  <view name="basic, detailed, grid">
+  <view name="basic, detailed">
     <text name="system_name">
-      <pos>0.033333 0.087500</pos>
-      <origin>0 0.5</origin>
+      <pos>0.05 0.0875</pos>      <!--480x320 / 24h 28h-->
+      <origin>0 0.5</origin>      <!--vertical center-->
     </text>
+  </view>
 
+  <view name="basic">
     <textlist name="gamelist">
-      <selectorHeight>0.096875</selectorHeight>
       <pos>0 0.175</pos>
-      <size>1 0.75</size>
-      <horizontalMargin>0.033333</horizontalMargin>
-      <lineSpacing>1.75</lineSpacing>
+      <size>1 0.75</size>      <!-- 480x320 / 232x240-->
+      <horizontalMargin>0.05</horizontalMargin>
     </textlist>
-
-    <image name="background">
-      <path>./assets/ratio32/carousel.png</path>
-    </image>
   </view>
 
   <view name="detailed">
     <textlist name="gamelist">
-      <size>0.5 0.75</size>
+      <pos>0 0.175</pos>
+      <size>0.483333 0.75</size>      <!-- 480x320 / 232x240-->
+      <horizontalMargin>0.05</horizontalMargin>
     </textlist>
 
     <image name="md_image">
-      <pos>0.75 0.3</pos>
+      <pos>0.733333 0.3</pos>
       <origin>0.5 0</origin>
-      <maxSize>0.45 0.537500</maxSize>
-      <zIndex>30</zIndex>
+      <maxSize>0.433333 0.537500</maxSize>
+      <zIndex>32</zIndex>
       <roundCorners>0.02</roundCorners>
     </image>
 
     <image name="md_marquee">
-      <pos>0.75 0.175</pos>
+      <pos>0.733333 0.175</pos>
       <origin>0.5 0</origin>
       <maxSize>0.4 0.225</maxSize>
-      <zIndex>31</zIndex>
+      <zIndex>33</zIndex>
     </image>
 
     <rating name="md_rating">
       <origin>0 0</origin>
-      <pos>0.625 0.85</pos>
+      <pos>0.608333 0.85</pos>
       <size>0.075</size>
     </rating>
   </view>
 
   <view name="grid">
-    <imagegrid name="gamegrid">
-      <pos>0 0.175</pos>
-      <size>1 0.75</size>
+    <text name="system_name">
+      <pos>0.05 0.075</pos>      <!--480x320 / 24h 20h-->
+      <origin>0 0.5</origin>      <!--vertical center-->
+    </text>
 
-      <!--480x320 / 16x8-->
-      <margin>0.033333 0.025</margin>
-      <!--480x320 / 16x0-->
-      <padding>0.033333 0</padding>
-    </imagegrid>
+    <text name="md_name">
+      <fontSize>${bodyF}</fontSize>
+      <fontPath>${fontRegular}</fontPath>
+      <pos>0.05 0.15</pos>      <!--480x320 / 24h 48h-->
+      <origin>0 0.5</origin>      <!--vertical center-->
+      <size>0.9 h</size>
+      <alignment>left</alignment>
+      <zIndex>41</zIndex>
+    </text>
   </view>
+
 
   <!-- Carousel Config -->
   <view name="system">
