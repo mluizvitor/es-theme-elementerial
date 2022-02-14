@@ -8,12 +8,16 @@
 
   <!-- Carousel Config -->
   <view name="system">
+
+    <image name="custom_bg, custom_bg_1, custom_bg_2, custom_bg_3">
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+    </image>
     <!-- System Background -->
     <image name="custom_bg" extra="true">
       <!-- Default image with some instructions -->
       <path ifSubset="Ratio:ratio32">./assets/ratio32/bg-info.webp</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/bg-info.webp</path>
-      <path ifSubset="Ratio:ratio169">./assets/ratio169/bg-info.webp</path>
 
       <!-- Less important to Most important format. Overides info background -->
       <path>./assets/custom/custombg.png</path>
@@ -21,21 +25,36 @@
       <path>./assets/custom/custombg.jpg</path>
       <path>./assets/custom/custombg.jpeg</path>
 
-      <size>1 0</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
       <zIndex>27</zIndex>
+    </image>
+
+    <image name="custom_bg_1" extra="true">
+      <!-- Less important to Most important format. Overides info background -->
+      <path>./assets/custom/custombg.1.png</path>
+      <path>./assets/custom/custombg.1.webp</path>
+      <zIndex>28</zIndex>
+    </image>
+
+    <image name="custom_bg_2" extra="true">
+      <!-- Less important to Most important format. Overides info background -->
+      <path>./assets/custom/custombg.2.png</path>
+      <path>./assets/custom/custombg.2.webp</path>
+      <zIndex>29</zIndex>
+    </image>
+
+    <image name="custom_bg_3" extra="true">
+      <!-- Less important to Most important format. Overides info background -->
+      <path>./assets/custom/custombg.3.png</path>
+      <path>./assets/custom/custombg.3.webp</path>
+      <zIndex>30</zIndex>
     </image>
 
     <image name="custom_bg_fg" extra="true">
       <path ifSubset="Ratio:ratio32">./assets/ratio32/custom-bg-fg.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/custom-bg-fg.png</path>
-      <path ifSubset="Ratio:ratio169">./assets/ratio169/custom-bg-fg.png</path>
-
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>28</zIndex>
+      <zIndex>31</zIndex>
     </image>
   </view>
 
