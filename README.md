@@ -1,6 +1,6 @@
 # Sobre
 
-![Versão](https://img.shields.io/badge/Versão_1.1125-de3e80?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Versão_1.221030-de3e80?style=for-the-badge)
 
 Elementerial é um tema construido totalmente do ZERO para o EmulationStation.
 É baseado na interface do Android TV usando alguns princípios do Material Design com a adição da paleta de cores do elementaryOS.
@@ -28,8 +28,6 @@ E três variações:
 Elementerial foi criado especificamente para as resoluções abaixo:
 
 - **480x320** (Proporção 3:2), testado no Anbernic RG351M rodando 351Elec
-- **640x480** (Proporção 4:3), testado em Máquina Virtual rodando Batocera v32 x86_64
-- **1920x1080** (Proporção 16:9), testado em computador real rodando Batocera v32 x86_64
 
 \* É possível utilizar este tema em outras resoluções e sistemas baseados no EmulationStation, porém,
 não é assegurado compatibilidade total.
@@ -58,7 +56,7 @@ Além disso a maioria dos sistemas também não têm um plano de fundo.
 
 ## Suportados atualmente:
 
-![Versão](https://img.shields.io/badge/Sistemas_Suportados:_88-68b723?style=for-the-badge)
+![Versão](https://img.shields.io/badge/Sistemas_Suportados:_89-68b723?style=for-the-badge)
 
 3DO,
 Amiga,
@@ -92,6 +90,7 @@ Gameboy & Hacks,
 Gameboy Color & Hacks,
 Gameboy Advance & Hacks,
 Gamegear & Hacks,
+Homebrew,
 Intellivision,
 Java,
 Mame,
