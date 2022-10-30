@@ -74,7 +74,7 @@
       <fontPath>${fontRegular}</fontPath>
       <pos>0.05 0.15</pos>      <!--480x320 / 24h 48h-->
       <origin>0 0.5</origin>      <!--vertical center-->
-      <size>0.9 h</size>
+      <size>0.9 0.05</size>
       <alignment>left</alignment>
       <zIndex>41</zIndex>
     </text>

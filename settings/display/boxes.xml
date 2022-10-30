@@ -21,7 +21,7 @@
 
       <imageSource>image</imageSource>
 
-      <margin ifSubset="Ratio:ratio32">0.033333 0.05</margin>      <!--480x320 / 16x16-->
+      <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!--480x320 / 16x16-->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -30,15 +30,15 @@
     </gridtile>
 
     <gridtile name="default">
-      <padding>0 0</padding>
+      <padding ifSubset="Ratio:ratio32">0 0</padding>
       <backgroundColor>00000000</backgroundColor>
-      <imageColor>808080FF</imageColor>
+      <imageColor>b2b2b2FF</imageColor>
     </gridtile>
 
     <gridtile name="selected">
       <padding ifSubset="Ratio:ratio32">4 4</padding>
       <backgroundColor>${mainColor}</backgroundColor>
-      <imageColor>333333ff</imageColor>
+      <imageColor>${sectionLightColor}</imageColor>
     </gridtile>
 
     <image name="gridtile.image">
@@ -67,25 +67,13 @@
     </image>
 
     <text name="gridtile">
+      <size>1 0.2</size>
+      <pos>0 0.7</pos>
       <fontSize>${tinyF}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
-      <size>0 0.225</size>
-      <singleLineScroll>false</singleLineScroll>
-      <padding>0.06 0.0075</padding>
-      <lineSpacing>1</lineSpacing>
+      <lineSpacing>1.2</lineSpacing>
+      <backgroundColor>00000080</backgroundColor>
     </text>
-
-    <text name="md_title">
-      <color>ff0000</color>
-      <pos>0 0</pos>
-      <fontPath>${fontRegular}</fontPath>
-      <fontSize>${bodyF}</fontSize>
-    </text>
-
-    <rating name="md_rating">
-      <pos>1 1</pos>
-      <color>00000000</color>
-    </rating>
   </customView>
 </theme>
