@@ -17,6 +17,14 @@
     <helpsystem name="help">
       <fontSize>${tinyF}</fontSize>
     </helpsystem>
+    
+    <image name="borderOverlay" extra="true">
+      <path>./assets/ratio32/borders.png</path>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>110</zIndex>
+    </image>
   </view>
 
   <view name="basic, detailed">
@@ -104,6 +112,14 @@
 
     <image name="osdBackground" extra="true">
       <path>./assets/ratio32/osd-bg.png</path>
+    </image>
+
+    <image name="borderOverlay" extra="true">
+      <path>./assets/ratio32/borders.png</path>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>110</zIndex>
     </image>
   </view>
 
