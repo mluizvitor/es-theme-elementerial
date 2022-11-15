@@ -21,7 +21,8 @@
 
       <imageSource>image</imageSource>
 
-      <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!--480x320 / 16x16-->
+      <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!-- 480x320 / 16x 16y -->
+      <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y -->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -30,29 +31,25 @@
     </gridtile>
 
     <gridtile name="default">
-      <padding ifSubset="Ratio:ratio32">0 0</padding>
+      <padding>0 0</padding>
       <backgroundColor>00000000</backgroundColor>
       <imageColor>b2b2b2FF</imageColor>
     </gridtile>
 
     <gridtile name="selected">
       <padding ifSubset="Ratio:ratio32">4 4</padding>
+      <padding ifSubset="Ratio:ratio43">6 6</padding>
       <backgroundColor>${mainColor}</backgroundColor>
       <imageColor>${sectionLightColor}</imageColor>
     </gridtile>
 
     <image name="gridtile.image">
-      <roundCorners ifSubset="Ratio:ratio32">0.06</roundCorners>
+      <roundCorners>0.04</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
-      <roundCorners ifSubset="Ratio:ratio32">0.05</roundCorners>
+      <roundCorners>0.03</roundCorners>
     </image>
-
-    <ninepatch name="gridtile.background">
-      <path>./assets/menu.png</path>
-      <cornerSize>16 16</cornerSize>
-    </ninepatch>
 
     <image name="gridtile.marquee">
       <color>FFFFFFFF</color>

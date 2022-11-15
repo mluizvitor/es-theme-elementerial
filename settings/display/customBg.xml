@@ -18,6 +18,7 @@
     <image name="custom_bg" extra="true">
       <!-- Default image with some instructions -->
       <path ifSubset="Ratio:ratio32">./assets/ratio32/bg-info.webp</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/bg-info.webp</path>
 
       <!-- Less important to Most important format. Overides info background -->
       <path>./assets/custom/custombg.png</path>
@@ -51,6 +52,7 @@
 
     <image name="custom_bg_fg" extra="true">
       <path ifSubset="Ratio:ratio32">./assets/ratio32/custom-bg-fg.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/custom-bg-fg.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
