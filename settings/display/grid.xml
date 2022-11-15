@@ -78,12 +78,12 @@
       <lineSpacing>1.1</lineSpacing>
 
       <!-- Tamanhos para ratio32 -->
-      <size ifSubset="Ratio:ratio32">1 0.24</size>
-      <padding ifSubset="Ratio:ratio32">0.05 0</padding>      <!--480x320 / 24x x centro horizontal-->
+      <size ifSubset="Ratio:ratio32">0.92 0.14</size>
+      <padding ifSubset="Ratio:ratio32">0.04 0</padding>
 
       <!-- Tamanhos para ratio43 -->
-      <size ifSubset="Ratio:ratio43">1 0.2</size>
-      <padding ifSubset="Ratio:ratio43">0.0375 0</padding>      <!-- 640x480 / 24x x centro horizontal-->
+      <size ifSubset="Ratio:ratio43">0.9 0.1</size>
+      <padding ifSubset="Ratio:ratio43">0.05 0</padding>
     </text>
 
     <rating name="md_rating">
