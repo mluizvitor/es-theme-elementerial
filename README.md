@@ -1,4 +1,4 @@
-# Sobre
+# About
 
 ![Version](https://img.shields.io/badge/Version_1.221116-de3e80?style=for-the-badge)
 
@@ -25,6 +25,8 @@ And three variations:
 * Light
 * Hybrid
 
+<br>
+
 # Compatibility
 
 Elementerial was made for the following resolutions:
@@ -35,7 +37,9 @@ Elementerial was made for the following resolutions:
 
 \* It's possible to use Elementerial in other resolutions and systems based on EmulationStation, however full compatibility is not guaranteed.
 
-# Amostra grátis
+<br>
+
+# Screenshots
 ## Main Screen
 ![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png)
 :------------------------------:|:-------------------------------:
@@ -50,6 +54,8 @@ Mint + Dark          | Banana + Light
 ![](./.github/MenuDark.png)     | ![](./.github/MenuLight.png)
 :------------------------------:|:-------------------------------:
 Bubblegun + Dark     | Slate + Light
+
+<br>
 
 # Supported Platforms
 
@@ -147,6 +153,7 @@ WonderSwan Color.
 
 **Collections:** 2 Players, 4 Players, Arcade, Arcade Vertical, Pistol Games, Screenshots, Custom Collections, Tools, Favorites, All Games, Never Played, Last Played, RetroAchievements, MPlayer.
 
+<br>
 
 # License
 
@@ -160,6 +167,8 @@ Some [fonts](./assets/fonts/) are licensed under Apache 2.0 and SIL Open Font Li
 Some [icons](./assets/icons/) are licensed under Apache 2.0 or their respective license.
 
 All the files, code and images not mentioned abore are licensed under the [MIT License](./LICENSE).
+
+<br>
 
 # Made With
 
