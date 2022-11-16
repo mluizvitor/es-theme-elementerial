@@ -1,64 +1,59 @@
 # Sobre
 
-![Versão](https://img.shields.io/badge/Versão_1.221030-de3e80?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version_1.221030-de3e80?style=for-the-badge)
 
-**For instructions regard Custom Backgrounds, please read [CUSTOMBD.md](/CUSTOMBG.md)**
+**For instructions regard Custom Backgrounds, please read [CUSTOMBG.md](/CUSTOMBG.md)**
 
-Elementerial é um tema construido totalmente do ZERO para o EmulationStation.
-É baseado na interface do Android TV usando alguns princípios do Material Design com a adição da paleta de cores do elementaryOS.
+Elementerial is a theme built totally from scratch for EmulationStation.
+It's based on Android TV's interface using some principles from Material Design with the adition of ElementaryOS color palette.
 
-Este tema conta com 10 cores principais:
+This theme has 10 main colors:
 
-* Strawberry (Vermelho)
-* Orange (Laranja)
-* Banana (Amarelo)
-* Lime (Verde)
-* Mint (Turquesa)
-* Blueberry (Azul)
-* Grape (Roxo)
-* Bubblegun (Rosa)
-* Cocoa (Marrom)
-* Slate (Cinza azulado)
+* Strawberry (Red)
+* Orange
+* Banana (Yellow)
+* Lime (Green)
+* Mint (Turquoise)
+* Blueberry (Blue)
+* Grape (Purple)
+* Bubblegun (Pink)
+* Cocoa (Brown)
+* Slate (Gray)
 
-E três variações:
-* Chocolate Sauce (Escuro)
-* Vanilla Sauce (Claro)
-* Both Sauces (Híbrido)
+And three variations:
+* Dark
+* Light
+* Hybrid
 
-# Compatibilidade
+# Compatibility
 
-Elementerial foi criado especificamente para as resoluções abaixo:
+Elementerial was made for the following resolutions:
 
-- **480x320** (Proporção 3:2), testado no Anbernic RG351M rodando 351Elec
+- **480x320** (3:2 screen ratio), tested on Anbernic RG351M running AmberElec
+- **640x480** (4:3 screen ratio), tested on VirtualBox running Batocera
+- **1920x1152** (5:3 screen ratio), tested on VirtualBox running Batocera
 
-\* É possível utilizar este tema em outras resoluções e sistemas baseados no EmulationStation, porém,
-não é assegurado compatibilidade total.
+\* It's possible to use Elementerial in other resolutions and systems based on EmulationStation, however full compatibility is not guaranteed.
 
 # Amostra grátis
-## Tela Inicial
+## Main Screen
 ![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png)
 :------------------------------:|:-------------------------------:
-Strawberry + Chocolate Sauce    | Grape + Vanilla Sauce
+Strawberry + Dark    | Grape + Light
 
-## Lista de jogos
+## Game List
 ![](./.github/GamelistDark.png) | ![](./.github/GamelistLight.png)
 :------------------------------:|:-------------------------------:
-Mint + Chocolate Sauce          | Banana + Vanilla Sauce
+Mint + Dark          | Banana + Light
 
 ## Menu
 ![](./.github/MenuDark.png)     | ![](./.github/MenuLight.png)
 :------------------------------:|:-------------------------------:
-Bubblegun + Chocolate Sauce     | Slate + Vanilla Sauce
+Bubblegun + Dark     | Slate + Light
 
-# Sistemas suportados
+# Supported Platforms
 
-Este tema ainda está em construção, portanto, a lista de sistemas suportados está em constante mudança.
-Dito isso, ao instalar o tema no estado atual, é possível ver muitos itens com o logo "placeholder" ou até mesmo sem logo de sistema.
-Além disso a maioria dos sistemas também não têm um plano de fundo.
-
-## Suportados atualmente:
-
-![Versão](https://img.shields.io/badge/Sistemas_Suportados:_89-68b723?style=for-the-badge)
+![Platforms: 89](https://img.shields.io/badge/Platforms:_89-68b723?style=for-the-badge)
 
 3DO,
 Amiga,
@@ -150,25 +145,25 @@ Wolfenstein,
 WonderSwan,
 WonderSwan Color.
 
-**Coleções:** 2 Jogadores, 4 Jogadores, Arcade, Arcade Vertical, Jogos de Pistola, Capturas de Tela, Coleções personalizadas, Ferramentas, Favoritos, Todos os Jogos, Nunca Jogado, Último jogado, RetroAchievements, MPlayer.
+**Collections:** 2 Players, 4 Players, Arcade, Arcade Vertical, Pistol Games, Screenshots, Custom Collections, Tools, Favorites, All Games, Never Played, Last Played, RetroAchievements, MPlayer.
 
 
-# Licença
+# License
 
-Todos os [logos de sistemas de videogame e computador](./assets/logos/) utilizados são de propriedade de suas respectivas
-Desenvolvedoras/Produtoras/Distribuidoras/Licenciadoras.
+All [videogame and computer system logos](./assets/logos/) used are the property of their respective Developers/Producers/Distributors/Licensors.
 
-Algumas artes de logo foram reaproveitadas do tema [Carbon](https://github.com/RetroPie/es-theme-carbon/) e do tema [Art Book](https://github.com/anthonycaccese/es-theme-art-book-3-2).
 
-Algumas [fontes](./assets/fonts/) estão licenciadas sobre a Apache 2.0 e SIL Open Font License.
+Some logo were reused fom [Carbon](https://github.com/RetroPie/es-theme-carbon/) and [Art Book](https://github.com/anthonycaccese/es-theme-art-book-3-2) themes.
 
-Alguns dos [ícones](./assets/icons/) estão licensiados sobre a Apache 2.0 ou suas respectivas lincenças.
+Some [fonts](./assets/fonts/) are licensed under Apache 2.0 and SIL Open Font License.
 
-Todos os arquivos de código e de imagens não especificadas acima estão licensiados sobre a [licença MIT](./LICENSE).
+Some [icons](./assets/icons/) are licensed under Apache 2.0 or their respective license.
 
-# Feito com
+All the files, code and images not mentioned abore are licensed under the [MIT License](./LICENSE).
+
+# Made With
 
 ![Inkscape](https://img.shields.io/badge/Inkscape-273445?style=for-the-badge&logo=Inkscape&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0d52bf?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![E](https://img.shields.io/badge/E-f37329?style=for-the-badge&logoColor=white)
-![Amor](https://img.shields.io/badge/Amor-de3e80?style=for-the-badge&logoColor=white)
+![And](https://img.shields.io/badge/And-f37329?style=for-the-badge&logoColor=white)
+![Love](https://img.shields.io/badge/Love-de3e80?style=for-the-badge&logoColor=white)
