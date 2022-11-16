@@ -37,8 +37,9 @@
   </subset>
 
   <subset name="Ratio" displayName="${subset.ratiosettings}">
-    <include name="ratio32" displayName="3:2 | 480x320">./settings/display/ratio32.xml</include>
-    <include name="ratio43" displayName="4:3 | 640x480">./settings/display/ratio43.xml</include>
+    <include name="ratio32" displayName="RG351P/M | 480x320">./settings/display/ratio32.xml</include>
+    <include name="ratio43" displayName="RG351V/MP | 640x480">./settings/display/ratio43.xml</include>
+    <include name="ratio53" displayName="RG552 | 1920x1152">./settings/display/ratio53.xml</include>
   </subset>
 
   <subset name="custom_background" displayName="Enable Custom Background?">

@@ -9,7 +9,7 @@
   <!-- Carousel Config -->
   <view name="system">
 
-    <image name="custom_bg, custom_bg_1, custom_bg_2, custom_bg_3">
+    <image name="custom_bg, custom_bg_1, custom_bg_2, custom_bg_3, custom_fg_1, custom_fg_2, custom_fg_3">
       <size>1 0</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -19,6 +19,7 @@
       <!-- Default image with some instructions -->
       <path ifSubset="Ratio:ratio32">./assets/ratio32/bg-info.webp</path>
       <path ifSubset="Ratio:ratio43">./assets/ratio43/bg-info.webp</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/bg-info.webp</path>
 
       <!-- Less important to Most important format. Overides info background -->
       <path>./assets/custom/custombg.png</path>
@@ -50,9 +51,31 @@
       <zIndex>30</zIndex>
     </image>
 
+    <image name="custom_fg_1" extra="true">
+      <!-- Less important to Most important format. Overides info background -->
+      <path>./assets/custom/customfg.1.png</path>
+      <path>./assets/custom/customfg.1.webp</path>
+      <zIndex>57</zIndex>
+    </image>
+
+    <image name="custom_fg_2" extra="true">
+      <!-- Less important to Most important format. Overides info background -->
+      <path>./assets/custom/customfg.2.png</path>
+      <path>./assets/custom/customfg.2.webp</path>
+      <zIndex>58</zIndex>
+    </image>
+
+    <image name="custom_fg_3" extra="true">
+      <!-- Less important to Most important format. Overides info background -->
+      <path>./assets/custom/customfg.3.png</path>
+      <path>./assets/custom/customfg.3.webp</path>
+      <zIndex>59</zIndex>
+    </image>
+
     <image name="custom_bg_fg" extra="true">
       <path ifSubset="Ratio:ratio32">./assets/ratio32/custom-bg-fg.png</path>
       <path ifSubset="Ratio:ratio43">./assets/ratio43/custom-bg-fg.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/custom-bg-fg.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>

@@ -17,6 +17,7 @@
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>3 2</autoLayout>
+      <autoLayout ifSubset="Ratio:ratio53">4 2</autoLayout>
       <scrollLoop>false</scrollLoop>
 
       <imageSource ifSubset="GridImage:gridscreenshot">image</imageSource>
@@ -33,6 +34,12 @@
       <size ifSubset="Ratio:ratio43">1 0.716666</size>      <!-- 640x4800 / 640x 344y-->
       <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y-->
       <padding ifSubset="Ratio:ratio43">0.0375 0</padding>      <!--640x480 / 24x0-->
+
+      <!-- Tamanhos para ratio53 -->
+      <pos ifSubset="Ratio:ratio53">0 0.180556</pos>
+      <size ifSubset="Ratio:ratio53">1 0.750000</size>
+      <margin ifSubset="Ratio:ratio53">0.018750 0.020833</margin>
+      <padding ifSubset="Ratio:ratio53">0.037500 0</padding>
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -50,6 +57,7 @@
     <gridtile name="selected">
       <padding ifSubset="Ratio:ratio32">4 4</padding>
       <padding ifSubset="Ratio:ratio43">6 6</padding>
+      <padding ifSubset="Ratio:ratio53">12 12</padding>
 
       <backgroundCornerSize>0.05</backgroundCornerSize>
       <backgroundColor>${mainColor}</backgroundColor>
@@ -67,7 +75,8 @@
     <ninepatch name="gridtile.background">
       <path ifSubset="Ratio:ratio32">./assets/ratio32/menu.png</path>
       <path ifSubset="Ratio:ratio43">./assets/ratio43/menu.png</path>
-      <cornerSize>16 16</cornerSize>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/menu.png</path>
+      <cornerSize>24 24</cornerSize>
     </ninepatch>
 
     <text name="gridtile">
@@ -82,8 +91,12 @@
       <padding ifSubset="Ratio:ratio32">0.04 0</padding>
 
       <!-- Tamanhos para ratio43 -->
-      <size ifSubset="Ratio:ratio43">0.9 0.1</size>
+      <size ifSubset="Ratio:ratio43">0.9 0.16</size>
       <padding ifSubset="Ratio:ratio43">0.05 0</padding>
+
+      <!-- Tamanhos para ratio53 -->
+      <size ifSubset="Ratio:ratio53">0.9 0.18</size>
+      <padding ifSubset="Ratio:ratio53">0.05 0</padding>
     </text>
 
     <rating name="md_rating">
