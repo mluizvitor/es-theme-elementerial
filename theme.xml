@@ -31,9 +31,9 @@
   </subset>
 
   <subset name="Topping" displayName="${subset.variantSet}">
-    <include name="dark" displayName="Chocolate Sauce">./settings/colors/commom-dark.xml</include>
-    <include name="light" displayName="Vanilla Sauce">./settings/colors/commom-light.xml</include>
-    <include name="hybrid" displayName="Both Sauces">./settings/colors/commom-hybrid.xml</include>
+    <include name="dark" displayName="Dark">./settings/colors/commom-dark.xml</include>
+    <include name="light" displayName="Light">./settings/colors/commom-light.xml</include>
+    <include name="hybrid" displayName="Hybrid">./settings/colors/commom-hybrid.xml</include>
   </subset>
 
   <subset name="Ratio" displayName="${subset.ratiosettings}">
