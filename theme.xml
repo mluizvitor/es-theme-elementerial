@@ -15,7 +15,22 @@
     <subset.themesettings>Main Color</subset.themesettings>
     <subset.variantSet>Variant</subset.variantSet>
     <subset.ratiosettings>Device / Screen</subset.ratiosettings>
+
+    <percent.90>E6</percent.90>
+    <percent.80>CC</percent.80>
+    <percent.70>B3</percent.70>
+    <percent.60>99</percent.60>
+    <percent.50>80</percent.50>
+    <percent.40>66</percent.40>
+    <percent.30>4D</percent.30>
+    <percent.20>33</percent.20>
+    <percent.10>1A</percent.10>
   </variables>
+
+  <subset name="Variant" displayName="Variant">
+    <include name="dark" displayName="Dark" />
+    <include name="light" displayName="Light" />
+  </subset>
 
   <subset name="Flavor" displayName="${subset.themesettings}">
     <include name="strawberry" displayName="strawberry">./settings/colors/strawberry.xml</include>
@@ -28,12 +43,9 @@
     <include name="bubblegun" displayName="bubblegun">./settings/colors/bubblegun.xml</include>
     <include name="cocoa" displayName="cocoa">./settings/colors/cocoa.xml</include>
     <include name="slate" displayName="slate">./settings/colors/slate.xml</include>
-  </subset>
-
-  <subset name="Topping" displayName="${subset.variantSet}">
-    <include name="dark" displayName="Dark">./settings/colors/commom-dark.xml</include>
-    <include name="light" displayName="Light">./settings/colors/commom-light.xml</include>
-    <include name="hybrid" displayName="Hybrid">./settings/colors/commom-hybrid.xml</include>
+    <include name="snes" displayName="Snes Scheme">./settings/colors/extra-snes.xml</include>
+    <include name="gb" displayName="Gameboy Scheme">./settings/colors/extra-gameboy.xml</include>
+    <include name="pikachu" displayName="Pikachu Edition">./settings/colors/extra-pikachu-edition.xml</include>
   </subset>
 
   <subset name="Ratio" displayName="${subset.ratiosettings}">
@@ -47,6 +59,7 @@
     <include name="yes" displayName="Yes">./settings/display/customBg.xml</include>
   </subset>
 
+  <include>./settings/colors/scheme.xml</include>
   <include>./settings/display/commom.xml</include>
   <include>./settings/display/grid.xml</include>
   <include>./settings/display/boxes.xml</include>

@@ -8,13 +8,13 @@
 
   <variables>
     <mainColor>F9C440</mainColor>
-    <onMainColor>32302C</onMainColor>
+    <onMainColor>1D1B16</onMainColor>
 
-    <backgroundDarkColor>32302C</backgroundDarkColor>
-    <backgroundLightColor>FFFDEB</backgroundLightColor>
+    <bgColor ifSubset="Variant:dark">1D1B16</bgColor>
+    <bgColor ifSubset="Variant:light">FFFDEB</bgColor>
 
-    <sectionDarkColor>fff394</sectionDarkColor>
-    <sectionLightColor>d48e15</sectionLightColor>
+    <sectColor ifSubset="Variant:dark">fff394</sectColor>
+    <sectColor ifSubset="Variant:light">d48e15</sectColor>
   </variables>
 
 </theme>

@@ -1,0 +1,23 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <mainColor ifSubset="Variant:dark">BF89F6</mainColor>
+    <mainColor ifSubset="Variant:light">8B4ACC</mainColor>
+
+    <onMainColor ifSubset="Variant:dark">000000</onMainColor>
+    <onMainColor ifSubset="Variant:light">FFFFFF</onMainColor>
+
+    <bgColor ifSubset="Variant:dark">2C2821</bgColor>
+    <bgColor ifSubset="Variant:light">E8DEC9</bgColor>
+
+    <sectColor ifSubset="Variant:dark">CCA0F8</sectColor>
+    <sectColor ifSubset="Variant:light">7332B3</sectColor>
+  </variables>
+
+</theme>
