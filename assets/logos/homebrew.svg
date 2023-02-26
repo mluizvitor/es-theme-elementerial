@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="linearGradient2858" x1="10.583" x2="58.767" y1="71.438" y2="-58.66" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#404040" offset="0"/>
-   <stop stop-color="#f90" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#linearGradient2858)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <path d="m56.037 59.427h36.03v6.7184h-44.022l2.384-17.907h-5.1472l-1.0294 7.8291h-7.0706l0.97526-7.8291h-3.2238v-5.6348h3.9823l1.4087-10.728h-3.3863v-5.6619h4.1448l0.97526-7.6937h7.1248l-1.0565 7.6937h5.1743l1.0294-7.6937h7.0706l-1.0294 7.6937h3.2779v5.6619h-4.0365l-1.3545 10.728h3.3863v5.6348h-4.1448zm-10.051-16.823h5.1472l1.4087-10.728h-5.1472z" fill="#f9f9f9" stroke-width="0"/>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="230.8" x2="368.8" y1="339.2" y2="-72.59" gradientUnits="userSpaceOnUse"><stop stop-color="#424852" offset="0"/><stop stop-color="#fa0" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="24" fill="url(#a)"/><path d="m248 204v-16a4 4 135 0 1 4-4h56a4 4 45 0 1 4 4v16a4 4 135 0 1-4 4h-56a4 4 45 0 1-4-4zm-37.17-44.71-41.86-41.65a3.302 3.302 112.4 0 1 2.329-5.643h21.92a9.671 9.671 22.47 0 1 6.831 2.826l36.85 36.77c4.64 4.72 4.64 12.4 0 16.96l-36.61 36.61a9.657 9.657 157.5 0 1-6.828 2.828h-21.92a3.314 3.314 67.5 0 1-2.343-5.657l41.64-41.64a0.9975 0.9975 89.93 0 0-2e-3 -1.412z" fill="#fff"/></svg>

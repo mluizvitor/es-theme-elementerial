@@ -6,21 +6,19 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <subset name="GridImage" displayName="Image type" appliesTo="grid">
-    <include name="gridscreenshot" displayName="Screenshot"/>
-    <include name="gridthumbnail" displayName="Thumbnail"/>
-    <include name="gridlogo" displayName="Logo"/>
-  </subset>
-
   <!--Confugurações da view "grid"-->
   <customView name="boxes" inherits="grid">
     <imagegrid name="gamegrid">
+      <size>1 0.775</size>      <!--480x320 / 480x 256y-->
+      <size ifHelpPrompts="true">1 0.75</size>      <!--480x320 / 480x 232y-->
+
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>2 2</autoLayout>
       <autoLayout ifSubset="Ratio:ratio53">3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
-
       <imageSource>image</imageSource>
+
+      <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
 
       <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!-- 480x320 / 16x 16y -->
       <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y -->
@@ -33,28 +31,27 @@
     </gridtile>
 
     <gridtile name="default">
-      <padding>0 0</padding>
       <backgroundColor>00000000</backgroundColor>
-      <imageColor>b2b2b2FF</imageColor>
-    </gridtile>
-
-    <gridtile name="selected">
-      <imageColor>${sectionLightColor}</imageColor>
+      <imageColor>aaaaaaFF</imageColor>
     </gridtile>
 
     <image name="gridtile.image">
-      <roundCorners>0.04</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio32">0.03</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio43">0.04</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio53">0.04</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
-      <roundCorners>0.03</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio32">0.02</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio43">0.03</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio53">0.03</roundCorners>
     </image>
 
     <image name="gridtile.marquee">
       <color>FFFFFFFF</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
-      <maxSize>0.7 0.7</maxSize>
+      <maxSize>0.65 0.65</maxSize>
     </image>
 
     <image name="gridtile.marquee:selected">
@@ -69,7 +66,6 @@
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
       <lineSpacing>1.2</lineSpacing>
-      <backgroundColor>00000080</backgroundColor>
     </text>
   </customView>
 </theme>

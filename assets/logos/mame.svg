@@ -1,14 +1,1 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="a" x1="43.896" x2="17.192" y1="-12.848" y2="86.813" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#28bca3" offset="0"/>
-   <stop stop-color="#0d52bf" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <g transform="matrix(.17639 0 0 .17639 10.583 27.894)">
-  <polygon points="172.04 84.94 170.8 5.982 127.12 49.978 114.97 50.598 115.43 3.622 0 119.98 38.016 119.36 87.86 70.98 97.422 70.98 96.96 119.59 136.66 78.96 146.15 78.96 146.15 120.35 102.46 163.73 144.33 163.1 226.71 79.792 237.81 79.792 237.81 120.72 289.16 121.03 338.81 71.064 348.4 70.444 348.25 117.68 387.93 77.996 397.3 77.996 397.93 118.01 397.12 120.09 517.01 120.09 539.96 96.832 465.42 95.562 464.74 84.744 476.36 72.51 504.48 72.508 528.91 47.76 514.14 47.136 514.14 36.724 526.69 24.184 576.75 24.496 600 0.312 514.34 0 433.86 80.8 422.59 81.42 422.9 3.69 377.65 49.872 366.83 51.156 366.83 4.098 274.18 95.76 262.67 96.986 263.65 2.672 182.68 84.888" fill="#fff"/>
- </g>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="43.9" x2="17.19" y1="-12.85" y2="86.81" gradientTransform="scale(3.78)" gradientUnits="userSpaceOnUse"><stop stop-color="#28bca3" offset="0"/><stop stop-color="#0d52bf" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="24" fill="url(#a)"/><path d="m222.1 164 0.0104-61.14-58.18 58.18v-58.18l-36.28 36.28v-36.28l-87.68 87.68h36.28l32.75-32.74v36.28l29.27-29.27v21.9l-30.46 30.46h36.28l52.36-52.35v25.73h35.4l32.74-32.74v36.28l29.27-29.27v21.9l-3.834 3.844h89.6l24.02-24.03h-53.31l5.834-5.834h14.96l24.03-24.02h-14.97l5.834-5.834h29.9l24.03-24.03h-66.19l-54.27 54.27v-58.18l-36.28 36.28v-36.28z" fill="#fff"/></svg>

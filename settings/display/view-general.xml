@@ -1,0 +1,85 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <header1F>0.0625</header1F>
+    <header2F>0.05</header2F>
+    <bodyF>0.034375</bodyF>
+    <tinyF>0.031250</tinyF>
+  </variables>
+
+  <!--Configurações de ajuda-->
+  <view name="system, basic, detailed, grid">
+    <helpsystem name="help">
+      <fontPath>${fontHelper}</fontPath>
+      <fontSize>${bodyF}</fontSize>
+      <origin>0 1</origin>
+      <pos>0.016667 0.987500</pos>
+    </helpsystem>
+
+    <image name="borderOverlay" extra="true">
+      <path ifSubset="Ratio:ratio32">./assets/ratio32/borders.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/borders.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/borders.png</path>
+
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>110</zIndex>
+    </image>
+  </view>
+
+  <!--Configurações comuns de views-->
+  <view name="basic, detailed, grid">
+    <text name="logoText">
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${header2F}</fontSize>
+      <forceUppercase>0</forceUppercase>
+      <alignment>left</alignment>
+      <zIndex>40</zIndex>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${bodyF}</fontSize>
+      <alignment>left</alignment>
+      <origin>0 0</origin>
+    </textlist>
+
+    <image name="background">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+    </image>
+
+    <image name="cover_list_fallback" extra="true">
+      <path>./assets/background.png</path>
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>-10</zIndex>
+    </image>
+
+    <image name="cover_list" extra="true">
+      <path>./assets/systems/${system.theme}.webp</path>
+      <opacity>0.3</opacity>
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>-5</zIndex>
+    </image>
+  </view>
+
+  <view name="basic, detailed">
+    <text name="logoText">
+      <pos>0.033333 0.1</pos>      <!--480x320 / 16x 32y-->
+      <size>0.933333 ${header2F}</size>      <!-- 480x320 / 448x -->
+      <origin>0 0.5</origin>
+    </text>
+  </view>
+</theme>

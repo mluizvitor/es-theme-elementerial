@@ -1,0 +1,54 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="detailed">
+    <textlist name="gamelist">
+      <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y -->
+      <size>0.466667 0.8</size>      <!-- 480x320 / 224x 256y-->
+      <size ifHelpPrompts="true">0.466667 0.725</size>      <!-- 480x320 / 224x 232y-->
+      <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
+    </textlist>
+
+    <image name="md_image">
+      <pos>0.733333 0.525</pos>      <!-- 480x320 / (240 + maxWidth / 2 = 352)x (80 + maxHeight / 2 = 168)y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.466667 0.55</maxSize>      <!-- 480x320 / 224x 176y -->
+      <zIndex>32</zIndex>
+      <roundCorners>0.02</roundCorners>
+    </image>
+
+    <image name="md_marquee">
+      <pos>0.733333 0.25</pos>      <!-- 480x320 / 352x 80y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.4 0.175</maxSize>      <!-- 480x320 / 192x 56y -->
+      <zIndex>33</zIndex>
+    </image>
+
+    <rating name="md_rating">
+      <origin>0 0</origin>
+      
+      <pos>0.61 0.83125</pos>      <!-- 480x320 / 304x 272y-->
+      <pos ifSubset="Ratio:ratio43">0.6075 0.83125</pos>
+      <pos ifSubset="Ratio:ratio53">0.62 0.83125</pos>
+      
+      <size>0.075</size>
+      <size ifSubset="Ratio:ratio43">0.066667</size>
+      
+
+      <filledPath>./assets/icons/star.svg</filledPath>
+      <unfilledPath>./assets/icons/star_border.svg</unfilledPath>
+    </rating>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+  </view>
+</theme>

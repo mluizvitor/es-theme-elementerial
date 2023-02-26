@@ -10,11 +10,11 @@
     <mainColor>F9C440</mainColor>
     <onMainColor>1D1B16</onMainColor>
 
-    <bgColor ifSubset="Variant:dark">1D1B16</bgColor>
-    <bgColor ifSubset="Variant:light">FFFDEB</bgColor>
+    <bgColor ifSubset="Style:dark">1D1B16</bgColor>
+    <bgColor ifSubset="Style:light">FFFDEB</bgColor>
 
-    <sectColor ifSubset="Variant:dark">fff394</sectColor>
-    <sectColor ifSubset="Variant:light">d48e15</sectColor>
+    <sectColor ifSubset="Style:dark">fff394</sectColor>
+    <sectColor ifSubset="Style:light">d48e15</sectColor>
   </variables>
 
 </theme>

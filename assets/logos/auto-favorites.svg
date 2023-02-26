@@ -1,15 +1,1 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="a" x1="81.805" x2="104.55" y1="-9.2879" y2="99.509" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#ffe16b" offset="0"/>
-   <stop stop-color="#d48e15" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <g transform="matrix(2.1167 0 0 2.1167 38.1 16.933)">
-  <path d="m0 0h24v24h-24z" fill="none"/>
-  <path d="m22 9.24-7.19-0.62-2.81-6.62-2.81 6.63-7.19 0.61 5.46 4.73-1.64 7.03 6.18-3.73 6.18 3.73-1.63-7.03zm-10 6.16-3.76 2.27 1-4.28-3.32-2.88 4.38-0.38 1.7-4.03 1.71 4.04 4.38 0.38-3.32 2.88 1 4.28z" fill="#fff"/>
- </g>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="64.59" x2="104.6" y1="-18.58" y2="99.51" gradientTransform="scale(3.78)" gradientUnits="userSpaceOnUse"><stop stop-color="#ffcf33" offset="0"/><stop stop-color="#e07f00" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="24" fill="url(#a)"/><path d="m240.9 206.7 40.02 24.16a4.22 4.22 144 0 0 6.29-4.571l-10.62-45.53a1.657 1.657 108 0 1 0.5286-1.629l35.37-30.64a4.227 4.227 72.01 0 0-2.405-7.407l-46.56-4.015a1.662 1.662 35.96 0 1-1.387-1.006l-18.18-42.83a4.245 4.245 0 0 0-7.815 0l-18.18 42.83a1.662 1.662 144 0 1-1.387 1.006l-46.56 4.015a4.233 4.233 108 0 0-2.411 7.414l35.29 30.63a1.661 1.661 72 0 1 0.5294 1.63l-10.56 45.52a4.227 4.227 35.97 0 0 6.303 4.574l40.02-24.16a1.657 1.657 0 0 1 1.712 0z" fill="#fff"/></svg>

@@ -1,16 +1,1 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="a" x1="59.977" x2="127" y1="-39.605" y2="84.667" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#43d6b5" offset="0"/>
-   <stop stop-color="#0d52bf" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <path d="m54.504 24.871h17.992v7.9375l-8.9958 8.9958-8.9958-8.9958z" fill="#fff" fill-opacity=".25" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26458" style="paint-order:stroke markers fill"/>
- <g transform="matrix(2.1167 0 0 2.1167 38.1 16.933)">
-  <path d="m0 0h24v24h-24z" fill="none"/>
-  <path d="m6 2v6h0.01l-0.01 0.01 4 3.99-4 4 0.01 0.01h-0.01v5.99h12v-5.99h-0.01l0.01-0.01-4-4 4-3.99-0.01-0.01h0.01v-6zm10 14.5v3.5h-8v-3.5l4-4zm-4-5-4-4v-3.5h8v3.5z" fill="#fff"/>
- </g>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="64.81" x2="106.8" y1="-26.6" y2="84.66" gradientTransform="scale(3.78)" gradientUnits="userSpaceOnUse"><stop stop-color="#2cedc1" offset="0"/><stop stop-color="#0d52bf" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="24" fill="url(#a)"/><path d="m198 80h84a6 6 45 0 1 6 6v38a9.657 9.657 112.5 0 1-2.828 6.828l-28.46 28.46a1 1 90 0 0 0 1.414l28.46 28.46a9.657 9.657 67.5 0 1 2.828 6.828v38a6 6 135 0 1-6 6h-84a6 6 45 0 1-6-6v-38a9.657 9.657 112.5 0 1 2.828-6.828l28.46-28.46a1 1 90 0 0 0-1.414l-28.46-28.46a9.657 9.657 67.5 0 1-2.828-6.828v-38a6 6 135 0 1 6-6zm73.29 115.3-30.59-30.59a1 1 0 0 0-1.414 0l-30.59 30.59a2.414 2.414 112.5 0 0-0.7071 1.707v26a1 1 45 0 0 1 1h62a1 1 135 0 0 1-1v-26a2.414 2.414 67.5 0 0-0.7071-1.707zm-30.59-40 30.59-30.59a2.414 2.414 112.5 0 0 0.7071-1.707v-26a1 1 45 0 0-1-1h-62a1 1 135 0 0-1 1v26a2.414 2.414 67.5 0 0 0.7071 1.707l30.59 30.59a1 1 0 0 0 1.414 0zm-14.71-43.29h28a2 2 45 0 1 2 2v2a4.828 4.828 112.5 0 1-1.414 3.414l-13.17 13.17a2 2 0 0 1-2.828 0l-13.17-13.17a4.828 4.828 67.5 0 1-1.414-3.414v-2a2 2 135 0 1 2-2z" fill="#fff"/></svg>

@@ -1,15 +1,1 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="a" x1="81.805" x2="56.404" y1="-9.2879" y2="92.614" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#28bca3" offset="0"/>
-   <stop stop-color="#007367" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <g transform="matrix(2.1167 0 0 2.1167 38.1 16.933)">
-  <path d="m0 0h24v24h-24z" fill="none"/>
-  <path d="m13 3c-4.97 0-9 4.03-9 9h-3l3.89 3.89 0.07 0.14 4.04-4.03h-3c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-0.79-4.94-2.06l-1.42 1.42c1.63 1.63 3.87 2.64 6.36 2.64 4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.25 2.52 0.77-1.28-3.52-2.09v-4.15z" fill="#fff"/>
- </g>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="81.8" x2="56.4" y1="-9.288" y2="92.61" gradientTransform="scale(3.78)" gradientUnits="userSpaceOnUse"><stop stop-color="#11d396" offset="0"/><stop stop-color="#006573" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="24" fill="url(#a)" stroke="#e3dbdb"/><path d="m252 128h-4a4 4 135 0 0-4 4v32a7.025 7.025 60.34 0 0 3.44 6.041l27.36 16.24a4.005 4.005 165.7 0 0 5.485-1.396l1.669-2.805a3.998 3.998 75.74 0 0-1.393-5.481l-23.7-14.09a1.758 1.758 60.36 0 1-0.8596-1.511v-29a4 4 45 0 0-4-4zm0-40c-39.43 0-71.46 31.7-71.99 71-0.00751 0.5522-0.4545 1-1.007 1h-19a1.677 1.677 112.8 0 0-1.196 2.853l26.07 26.53a3.97 3.97 0.2865 0 0 5.635 0.0282l26.66-26.59a1.654 1.654 67.54 0 0-1.168-2.825h-19c-0.5523 0-1.001-0.4478-0.9912-1 0.5335-30.47 25.4-55 55.99-55 30.93 0 56 25.07 56 56s-25.07 56-56 56c-14.72 0-28.13-5.745-38.09-15.09-0.8054-0.7558-2.067-0.7612-2.848 0.0199l-8.532 8.532c-0.781 0.781-0.7849 2.051 0.0149 2.813 12.9 12.29 30.17 19.72 49.45 19.72 39.76 0 72-32.24 72-72s-32.24-72-72-72" fill="#fff"/></svg>

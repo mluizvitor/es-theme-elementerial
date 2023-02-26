@@ -1,16 +1,1 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="a" x1="41.659" x2="62.19" y1="-12.675" y2="84.667" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#95a3ab" offset="0"/>
-   <stop stop-color="#0e9a83" offset=".39146"/>
-   <stop stop-color="#007367" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <g transform="matrix(0 2.1167 -2.1167 0 88.9 16.933)">
-  <path d="m0 0h24v24h-24z" fill="none"/>
-  <path d="m17 1.01-10-0.01c-1.1 0-2 0.9-2 2v18c0 1.1 0.9 2 2 2h10c1.1 0 2-0.9 2-2v-18c0-1.1-0.9-1.99-2-1.99zm0 19.99h-10v-1h10zm0-3h-10v-12h10zm0-14h-10v-1h10zm-7.5 4.5h2.5v-1.5h-4v4h1.5zm2.5 8.5h4v-4h-1.5v2.5h-2.5z" fill="#fff"/>
- </g>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="58.3" x2="82.88" y1="-40.99" y2="105.4" gradientTransform="scale(3.78)" gradientUnits="userSpaceOnUse"><stop stop-color="#80ffe6" offset="0"/><stop stop-color="#37c871" offset=".4"/><stop stop-color="#006680" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="24" fill="url(#a)"/><path d="m328 120c0-8.837-7.163-16-16-16h-144c-8.837 0-16 7.163-16 16v80c0 8.837 7.163 16 16 16h144c8.837 0 16-7.163 16-16v-80m-24 2v76a2 2 135 0 1-2 2h-124a2 2 45 0 1-2-2v-76a2 2 135 0 1 2-2h124a2 2 45 0 1 2 2zm-22 14h-24c-1.105 0-2 0.8954-2 2v8c0 1.105 0.8954 2 2 2h17c0.5523 0 1 0.4477 1 1v17c0 1.105 0.8954 2 2 2h8c1.105 0 2-0.8954 2-2v-24c0-3.314-2.686-6-6-6zm-60 36h-17c-0.5523 0-1-0.4477-1-1v-17c0-1.105-0.8954-2-2-2h-8c-1.105 0-2 0.8954-2 2v24c0 3.314 2.686 6 6 6h24c1.105 0 2-0.8954 2-2v-8c0-1.105-0.8954-2-2-2z" fill="#fff"/></svg>

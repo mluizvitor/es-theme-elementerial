@@ -1,14 +1,1 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="a" x1="10.583" x2="94.685" y1="-40.25" y2="96.493" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#0e9a83" offset="0"/>
-   <stop stop-color="#0d52bf" offset="1"/>
-  </linearGradient>
- </defs>
- <g>
-  <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
-  <path d="m10.583 20.423v43.822h105.83v-43.822zm14.982 5.9654h7.4543l3.8733 13.813 4.0195-13.813h7.0159l6.5774 23.313 16.048-0.03028c1.6846-0.01641 1.7879-3.5-0.12475-3.4991l-9.3458-0.12475c-4.0132 0.03883-8.245-4.3026-8.0389-10.085 0.04282-5.3039 4.6679-9.4808 10.584-9.4794l23.837-0.0214 6.0659 8.2581 5.9198-8.3312 9.8658 0.07307-10.816 15.201 11.693 16.482-9.8141-0.03028-6.8055-9.4576-6.4741 9.4576-10.012-0.0089 11.401-16.297-4.9698-7.2351-20.721 0.03028c-2.2614 0.02073-2.1785 3.5783 0.01777 3.5116l8.7305 0.13363c3.6899 0.02389 8.8864 3.8585 8.7571 9.8448 0.05642 6.9595-6.2117 10.139-9.2295 9.9691l-22.853 0.03028-3.8002-14.238-3.8002 14.208h-7.2137l-3.9678-14.135-3.4865 14.156-8.4257-0.05168z" fill="#fff"/>
- </g>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="10.58" x2="94.68" y1="-40.25" y2="96.49" gradientTransform="scale(3.78)" gradientUnits="userSpaceOnUse"><stop stop-color="#0e9a83" offset="0"/><stop stop-color="#0d52bf" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="24" fill="url(#a)"/><path d="m50 82.91v154.2h380v-154.2zm315.8 131.2-22.56-31.75-22.55 31.75h-34.18l39.64-55.82-17.47-24.6h-70.39c-8.226 0-8.226 12.34 0 12.34h24.46c45.38 0 45.38 68.07 0 68.07h-75.52l-13.3-48.77-13.31 48.77h-25.12l-13.3-48.77-13.3 48.77h-28.88l29.54-108.3h25.29l13.22 48.47 13.22-48.47h25.3l21.92 80.41h54.25c8.226 0 8.226-12.34 0-12.34h-24.46c-45.38 0-45.38-68.07 0-68.07h84.76l20.18 28.41 20.18-28.41h34.18l-37.27 52.47 39.64 55.81h-34.18z" fill="#fff"/></svg>

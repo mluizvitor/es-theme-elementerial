@@ -1,0 +1,17 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="basic">
+    <textlist name="gamelist">
+      <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y -->
+      <size>1 0.8</size>      <!-- 480x320 / 480x 256y-->
+      <size ifHelpPrompts="true">1 0.725</size>      <!-- 480x320 / 480x 232y-->
+      <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
+    </textlist>
+  </view>
+</theme>

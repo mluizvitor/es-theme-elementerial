@@ -1,12 +1,1 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="a" x1="37.176" x2="37.176" y2="89.626" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#9bdb4d" offset="0"/>
-   <stop stop-color="#007367" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <path d="m53.18 33.514-3.7692 3.7677 0.07595 13.849h13.917v-3.478h-6.9098v-10.65h6.9834v-3.4889zm49.212 0v3.7786l-3.4874 3.4803v10.357l17.512-0.02662v-17.59zm-74.203 0.01096-13.949 7.82e-4 -3.6565 3.6448 0.0086 13.982h6.9935l0.02819-7.0734 10.616 0.0039zm42.631 7.82e-4 -3.7019 3.6949-0.05246 13.862h13.852l3.7371-3.7301v-13.827zm-38.996 0.0047-0.03993 3.3355 3.5915-0.0055 0.0055 10.818h-3.5594v3.4584h13.988v-3.521h-3.4427v-10.652h3.4529v-3.4326zm-14.188 3.4952h3.7137v3.6322h-3.7137zm56.523 0.0031h3.5156v10.545h-3.5156zm31.732 0.01566h7.1642v3.5383h-7.1642zm-17.613 3.4835v3.5265h7.0241v-3.5265zm17.626 3.5367h7.1642v3.5383h-7.1642z" fill="#fff" stroke-width=".40088"/>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="37.18" x2="37.18" y2="89.63" gradientTransform="scale(3.78)" gradientUnits="userSpaceOnUse"><stop stop-color="#9bdb4d" offset="0"/><stop stop-color="#007367" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="24" fill="url(#a)"/><path d="m201 126.7-14.25 14.24 0.2871 52.34h52.6v-13.14h-26.12v-40.25h26.39v-13.19zm186 0v14.28l-13.18 13.15v39.14l66.19-0.1006v-66.48zm-280.5 0.0414-52.72 3e-3 -13.82 13.78 0.0325 52.84h26.43l0.1065-26.73 40.12 0.0147zm161.1 3e-3 -13.99 13.96-0.1983 52.39h52.35l14.12-14.1v-52.26zm-147.4 0.0178-0.1509 12.61 13.57-0.0208 0.0208 40.89h-13.45v13.07h52.87v-13.31h-13.01v-40.26h13.05v-12.97zm-53.62 13.21h14.04v13.73h-14.04zm213.6 0.0117h13.29v39.86h-13.29zm119.9 0.0592h27.08v13.37h-27.08zm-66.57 13.17v13.33h26.55v-13.33zm66.62 13.37h27.08v13.37h-27.08z" fill="#fff"/></svg>

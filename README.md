@@ -7,7 +7,7 @@
 Elementerial is a theme built totally from scratch for EmulationStation.
 It's based on Android TV's interface using some principles from Material Design with the adition of ElementaryOS color palette.
 
-This theme has 10 main colors:
+This theme has 14 color schemes:
 
 * Strawberry (Red)
 * Orange
@@ -19,11 +19,14 @@ This theme has 10 main colors:
 * Bubblegun (Pink)
 * Cocoa (Brown)
 * Slate (Gray)
+* SNES Scheme (based on the SNES aged carcass color. Yellowish Gray + Purple)
+* Gameboy (based on the GB carcass. Gray + Claret + Green)
+* Pikachu Edition (based on the GB Pikachu Edition. Vibrant Yellow + Blue + Red)
+* Red Fruits (just a fancy color combination. Blue + Red + Purple)
 
-And three variations:
+And 2 styles:
 * Dark
 * Light
-* Hybrid
 
 <br>
 
@@ -41,26 +44,30 @@ Elementerial was made for the following resolutions:
 
 # Screenshots
 ## Main Screen
-![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png)
-:------------------------------:|:-------------------------------:
-Strawberry + Dark    | Grape + Light
+| ![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png) |
+| :-----------------------------: | :------------------------------: |
+|        Strawberry + Dark        |     Pikachu Edition + Light      |
 
 ## Game List
-![](./.github/GamelistDark.png) | ![](./.github/GamelistLight.png)
-:------------------------------:|:-------------------------------:
-Mint + Dark          | Banana + Light
+| ![](./.github/GamelistDark.png) | ![](./.github/GamelistLight.png) |
+| :-----------------------------: | :------------------------------: |
+|   Mint + Dark + Detailed View   | SNES Sheme + Light + Boxes View  |
 
 ## Menu
-![](./.github/MenuDark.png)     | ![](./.github/MenuLight.png)
-:------------------------------:|:-------------------------------:
-Bubblegun + Dark     | Slate + Light
+| ![](./.github/MenuDark.png) | ![](./.github/MenuLight.png) |
+| :-------------------------: | :--------------------------: |
+|      Blueberry + Dark      |    Game Boy Scheme + Light    |
 
 <br>
 
 # Supported Platforms
 
-![Platforms: 89](https://img.shields.io/badge/Platforms:_89-68b723?style=for-the-badge)
+![Full Support: 92](https://img.shields.io/badge/Full_Support:_94-3a9104?style=for-the-badge)
+![Partial Supported: 17](https://img.shields.io/badge/Partial_Support:_17-0e9a83?style=for-the-badge)
+![Fully Supported: 7](https://img.shields.io/badge/Hacks:_7-0d52bf?style=for-the-badge)
+![Tools: 14](https://img.shields.io/badge/Collections_'n_Tools:_14-485a6c?style=for-the-badge)
 
+**Systems:** 
 3DO,
 Amiga,
 Amiga CD32,
@@ -149,7 +156,10 @@ Videopac,
 VirtualBoy,
 Wolfenstein,
 WonderSwan,
-WonderSwan Color.
+WonderSwan Color,
+and Others.
+
+
 
 **Collections:** 2 Players, 4 Players, Arcade, Arcade Vertical, Pistol Games, Screenshots, Custom Collections, Tools, Favorites, All Games, Never Played, Last Played, RetroAchievements, MPlayer.
 
@@ -159,8 +169,7 @@ WonderSwan Color.
 
 All [videogame and computer system logos](./assets/logos/) used are the property of their respective Developers/Producers/Distributors/Licensors.
 
-
-Some logo were reused fom [Carbon](https://github.com/RetroPie/es-theme-carbon/) and [Art Book](https://github.com/anthonycaccese/es-theme-art-book-3-2) themes.
+Some logos were taken from [Dan Patrick's set](https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions). (Thanks for the great work).
 
 Some [fonts](./assets/fonts/) are licensed under Apache 2.0 and SIL Open Font License.
 

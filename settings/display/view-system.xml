@@ -1,0 +1,173 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system">
+    <!-- Cards position -->
+    <carousel name="systemcarousel">
+      <origin>0.5 0</origin>
+      <pos>0.5 0</pos>
+      <defaultTransition>fade</defaultTransition>
+      <systemInfoDelay>300</systemInfoDelay>
+
+      <size>1.1 1</size>
+      <size ifSubset="Ratio:ratio53">1.2 1</size>
+
+      <logoSize>0.25 0.25</logoSize>      <!-- 480x320 / 120x 80y -->
+      <logoScale>1.4</logoScale>
+
+      <maxLogoCount>4</maxLogoCount>
+      <maxLogoCount ifSubset="Ratio:ratio53">5</maxLogoCount>
+
+      <logoPos>0.15 0.55</logoPos>
+      <logoPos ifSubset="Ratio:ratio53">0.2 0.55</logoPos>
+    </carousel>
+
+    <!-- System Name -->
+    <text name="systemName" extra="true">
+      <text>${system.fullName}</text>
+      <origin>0 0</origin>
+      <pos>0.08333 0.325</pos>      <!-- 480x320 / 48x 104y -->
+      <size>0.866667 ${header1F}</size>      <!-- 480x320 / 416x -->
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${header1F}</fontSize>
+      <lineSpacing>1</lineSpacing>
+      <alignment>left</alignment>
+      <zIndex>50</zIndex>
+    </text>
+
+    <!-- Total games per system -->
+    <text name="systemInfo">
+      <origin>0 0</origin>
+      <pos>0.08333 0.4</pos>
+      <size>0.866667 ${bodyF}</size>      <!-- 480x320 / 416x -->
+
+      <fontSize>${bodyF}</fontSize>
+      <alignment>left</alignment>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>${fontRegular}</fontPath>
+      <lineSpacing>1</lineSpacing>
+      <zIndex>50</zIndex>
+    </text>
+
+    <!-- System Logo -->
+    <image name="logo">
+      <path>./assets/logos/${system.theme}.svg</path>
+    </image>
+
+    <!-- Logo Fallback -->
+    <text name="logoText">
+      <origin>0 0</origin>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${bodyF}</fontSize>
+    </text>
+
+    <!-- System Background -->
+    <image name="cover_fallback" extra="true">
+      <path>./assets/background.png</path>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>25</zIndex>
+    </image>
+
+    <!-- System Background -->
+    <image name="cover" extra="true">
+      <path>./assets/systems/${system.theme}.webp</path>
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>26</zIndex>
+    </image>
+
+    <image name="osdBackground" extra="true">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+
+      <path ifSubset="Ratio:ratio32">./assets/ratio32/osd-bg.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/osd-bg.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/osd-bg.png</path>
+
+      <visible ifSubset="Status Bar:hidden">false</visible>
+      <zIndex>100</zIndex>
+    </image>
+  </view>
+
+  <view name="screen">
+    <text name="clock">
+      <origin>0 0</origin>
+      <pos>0 0.0125</pos>      <!-- 480x320 / 0x 4y-->
+      <pos ifSubset="Ratio:ratio53">0 0.01875</pos>      <!-- 480x320 / 0x 4y-->
+
+      <size>0.866667 0</size>      <!-- 480x320 / 432x-->
+      <size ifSubset="Ratio:ratio43">0.85 0</size>      <!-- 640x480 / 544x-->
+
+      <size ifSubset="Status Bar:clock">0.966667 0</size>      <!-- 480x320 / 432x-->
+
+      <fontSize>${tinyF}</fontSize>
+      <fontSize ifSubset="Ratio:ratio53">${bodyF}</fontSize>
+
+      <fontPath>${fontRegular}</fontPath>
+      <lineSpacing>1</lineSpacing>
+      <alignment>right</alignment>
+
+      <visible ifSubset="Status Bar:hidden|battery">false</visible>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.95 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y-->
+      <size>0.033333 0.05</size>      <!-- 16x 16y-->
+      <visible ifSubset="Status Bar:hidden|clock">false</visible>
+
+      <!-- Assets -->
+      <full>./assets/ratio32/battery-full.png</full>
+      <at75>./assets/ratio32/battery-75.png</at75>
+      <at50>./assets/ratio32/battery-50.png</at50>
+      <at25>./assets/ratio32/battery-25.png</at25>
+      <empty>./assets/ratio32/battery-empty.png</empty>
+      <incharge>./assets/ratio32/battery-charging.png</incharge>
+      <networkIcon>./assets/ratio32/wifi.png</networkIcon>
+    </batteryIndicator>
+
+    <batteryIndicator name="batteryIndicator" ifSubset="Ratio:ratio43">
+      <size>0.037500 0.05</size>      <!-- 24x 24y-->
+      <visible ifSubset="Status Bar:hidden|clock">false</visible>
+
+      <!-- Assets -->
+      <full>./assets/ratio43/battery-full.png</full>
+      <at75>./assets/ratio43/battery-75.png</at75>
+      <at50>./assets/ratio43/battery-50.png</at50>
+      <at25>./assets/ratio43/battery-25.png</at25>
+      <empty>./assets/ratio43/battery-empty.png</empty>
+      <incharge>./assets/ratio43/battery-charging.png</incharge>
+      <networkIcon>./assets/ratio43/wifi.png</networkIcon>
+    </batteryIndicator>
+
+    <batteryIndicator name="batteryIndicator" ifSubset="Ratio:ratio53">
+      <size>0.033333 0.055556</size>      <!-- 256x 256y-->
+      <visible ifSubset="Status Bar:hidden|clock">false</visible>
+
+      <!-- Assets -->
+      <full>./assets/ratio53/battery-full.png</full>
+      <at75>./assets/ratio53/battery-75.png</at75>
+      <at50>./assets/ratio53/battery-50.png</at50>
+      <at25>./assets/ratio53/battery-25.png</at25>
+      <empty>./assets/ratio53/battery-empty.png</empty>
+      <incharge>./assets/ratio53/battery-charging.png</incharge>
+      <networkIcon>./assets/ratio53/wifi.png</networkIcon>
+    </batteryIndicator>
+
+    <controllerActivity name="controllerActivity">
+      <origin>0 0</origin>
+      <pos>0.016666 0.025</pos>
+      <size>0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./assets/pin.svg</imagePath>
+    </controllerActivity>
+  </view>
+</theme>

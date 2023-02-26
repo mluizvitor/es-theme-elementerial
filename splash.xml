@@ -1,0 +1,31 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="splash">
+    <splash name="splash">
+      <backgroundColor>121212</backgroundColor>
+    </splash>
+
+    <image name="background">
+      <!-- Leave default for better OS/device portability -->
+    </image>
+    <image name="progressbar">
+      <color>454545</color>
+      <roundCorners>0.015</roundCorners>
+    </image>
+    <image name="progressbar:active">
+      <color>DEDEDE</color>
+    </image>
+    <text name="label">
+      <alignment>center</alignment>
+      <fontPath>./assets/fonts/Inter/Inter-Regular.otf</fontPath>
+      <fontSize>0.03125</fontSize>
+      <color>ffffff</color>
+    </text>
+  </view>
+</theme>
