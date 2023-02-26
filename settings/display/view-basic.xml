@@ -12,6 +12,15 @@
       <size>1 0.8</size>      <!-- 480x320 / 480x 256y-->
       <size ifHelpPrompts="true">1 0.725</size>      <!-- 480x320 / 480x 232y-->
       <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
+
+      <lineSpacing>1.55</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
     </textlist>
   </view>
 </theme>

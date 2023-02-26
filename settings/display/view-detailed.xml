@@ -11,6 +11,15 @@
       <size>0.466667 0.8</size>      <!-- 480x320 / 224x 256y-->
       <size ifHelpPrompts="true">0.466667 0.725</size>      <!-- 480x320 / 224x 232y-->
       <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
+
+      <lineSpacing>1.55</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
     </textlist>
 
     <image name="md_image">
@@ -30,14 +39,13 @@
 
     <rating name="md_rating">
       <origin>0 0</origin>
-      
+
       <pos>0.61 0.83125</pos>      <!-- 480x320 / 304x 272y-->
       <pos ifSubset="Ratio:ratio43">0.6075 0.83125</pos>
       <pos ifSubset="Ratio:ratio53">0.62 0.83125</pos>
-      
+
       <size>0.075</size>
       <size ifSubset="Ratio:ratio43">0.066667</size>
-      
 
       <filledPath>./assets/icons/star.svg</filledPath>
       <unfilledPath>./assets/icons/star_border.svg</unfilledPath>
