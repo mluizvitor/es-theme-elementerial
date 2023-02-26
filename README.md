@@ -1,6 +1,6 @@
 # About
 
-![Version](https://img.shields.io/badge/Version_1.221116-de3e80?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version_1.230226-de3e80?style=for-the-badge)
 
 **For instructions regard Custom Backgrounds, please read [CUSTOMBG.md](/CUSTOMBG.md)**
 
