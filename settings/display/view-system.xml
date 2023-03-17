@@ -100,17 +100,20 @@
 
   <view name="screen">
     <text name="clock">
-      <origin>0 0</origin>
-      <pos>0 0.0125</pos>      <!-- 480x320 / 0x 4y-->
-      <pos ifSubset="Ratio:ratio53">0 0.01875</pos>      <!-- 480x320 / 0x 4y-->
+      <origin>0 0.5</origin>
+      <pos>0 0.031250</pos>      <!-- 480x320 / 0x 12y-->
+      <pos ifSubset="Ratio:ratio43">0 0.0375</pos>      <!-- 480x320 / 0x 16y-->
+      <pos ifSubset="Ratio:ratio53">0 0.041666667</pos>      <!-- 480x320 / 0x 4y-->
 
-      <size>0.866667 0</size>      <!-- 480x320 / 432x-->
-      <size ifSubset="Ratio:ratio43">0.85 0</size>      <!-- 640x480 / 544x-->
+      <size>0.84 0</size>      <!-- 480x320 / 424x-->
+      <size ifSubset="Ratio:ratio43">0.83 0</size>      <!-- 640x480 / 544x-->
+      <size ifSubset="Ratio:ratio53">0.84 0</size>      <!-- 640x480 / 544x-->
 
       <size ifSubset="Status Bar:clock">0.966667 0</size>      <!-- 480x320 / 432x-->
 
       <fontSize>${tinyF}</fontSize>
       <fontSize ifSubset="Ratio:ratio53">${bodyF}</fontSize>
+      <!-- <backgroundColor>ff0000</backgroundColor> -->
 
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
@@ -120,46 +123,47 @@
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <pos>0.95 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y-->
-      <size>0.033333 0.05</size>      <!-- 16x 16y-->
+      <pos>0.93 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y-->
+      <size>0.05</size>      <!-- 16x 16y-->
       <visible ifSubset="Status Bar:hidden|clock">false</visible>
+      <itemSpacing>0.008333333</itemSpacing>
 
       <!-- Assets -->
-      <full>./assets/ratio32/battery-full.png</full>
-      <at75>./assets/ratio32/battery-75.png</at75>
-      <at50>./assets/ratio32/battery-50.png</at50>
-      <at25>./assets/ratio32/battery-25.png</at25>
-      <empty>./assets/ratio32/battery-empty.png</empty>
-      <incharge>./assets/ratio32/battery-charging.png</incharge>
-      <networkIcon>./assets/ratio32/wifi.png</networkIcon>
+      <full>./assets/icons/screen/16x16/battery=full.svg</full>
+      <at75>./assets/icons/screen/16x16/battery=75.svg</at75>
+      <at50>./assets/icons/screen/16x16/battery=50.svg</at50>
+      <at25>./assets/icons/screen/16x16/battery=25.svg</at25>
+      <empty>./assets/icons/screen/16x16/battery=empty.svg</empty>
+      <incharge>./assets/icons/screen/16x16/battery=charging.svg</incharge>
+      <networkIcon>./assets/icons/screen/16x16/wifi=on.svg</networkIcon>
     </batteryIndicator>
 
     <batteryIndicator name="batteryIndicator" ifSubset="Ratio:ratio43">
-      <size>0.037500 0.05</size>      <!-- 24x 24y-->
+      <size>0.05</size>      <!-- 24x 24y-->
       <visible ifSubset="Status Bar:hidden|clock">false</visible>
 
       <!-- Assets -->
-      <full>./assets/ratio43/battery-full.png</full>
-      <at75>./assets/ratio43/battery-75.png</at75>
-      <at50>./assets/ratio43/battery-50.png</at50>
-      <at25>./assets/ratio43/battery-25.png</at25>
-      <empty>./assets/ratio43/battery-empty.png</empty>
-      <incharge>./assets/ratio43/battery-charging.png</incharge>
-      <networkIcon>./assets/ratio43/wifi.png</networkIcon>
+      <full>./assets/icons/screen/24x24/battery=full.svg</full>
+      <at75>./assets/icons/screen/24x24/battery=75.svg</at75>
+      <at50>./assets/icons/screen/24x24/battery=50.svg</at50>
+      <at25>./assets/icons/screen/24x24/battery=25.svg</at25>
+      <empty>./assets/icons/screen/24x24/battery=empty.svg</empty>
+      <incharge>./assets/icons/screen/24x24/battery=charging.svg</incharge>
+      <networkIcon>./assets/icons/screen/24x24/wifi=on.svg</networkIcon>
     </batteryIndicator>
 
     <batteryIndicator name="batteryIndicator" ifSubset="Ratio:ratio53">
-      <size>0.033333 0.055556</size>      <!-- 256x 256y-->
+      <size>0.0625</size>      <!-- 72x 72y-->
       <visible ifSubset="Status Bar:hidden|clock">false</visible>
 
       <!-- Assets -->
-      <full>./assets/ratio53/battery-full.png</full>
-      <at75>./assets/ratio53/battery-75.png</at75>
-      <at50>./assets/ratio53/battery-50.png</at50>
-      <at25>./assets/ratio53/battery-25.png</at25>
-      <empty>./assets/ratio53/battery-empty.png</empty>
-      <incharge>./assets/ratio53/battery-charging.png</incharge>
-      <networkIcon>./assets/ratio53/wifi.png</networkIcon>
+      <full>./assets/icons/screen/72x72/battery=full.svg</full>
+      <at75>./assets/icons/screen/72x72/battery=75.svg</at75>
+      <at50>./assets/icons/screen/72x72/battery=50.svg</at50>
+      <at25>./assets/icons/screen/72x72/battery=25.svg</at25>
+      <empty>./assets/icons/screen/72x72/battery=empty.svg</empty>
+      <incharge>./assets/icons/screen/72x72/battery=charging.svg</incharge>
+      <networkIcon>./assets/icons/screen/72x72/wifi=on.svg</networkIcon>
     </batteryIndicator>
 
     <controllerActivity name="controllerActivity">
