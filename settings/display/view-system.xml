@@ -24,14 +24,37 @@
       <maxLogoCount ifSubset="Ratio:ratio53">5</maxLogoCount>
 
       <logoPos>0.15 0.55</logoPos>
+      <logoPos ifSubset="Ratio:ratio43">0.15 0.6</logoPos>
       <logoPos ifSubset="Ratio:ratio53">0.2 0.55</logoPos>
     </carousel>
+
+    <video name="carouselVideo" extra="true" ifSubset="PlayVideo:true">
+      <path>{random}</path>
+      <pos>0 0</pos>
+      <origin>0 0.25</origin>
+      <origin ifSubset="Ratio:ratio43">0 0.20</origin>
+      <maxSize>1 999</maxSize>
+      <minSize>1 0</minSize>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <zIndex>30</zIndex>
+    </video>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/custom-bg-fg.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/custom-bg-fg.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/custom-bg-fg.png</path>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>31</zIndex>
+    </image>
 
     <!-- System Name -->
     <text name="systemName" extra="true">
       <text>${system.fullName}</text>
       <origin>0 0</origin>
       <pos>0.08333 0.325</pos>      <!-- 480x320 / 48x 104y -->
+      <pos ifSubset="Ratio:ratio43">0.08333 0.375</pos>      <!-- 480x320 / 48x 104y -->
       <size>0.866667 ${header1F}</size>      <!-- 480x320 / 416x -->
       <fontPath>${fontBold}</fontPath>
       <fontSize>${header1F}</fontSize>
@@ -43,7 +66,8 @@
     <!-- Total games per system -->
     <text name="systemInfo">
       <origin>0 0</origin>
-      <pos>0.08333 0.4</pos>
+      <pos>0.08333 0.41</pos>
+      <pos ifSubset="Ratio:ratio43">0.08333 0.46</pos>
       <size>0.866667 ${bodyF}</size>      <!-- 480x320 / 416x -->
 
       <fontSize>${bodyF}</fontSize>

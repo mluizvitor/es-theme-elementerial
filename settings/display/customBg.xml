@@ -71,16 +71,6 @@
       <path>./assets/custom/customfg.3.webp</path>
       <zIndex>59</zIndex>
     </image>
-
-    <image name="custom_bg_fg" extra="true">
-      <path ifSubset="Ratio:ratio32">./assets/ratio32/custom-bg-fg.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/custom-bg-fg.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/custom-bg-fg.png</path>
-      <size>1 1</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
-      <zIndex>31</zIndex>
-    </image>
   </view>
 
 </theme>

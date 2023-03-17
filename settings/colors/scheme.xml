@@ -12,7 +12,7 @@
   </variables>
 
   <!--Configurações de ajuda-->
-  <view name="system, basic, detailed, grid">
+  <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
       <textColor>${fgColor}</textColor>
       <iconColor>${sectColor}</iconColor>
@@ -20,7 +20,7 @@
   </view>
 
   <!--Configurações de cores nas listas de jogos-->
-  <view name="basic, detailed, grid">
+  <view name="basic, detailed, grid, video">
     <text name="logoText, md_name">
       <color>${fgColor}${percent.90}</color>
       <glowColor>${bgColor}${percent.10}</glowColor>
@@ -46,6 +46,10 @@
       <color>${sectColor}</color>
       <unfilledColor>${sectColor}</unfilledColor>
     </rating>
+
+    <image name="custom_bg_fg" extra="true">
+      <color>${bgColor}</color>
+    </image>
   </view>
 
   <view name="menu">

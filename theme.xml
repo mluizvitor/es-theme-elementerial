@@ -46,6 +46,11 @@
     <include name="redFruits" displayName="Red Fruits">./settings/colors/extra-red-fruits.xml</include>
   </subset>
 
+  <subset name="PlayVideo" displayName="Video on carousel">
+    <include name="true" displayName="Enabled"/>
+    <include name="false" displayName="Disabled"/>
+  </subset>
+
   <subset name="Background Style" displayName="Background style">
     <include name="default" displayName="Default"/>
     <include name="custom" displayName="Custom">./settings/display/customBg.xml</include>
@@ -85,6 +90,7 @@
   <include>./settings/display/view-detailed.xml</include>
   <include>./settings/display/view-grid.xml</include>
   <include>./settings/display/view-boxes.xml</include>
+  <include>./settings/display/view-video.xml</include>
   <include>./settings/display/view-menu.xml</include>
 
 </theme>

@@ -14,7 +14,7 @@
   </variables>
 
   <!--Configurações de ajuda-->
-  <view name="system, basic, detailed, grid">
+  <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
       <fontSize>${bodyF}</fontSize>
@@ -35,7 +35,7 @@
   </view>
 
   <!--Configurações comuns de views-->
-  <view name="basic, detailed, grid">
+  <view name="basic, detailed, grid, video">
     <text name="logoText">
       <fontPath>${fontBold}</fontPath>
       <fontSize>${header2F}</fontSize>
@@ -75,11 +75,138 @@
     </image>
   </view>
 
-  <view name="basic, detailed">
+  <view name="basic, detailed, video">
     <text name="logoText">
       <pos>0.033333 0.1</pos>      <!--480x320 / 16x 32y-->
       <size>0.933333 ${header2F}</size>      <!-- 480x320 / 448x -->
       <origin>0 0.5</origin>
     </text>
+
+    <textlist name="gamelist">
+      <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y -->
+      <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
+
+      <lineSpacing>1.55</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
+    </textlist>
   </view>
+
+  <view name="basic">
+    <textlist name="gamelist">
+      <size>1 0.8</size>      <!-- 480x320 / 480x 256y-->
+      <size ifHelpPrompts="true">1 0.725</size>      <!-- 480x320 / 480x 232y-->
+    </textlist>
+  </view>
+
+  <view name="detailed">
+    <textlist name="gamelist">
+      <size>0.466667 0.8</size>      <!-- 480x320 / 224x 256y-->
+      <size ifHelpPrompts="true">0.466667 0.725</size>      <!-- 480x320 / 224x 232y-->
+    </textlist>
+
+    <image name="md_image">
+      <pos>0.733333 0.525</pos>      <!-- 480x320 / (240 + maxWidth / 2 = 352)x (80 + maxHeight / 2 = 168)y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.466667 0.55</maxSize>      <!-- 480x320 / 224x 176y -->
+      <zIndex>32</zIndex>
+      <roundCorners>0.02</roundCorners>
+    </image>
+
+    <image name="md_marquee">
+      <pos>0.733333 0.25</pos>      <!-- 480x320 / 352x 80y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.4 0.175</maxSize>      <!-- 480x320 / 192x 56y -->
+      <zIndex>33</zIndex>
+    </image>
+
+    <rating name="md_rating">
+      <origin>0 0</origin>
+
+      <pos>0.61 0.83125</pos>      <!-- 480x320 / 304x 272y-->
+      <pos ifSubset="Ratio:ratio43">0.6075 0.83125</pos>
+      <pos ifSubset="Ratio:ratio53">0.62 0.83125</pos>
+
+      <size>0.075</size>
+      <size ifSubset="Ratio:ratio43">0.066667</size>
+
+      <filledPath>./assets/icons/star.svg</filledPath>
+      <unfilledPath>./assets/icons/star_border.svg</unfilledPath>
+    </rating>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+  </view>
+
+
+  <view name="video">
+    <!-- <image name="md_image">
+      <pos>0 -0.15</pos>
+      <origin>0 0</origin>
+      <minSize>1 0</minSize>
+      <maxSize>1 999</maxSize>
+      <zIndex>0</zIndex>
+    </image> -->
+
+    <image name="md_marquee">
+      <pos>0.2 0.1875</pos>      <!-- 480x320 / (240 + maxWidth / 2 = 352)x (80 + maxHeight / 2 = 168)y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.333333333 0.325</maxSize>      <!-- 480x320 / 224x 176y -->
+      <zIndex>32</zIndex>
+    </image>
+
+    <video name="md_video">
+      <pos>0.4 0.25</pos>
+      <origin>0 0.5</origin>
+      <minSize>0.6 0.5</minSize>
+      <zIndex>1</zIndex>
+      <delay>1</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+    </video>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/gamelist-video.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-video.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-video.png</path>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>2</zIndex>
+    </image>
+
+    <textlist name="gamelist">
+      <pos>0 0.45</pos>
+      <size>1 0.55</size>      <!-- 480x320 / 480x 176y-->
+      <size ifHelpPrompts="true">1 0.475</size>      <!-- 480x320 / 480x 152y-->
+    </textlist>
+
+    <text name="logoText">
+      <origin>0 0.5</origin>
+      <pos>0.033333333 0.4</pos>
+    </text>
+  </view>
+
 </theme>
