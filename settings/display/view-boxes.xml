@@ -36,15 +36,15 @@
     </gridtile>
 
     <image name="gridtile.image">
-      <roundCorners ifSubset="Ratio:ratio32">0.03</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio43">0.04</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio53">0.04</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio32">0.025</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio43">0.025</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio53">0.015</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
-      <roundCorners ifSubset="Ratio:ratio32">0.02</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio43">0.03</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio53">0.03</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio32">0.025</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio43">0.01</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio53">0.01</roundCorners>
     </image>
 
     <image name="gridtile.marquee">

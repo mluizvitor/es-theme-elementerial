@@ -91,6 +91,7 @@
   <include>./settings/display/view-grid.xml</include>
   <include>./settings/display/view-boxes.xml</include>
   <include>./settings/display/view-video.xml</include>
+  <include>./settings/display/view-elementflix.xml</include>
   <include>./settings/display/view-menu.xml</include>
 
 </theme>

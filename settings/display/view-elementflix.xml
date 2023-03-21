@@ -1,0 +1,143 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <subset name="BoxArtStyle" displayName="Box art style" appliesTo="elementflix">
+    <include name="cover" displayName="Cover"/>
+    <include name="fit" displayName="Fit"/>
+    <include name="stretch" displayName="Stretch (not recommended)"/>
+  </subset>
+
+  <customView name="elementflix" inherits="grid">
+    <imagegrid name="gamegrid">
+      <pos>0 0.475</pos> <!-- 0x 152y-->
+      <size>1 0.5</size>      <!--480x320 / 480x 160y-->
+      <size ifHelpPrompts="true">1 0.475</size>      <!--480x320 / 480x 152y-->
+
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>3.5 1</autoLayout>
+      <autoLayout ifSubset="Ratio:ratio53">5 1</autoLayout>
+
+      <imageSource>thumb</imageSource>
+      <animateSelection>false</animateSelection>
+
+      <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
+
+      <margin>0.016666667 0.025</margin>      <!-- 480x320 / 8x 8y -->
+      <padding>0.058333333 0.0375</padding>      <!-- 480x320 / 28x 12y -->
+    </imagegrid>
+
+    <ninepatch name="gridtile.background">
+      <path ifSubset="Ratio:ratio32"></path>
+      <path ifSubset="Ratio:ratio43"></path>
+      <path ifSubset="Ratio:ratio53"></path>
+      <path>./assets/grid-selector.png</path>
+      <cornerSize>6 6</cornerSize>
+    </ninepatch>
+
+    <gridtile name="default">
+      <imageColor>FFFFFFFF</imageColor>
+      <padding>2 2</padding>
+      <padding ifSubset="Ratio:ratio32">2 2</padding>
+      <padding ifSubset="Ratio:ratio43">3 3</padding>
+      <padding ifSubset="Ratio:ratio53">4 4</padding>
+    </gridtile>
+
+    <gridtile name="selected">
+      <backgroundColor>FFFFFFFF</backgroundColor>
+    </gridtile>
+
+    <gridtile name="default, selected">
+      <selectionMode>image</selectionMode>
+      <imageSizeMode ifSubset="BoxArtStyle:cover">minSize</imageSizeMode>
+      <imageSizeMode ifSubset="BoxArtStyle:fit">maxSize</imageSizeMode>
+      <imageSizeMode ifSubset="BoxArtStyle:stretch">size</imageSizeMode>
+    </gridtile>
+
+    <image name="md_marquee">
+      <pos>0.233333333 0.125</pos>      <!-- 480x320 / 112x 40y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.4 0.225</maxSize>      <!-- 480x320 / 224x 176y -->
+      <zIndex>32</zIndex>
+    </image>
+
+    <video name="md_video">
+      <origin>0 0.5</origin>
+      <pos>0.4 0.2875</pos> <!-- 192x 92y -->
+      <minSize>0.6 0.575</minSize> <!-- 288x 184y -->
+      <zIndex>1</zIndex>
+      <delay>1</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <snapshotSource>image</snapshotSource>
+    </video>
+
+    <text name="md_description">
+      <pos>0.033333333 0.25</pos>
+      <size>0.433333333 0.15</size>      <!-- 208x -->
+
+      <color>${fgColor}</color>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${tinyF}</fontSize>
+      <lineSpacing>1.1</lineSpacing>
+    </text>
+
+    <gridtile name="selected">
+      <backgroundCornerSize>0</backgroundCornerSize>
+    </gridtile>
+
+    <image name="gridtile.image">
+      <roundCorners>0</roundCorners>
+    </image>
+
+    <image name="gridtile.image:selected">
+      <roundCorners>0</roundCorners>
+    </image>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_name">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/gamelist-video.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-video.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-video.png</path>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>2</zIndex>
+    </image>
+
+    <text name="gridtile">
+      <size>1 0.2</size>
+      <pos>0 0.75</pos>
+      <fontSize>${tinyF}</fontSize>
+      <fontPath>${fontRegular}</fontPath>
+      <alignment>center</alignment>
+      <lineSpacing>1.2</lineSpacing>
+    </text>
+
+    <image name="gridtile.marquee">
+      <color>00000000</color>
+    </image>
+
+    <text name="logoText">
+      <origin>0 0.5</origin>
+      <pos>0.033333333 0.45</pos>
+      <fontSize>${header3F}</fontSize>
+    </text>
+  </customView>
+
+</theme>

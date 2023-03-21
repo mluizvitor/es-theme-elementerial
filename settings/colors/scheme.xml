@@ -119,6 +119,18 @@
       <color>FFFFFF</color>
       <backgroundColor>000000${percent.80}</backgroundColor>
     </text>
+    <text name="gridtile:selected">
+      <color>FFFFFF</color>
+    </text>
+  </customView>
+
+  <customView name="elementflix" inherits="grid">
+    <text name="gridtile">
+      <color>${fgColor}${percent.80}</color>
+    </text>
+    <text name="gridtile:selected">
+      <color>${fgColor}</color>
+    </text>
   </customView>
 
   <!-- Carousel Config -->
@@ -156,8 +168,9 @@
       <glowColor>${mainColor}${percent.10}</glowColor>
       <glowSize>1</glowSize>
     </text>
+  </view>
 
-    <!-- System Background -->
+  <view name="system, basic, detailed, grid">
     <image name="osdBackground" extra="true">
       <color>${bgColor}</color>
     </image>

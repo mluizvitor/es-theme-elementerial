@@ -30,11 +30,9 @@
 
     <video name="carouselVideo" extra="true" ifSubset="PlayVideo:true">
       <path>{random}</path>
-      <pos>0 0</pos>
-      <origin>0 0.25</origin>
-      <origin ifSubset="Ratio:ratio43">0 0.20</origin>
-      <maxSize>1 999</maxSize>
-      <minSize>1 0</minSize>
+      <pos>0 0.25</pos>
+      <origin>0 0.5</origin>
+      <minSize>1 0.5</minSize>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <zIndex>30</zIndex>
     </video>
@@ -107,7 +105,9 @@
       <pos>0 0</pos>
       <zIndex>26</zIndex>
     </image>
+  </view>
 
+  <view name="system, basic, detailed, grid">
     <image name="osdBackground" extra="true">
       <pos>0 0</pos>
       <origin>0 0</origin>
@@ -125,7 +125,7 @@
   <view name="screen">
     <text name="clock">
       <origin>0 0.5</origin>
-      <pos>0 0.031250</pos>      <!-- 480x320 / 0x 12y-->
+      <pos>0 0.0375</pos>      <!-- 480x320 / 0x 12y-->
       <pos ifSubset="Ratio:ratio43">0 0.0375</pos>      <!-- 480x320 / 0x 16y-->
       <pos ifSubset="Ratio:ratio53">0 0.041666667</pos>      <!-- 480x320 / 0x 4y-->
 

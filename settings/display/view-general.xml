@@ -9,8 +9,9 @@
   <variables>
     <header1F>0.0625</header1F>
     <header2F>0.05</header2F>
+    <header3F>0.040625</header3F>
     <bodyF>0.034375</bodyF>
-    <tinyF>0.031250</tinyF>
+    <tinyF>0.028125</tinyF>
   </variables>
 
   <!--Configurações de ajuda-->
@@ -166,9 +167,9 @@
     </image>
 
     <video name="md_video">
-      <pos>0.4 0.25</pos>
       <origin>0 0.5</origin>
-      <minSize>0.6 0.5</minSize>
+      <pos>0.4 0.2875</pos> <!-- 192x 92y -->
+      <minSize>0.6 0.575</minSize> <!-- 288x 184y -->
       <zIndex>1</zIndex>
       <delay>1</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
