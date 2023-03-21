@@ -83,6 +83,13 @@
     <include name="gridlogo" displayName="Logo"/>
   </subset>
 
+  <subset name="VideoSnapshot" displayName="Video Snapshot" appliesTo="video, elementflix">
+    <include name="videoDefault" displayName="Adaptable"/>
+    <include name="videoThumbnail" displayName="Thumbnail"/>
+    <include name="videoScreenshot" displayName="Screenshot"/>
+    <include name="videoMarquee" displayName="Marquee"/>
+  </subset>
+
   <include>./settings/colors/scheme.xml</include>
   <include>./settings/display/view-general.xml</include>
   <include>./settings/display/view-system.xml</include>

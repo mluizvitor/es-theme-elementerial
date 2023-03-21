@@ -151,14 +151,6 @@
 
 
   <view name="video">
-    <!-- <image name="md_image">
-      <pos>0 -0.15</pos>
-      <origin>0 0</origin>
-      <minSize>1 0</minSize>
-      <maxSize>1 999</maxSize>
-      <zIndex>0</zIndex>
-    </image> -->
-
     <image name="md_marquee">
       <pos>0.2 0.1875</pos>      <!-- 480x320 / (240 + maxWidth / 2 = 352)x (80 + maxHeight / 2 = 168)y -->
       <origin>0.5 0.5</origin>
@@ -174,6 +166,11 @@
       <delay>1</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
+      <effect>none</effect>
+
+      <snapshotSource ifSubset="VideoSnapshot:videoThumbnail|videoDefault">thumbnail</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot">image</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource>
     </video>
 
     <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">

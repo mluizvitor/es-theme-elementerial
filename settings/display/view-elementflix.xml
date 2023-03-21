@@ -73,7 +73,11 @@
       <delay>1</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
-      <snapshotSource>image</snapshotSource>
+      <effect>none</effect>
+
+      <snapshotSource ifSubset="VideoSnapshot:videoThumbnail">thumbnail</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot|videoDefault">image</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource>
     </video>
 
     <text name="md_description">

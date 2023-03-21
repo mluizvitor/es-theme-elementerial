@@ -35,6 +35,11 @@
       <minSize>1 0.5</minSize>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <zIndex>30</zIndex>
+      <delay>1</delay>
+
+      <storyboard>
+        <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut"/>
+      </storyboard>
     </video>
 
     <image name="custom_bg_fg" extra="true">
