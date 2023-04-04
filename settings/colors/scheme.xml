@@ -172,18 +172,18 @@
 
   <view name="system, basic, detailed, grid">
     <image name="osdBackground" extra="true">
-      <color>${bgColor}</color>
+      <color>000000</color>
     </image>
   </view>
 
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <color>${fgColor}</color>
+      <color>FFFFFF</color>
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <color>${fgColor}</color>
+      <color>FFFFFF</color>
     </batteryIndicator>
 
     <controllerActivity name="controllerActivity">

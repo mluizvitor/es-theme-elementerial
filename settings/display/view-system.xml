@@ -34,7 +34,7 @@
       <origin>0 0.5</origin>
       <minSize>1 0.5</minSize>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <zIndex>30</zIndex>
+      <zIndex>27</zIndex>
       <delay>1</delay>
 
       <storyboard>
