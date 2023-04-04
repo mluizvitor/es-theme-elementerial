@@ -1,11 +1,29 @@
 # About
 
-![Version](https://img.shields.io/badge/Version_1.230226-de3e80?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version_1.230403-de3e80?style=for-the-badge)
 
 **For instructions regard Custom Backgrounds, please read [CUSTOMBG.md](/CUSTOMBG.md)**
 
 Elementerial is a theme built totally from scratch for EmulationStation.
 It's based on Android TV's interface using some principles from Material Design with the adition of ElementaryOS color palette.
+
+<br>
+
+:warning: **Elementerial now plays videos when browsing systems or games, however Elementerial does not come with any videos. You need to use https://www.screenscraper.fr/ or alikes to get the videos and then Elementerial will be able to play them.**
+
+<br>
+
+# Last changes
+```
+- Added support for video playback on initial/carousel screen
+- Added Video view for game list.
+- Added Elementflix view (custom view based on Netflix for TVs) that can play videos
+- Updated battery and wifi icons to reflect those designed and used by Elementary OS.
+```
+
+<br>
+
+# Features
 
 This theme has 14 color schemes:
 
@@ -42,7 +60,13 @@ Elementerial was made for the following resolutions:
 
 <br>
 
-# Screenshots
+# Screenshots and Videos
+## Video View
+https://user-images.githubusercontent.com/57257682/229651591-5ea370f6-df3a-437e-b422-6f531fd50e45.mp4
+
+## Elementflix View
+https://user-images.githubusercontent.com/57257682/229651681-24c01dc0-fa6b-4f80-b13e-3e5d797f486e.mp4
+
 ## Main Screen
 | ![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png) |
 | :-----------------------------: | :------------------------------: |
