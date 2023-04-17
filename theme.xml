@@ -37,13 +37,13 @@
     <include name="mint" displayName="mint">./settings/colors/mint.xml</include>
     <include name="blueberry" displayName="blueberry">./settings/colors/blueberry.xml</include>
     <include name="grape" displayName="grape">./settings/colors/grape.xml</include>
-    <include name="bubblegum" displayName="bubblegun">./settings/colors/bubblegum.xml</include>
+    <include name="bubblegum" displayName="bubblegum">./settings/colors/bubblegum.xml</include>
     <include name="cocoa" displayName="cocoa">./settings/colors/cocoa.xml</include>
     <include name="slate" displayName="slate">./settings/colors/slate.xml</include>
     <include name="snes" displayName="Snes Scheme">./settings/colors/extra-snes.xml</include>
     <include name="gb" displayName="Game Boy Scheme">./settings/colors/extra-gameboy.xml</include>
     <include name="pikachu" displayName="Pikachu Edition">./settings/colors/extra-pikachu-edition.xml</include>
-    <include name="redFruits" displayName="Red Berries">./settings/colors/extra-red-berries.xml</include>
+    <include name="redBerries" displayName="Red Berries">./settings/colors/extra-red-berries.xml</include>
   </subset>
 
   <subset name="PlayVideo" displayName="Video on carousel">
