@@ -26,6 +26,8 @@
       <logoPos>0.15 0.55</logoPos>
       <logoPos ifSubset="Ratio:ratio43">0.15 0.6</logoPos>
       <logoPos ifSubset="Ratio:ratio53">0.2 0.55</logoPos>
+
+      <zIndex>10</zIndex>
     </carousel>
 
     <video name="carouselVideo" extra="true" ifSubset="PlayVideo:true">
@@ -34,7 +36,7 @@
       <origin>0 0.5</origin>
       <minSize>1 0.5</minSize>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <zIndex>27</zIndex>
+      <zIndex>-8</zIndex>
       <delay>1</delay>
 
       <storyboard>
@@ -49,7 +51,7 @@
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>31</zIndex>
+      <zIndex>-7</zIndex>
     </image>
 
     <!-- System Name -->
@@ -63,7 +65,7 @@
       <fontSize>${header1F}</fontSize>
       <lineSpacing>1</lineSpacing>
       <alignment>left</alignment>
-      <zIndex>50</zIndex>
+      <zIndex>15</zIndex>
     </text>
 
     <!-- Total games per system -->
@@ -78,7 +80,7 @@
       <forceUppercase>0</forceUppercase>
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
-      <zIndex>50</zIndex>
+      <zIndex>15</zIndex>
     </text>
 
     <!-- System Logo -->
@@ -99,16 +101,26 @@
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>25</zIndex>
+      <tile>true</tile>
+      <zIndex>-10</zIndex>
     </image>
-
+    
     <!-- System Background -->
     <image name="cover" extra="true">
+      <path>{random:image}</path>
       <path>./assets/systems/${system.theme}.webp</path>
       <size>1 0</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>26</zIndex>
+      <zIndex>-9</zIndex>
+    </image>
+
+    <image name="cover_2" extra="true" ifSubset="Background Style:random">
+      <path>{random:image}</path>
+      <size>1 0</size>
+      <origin>0 0</origin>
+      <pos>0 -0.25</pos>
+      <zIndex>-9</zIndex>
     </image>
   </view>
 

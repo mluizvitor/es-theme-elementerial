@@ -62,14 +62,13 @@
       <pos>0.233333333 0.125</pos>      <!-- 480x320 / 112x 40y -->
       <origin>0.5 0.5</origin>
       <maxSize>0.4 0.225</maxSize>      <!-- 480x320 / 224x 176y -->
-      <zIndex>32</zIndex>
     </image>
 
     <video name="md_video">
       <origin>0 0.5</origin>
       <pos>0.4 0.2875</pos> <!-- 192x 92y -->
       <minSize>0.6 0.575</minSize> <!-- 288x 184y -->
-      <zIndex>1</zIndex>
+      <zIndex>0</zIndex>
       <delay>1</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
@@ -121,7 +120,7 @@
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>2</zIndex>
+      <zIndex>4</zIndex>
     </image>
 
     <text name="gridtile">

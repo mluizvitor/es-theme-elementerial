@@ -24,12 +24,14 @@
       <margin>0.033333 0.025</margin>      <!-- 480x320 / 16x 8y -->
       <margin ifSubset="Ratio:ratio53">0.025 0.025</margin>      <!-- 480x320 / 12x 8y -->
       <padding>0.066666667 0.025</padding>      <!-- 480x320 / 32x 8y -->
+      <zIndex>5</zIndex>
     </imagegrid>
 
     <text name="logoText">
       <pos>0.033333 0.078125</pos>      <!--480x320 / 16x 25y-->
       <origin>0 0.5</origin>
       <size>0.675 ${header2F}</size>
+      <zIndex>5</zIndex>
     </text>
 
     <text name="md_name">
@@ -39,7 +41,7 @@
       <origin>0 0.5</origin>      <!--vertical center-->
       <size>0.9 ${bodyF}</size>
       <alignment>left</alignment>
-      <zIndex>41</zIndex>
+      <zIndex>5</zIndex>
     </text>
 
     <gridtile name="default, selected">
@@ -107,8 +109,7 @@
     </text>
 
     <rating name="md_rating">
-      <pos>1 1</pos>
-      <color>00000000</color>
+      <visible>false</visible>
     </rating>
   </view>
 </theme>

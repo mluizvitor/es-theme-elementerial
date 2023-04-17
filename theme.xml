@@ -53,6 +53,7 @@
 
   <subset name="Background Style" displayName="Background style">
     <include name="default" displayName="Default"/>
+    <include name="random" displayName="Random"/>
     <include name="custom" displayName="Custom">./settings/display/customBg.xml</include>
   </subset>
 
