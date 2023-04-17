@@ -8,7 +8,7 @@
   - [Main Screen](#main-screen)
   - [Game List](#game-list)
   - [Menu](#menu)
-- [About Auto Colection Logos](#about-auto-colection-logos)
+- [About Auto Collection Logos](#about-auto-collection-logos)
   - [What are collections?](#what-are-collections)
   - [Currently supported franchises](#currently-supported-franchises)
 - [Supported Platforms](#supported-platforms)
@@ -27,14 +27,14 @@ It's based on Android TV's interface using some principles from Material Design 
 
 <br>
 
-:warning: **Elementerial now plays videos when browsing systems or games, however Elementerial does not come with any videos. You need to use https://www.screenscraper.fr/ or alikes to get the videos and then Elementerial will be able to play them.**
+:warning: **Elementerial now plays videos when browsing systems or games, however Elementerial does not come with any videos. You need to use https://www.screenscraper.fr/ or alike to get the videos and then Elementerial will be able to play them.**
 
 <br>
 
 # Last changes
 ```
 - Added Capcom PlaySystem 1, 2 & 3 logos
-- Added auto collection logos (#about-auto-colection-logos)
+- Added auto collection logos
 - Added option to use random game screenshots as system background
 - Updated Vertical Arcade logo
 - Updated carousel background to use random images when there is no background provided by theme
@@ -54,7 +54,7 @@ This theme has 14 color schemes:
 * Mint (Turquoise)
 * Blueberry (Blue)
 * Grape (Purple)
-* Bubblegun (Pink)
+* Bubblegum (Pink)
 * Cocoa (Brown)
 * Slate (Gray)
 * SNES Scheme (based on the SNES aged carcass color. Yellowish Gray + Purple)
@@ -104,7 +104,7 @@ https://user-images.githubusercontent.com/57257682/229651681-24c01dc0-fa6b-4f80-
 
 <br>
 
-# About Auto Colection Logos
+# About Auto Collection Logos
 
 Elementerial now show logo for some auto/custom collections.
 
