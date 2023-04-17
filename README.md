@@ -1,6 +1,24 @@
+- [About](#about)
+- [Last changes](#last-changes)
+- [Features](#features)
+- [Compatibility](#compatibility)
+- [Screenshots and Videos](#screenshots-and-videos)
+  - [Video View](#video-view)
+  - [Elementflix View](#elementflix-view)
+  - [Main Screen](#main-screen)
+  - [Game List](#game-list)
+  - [Menu](#menu)
+- [About Auto Colection Logos](#about-auto-colection-logos)
+  - [What are collections?](#what-are-collections)
+  - [Currently supported franchises](#currently-supported-franchises)
+- [Supported Platforms](#supported-platforms)
+- [License](#license)
+- [Made With](#made-with)
+
+
 # About
 
-![Version](https://img.shields.io/badge/Version_1.230403-de3e80?style=for-the-badge)
+![Version 1.230417](https://img.shields.io/badge/Version_1.230417-de3e80?style=for-the-badge)
 
 **For instructions regard Custom Backgrounds, please read [CUSTOMBG.md](/CUSTOMBG.md)**
 
@@ -15,10 +33,12 @@ It's based on Android TV's interface using some principles from Material Design 
 
 # Last changes
 ```
-- Added support for video playback on initial/carousel screen
-- Added Video view for game list.
-- Added Elementflix view (custom view based on Netflix for TVs) that can play videos
-- Updated battery and wifi icons to reflect those designed and used by Elementary OS.
+- Added Capcom PlaySystem 1, 2 & 3 logos
+- Added auto collection logos (#about-auto-colection-logos)
+- Added option to use random game screenshots as system background
+- Updated Vertical Arcade logo
+- Updated carousel background to use random images when there is no background provided by theme
+- Updated whole layer indexes (no visual changes)
 ```
 
 <br>
@@ -84,12 +104,45 @@ https://user-images.githubusercontent.com/57257682/229651681-24c01dc0-fa6b-4f80-
 
 <br>
 
+# About Auto Colection Logos
+
+Elementerial now show logo for some auto/custom collections.
+
+## What are collections?
+Collections are a way to arrange your games.
+You can create editable or dynamic collections.
+Editable collections are those you manually add games,
+while Dynamic collections are those you can set filters or search texts. 
+
+To create a new collection on EmulationStarion and enable them to be displayed on main screen/carousel:
+
+On EmulationStation → Start → Game Collection Settings
+1. Group unthemed custom collections (disabled)
+2. Create new editable/dynamic collection
+   1. Insert the name of the collection 
+   2. See the list below for collection names that have a logo
+
+## Currently supported franchises
+
+There is a couple of logos for the following franchises:
+- `Final Fantasy`
+- `Mario`
+- `Metroid`
+- `Persona`
+  - I like to create Persona collection as a dynamic collection and use the text `persona, megami tensei` as **Find Games** content, so the collection gathers all games with *Persona* and *Megami Tensei* in its titles (which includes Shin Megami Tensei as well).
+- `Pokemon`
+
+The names listed are case sensitive and with white spaces (like in `Final Fantasy`). If you use any variation like `MariO` or `final-fantasy` your collection will not display the logo.
+
+<br>
+
 # Supported Platforms
 
 ![Full Support: 92](https://img.shields.io/badge/Full_Support:_94-3a9104?style=for-the-badge)
-![Partial Supported: 17](https://img.shields.io/badge/Partial_Support:_17-0e9a83?style=for-the-badge)
+![Partial Supported: 20](https://img.shields.io/badge/Partial_Support:_20-0e9a83?style=for-the-badge)
 ![Fully Supported: 7](https://img.shields.io/badge/Hacks:_7-0d52bf?style=for-the-badge)
 ![Tools: 14](https://img.shields.io/badge/Collections_'n_Tools:_14-485a6c?style=for-the-badge)
+![Custom Collections: 5](https://img.shields.io/badge/Custom_Collections:_5-94558c?style=for-the-badge)
 
 **Systems:** 
 3DO,
@@ -127,6 +180,7 @@ Gamegear & Hacks,
 Homebrew,
 Intellivision,
 Java,
+Laserdisc,
 Mame,
 MasterSystem,
 Megadrive / Genesis & Hacks,
