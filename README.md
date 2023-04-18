@@ -132,6 +132,9 @@ There is a couple of logos for the following franchises:
   - I like to create Persona collection as a dynamic collection and use the text `persona, megami tensei` as **Find Games** content, so the collection gathers all games with *Persona* and *Megami Tensei* in its titles (which includes Shin Megami Tensei as well).
 - `Pokemon`
 
+Miscellaneous Collections:
+- `Grouvee Playing`
+
 The names listed are case sensitive and with white spaces (like in `Final Fantasy`). If you use any variation like `MariO` or `final-fantasy` your collection will not display the logo.
 
 <br>
