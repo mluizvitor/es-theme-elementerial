@@ -2,7 +2,7 @@
 
 To use custom background you need to load your own images inside `customBackground` folder located on Elementerial root directory. Your images need to be named after the desired videogame system. The name must the same used by your Operational System. Elementerial was made for AmberELEC (but is compatible with other systems running EmulationStation) and use the same names from tag `<theme></theme>` found in [es_system.cfg](https://github.com/AmberELEC/AmberELEC/blob/dev/packages/ui/emulationstation/config/es_systems.cfg).
 
-For example: If you want to add a custom background for **Sega Genesis**, the image need to be renamed as `genesis.png`, for **Final Burn Neo**, `fbn.png` . Elementerial accept images in `JPEG`, `PNG` and `WEBP` formats.
+For example: If you want to add a custom background for **Sega Genesis**, the image need to be renamed as `genesis.png`, for **Final Burn Neo**, `fbn.png`. If you want only one background for the whole theme, name your image as `general.png`. Elementerial accept images in `PNG` (.png), `JPEG` (.jpeg .jpg) and `WEBP` (.webp) formats.
 
 Please, use the images inside [assets/systems/](assets/systems/) as a reference.
 
