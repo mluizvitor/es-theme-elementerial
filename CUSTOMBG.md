@@ -1,33 +1,16 @@
-# Using Custom Backgrounds
+# About Custom Backgrounds
 
-To use this feature you need to resize or crop a image for your device.
+To use custom background you need to load your own images inside `customBackground` folder located on Elementerial root directory. Your images need to be named after the desired videogame system. The name must the same used by your Operational System. Elementerial was made for AmberELEC (but is compatible with other systems running EmulationStation) and use the same names from tag `<theme></theme>` found in [es_system.cfg](https://github.com/AmberELEC/AmberELEC/blob/dev/packages/ui/emulationstation/config/es_systems.cfg).
 
-For example, if you have a RG351P:
-* Choose a image to edit.
-* Resize the image to 480px wide per 320px tall.
-  * That way, the image will be exactly resized to the screen resolution. If the image is bigger than the screen resolution EmulationStation will try to scale it down, your image will be presented pixelated.
-* The image need to be cropped to the 3:2 aspect ratio. If you don't know what it mean, stay with the resolution numbers.
-  * That way, the image will fit exactly into the screen and will not be stretched.
-*  After that, save the image as ***custombg***. You can save as **PNG, JPG** or **WEBP**.  This theme supports transparent backgrounds.
-*  Place the saved image at the theme folder **\[Theme Folder\]/assets/custom/**
-*  Restart EmulationStation.
+For example: If you want to add a custom background for **Sega Genesis**, the image need to be renamed as `genesis.png`, for **Final Burn Neo**, `fbn.png` . Elementerial accept images in `JPEG`, `PNG` and `WEBP` formats.
 
-If you need, you can stack up to 4 custom backgrounds. The process is identical to the above mentioned. The difference is at the file name.
+Please, use the images inside [assets/systems/](assets/systems/) as a reference.
 
-After **custombg**, you can save **custombg.1**, **custombg.2**, **custombg.3** for layer 1, layer 2 and layer 3 respectively.
+After placing your images inside `customBackground`, enable custom backgrounds in your device settings.
+On AmberELEC, press `Start` to open system menu > Navigate to `UI Settings` > Change `Theme Set` to **es-theme-elementerial** > `Theme Configuration` > Change `Theme Background` to `Custom`. Exit to apply changes.
 
-If you need, you can stack up to 3 layers above systems carousel. The process is identical, but you need to save as **customfg.1**, **customfg.2** and **customfg.3**.
+## Alternatives
 
-For these new layers, save them as **PNG** or **WEBP**. **JPG** images will not be loaded.
+If you prefer using a tool for that, you can use [Albedo Wallpaper Cropper](https://albedo-wallpaper-cropper.vercel.app/). AWC is a simple tool and easy to use. You can access its [README](https://github.com/mluizvitor/albedo-wallpaper-cropper/blob/master/README.md) to learn step by step how to prepare images and load them to the theme folder.
 
-Note: Updating the theme thorough AmberElec's theme updater will remove custom backgrounds.
-
-![](./.github/Layers.png)
-
-![](./.github/LayersExample.png)
-
-## For Reference
-
-* `RG351P/M`:  480 x  320 pixels
-* `RG531MP/V`:  640 x  480 pixels
-* `RG552`: 1920 x 1152 pixels
+If you're concerned about privacy, this web app will never collect or send any information anywhere. The images loaded are saved locally on the browser database so you won't lose your progress. As an web app, it can be used offline after the first load.
