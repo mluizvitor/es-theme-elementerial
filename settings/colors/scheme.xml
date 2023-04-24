@@ -17,6 +17,10 @@
       <textColor>${fgColor}</textColor>
       <iconColor>${sectColor}</iconColor>
     </helpsystem>
+
+    <image name="background">
+      <color>${bgColor}</color>
+    </image>
   </view>
 
   <!--Configurações de cores nas listas de jogos-->
@@ -26,14 +30,6 @@
       <glowColor>${bgColor}${percent.10}</glowColor>
       <glowSize>1</glowSize>
     </text>
-
-    <image name="background">
-      <color>${bgColor}</color>
-    </image>
-
-    <image name="cover_list_fallback" extra="true">
-      <color>${bgColor}</color>
-    </image>
 
     <textlist name="gamelist">
       <selectedColor>${onMainColor}</selectedColor>

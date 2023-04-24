@@ -45,9 +45,9 @@
     </video>
 
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/ratio32/custom-bg-fg.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/custom-bg-fg.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/custom-bg-fg.png</path>
+      <path>./assets/ratio32/carousel-background.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/carousel-background.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/carousel-background.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -96,30 +96,30 @@
     </text>
 
     <!-- System Background -->
-    <image name="cover_fallback" extra="true">
+    <image name="background" extra="true">
       <path>./assets/background.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
       <tile>true</tile>
-      <zIndex>-10</zIndex>
+      <zIndex>-50</zIndex>
     </image>
-    
+
     <!-- System Background -->
     <image name="cover" extra="true">
       <path>{random:image}</path>
       <path>./assets/systems/${system.theme}.webp</path>
       <size>1 0</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
+      <origin>0 0.5</origin>
+      <pos>0 0.25</pos>
       <zIndex>-9</zIndex>
     </image>
 
     <image name="cover_2" extra="true" ifSubset="Background Style:random">
       <path>{random:image}</path>
       <size>1 0</size>
-      <origin>0 0</origin>
-      <pos>0 -0.25</pos>
+      <origin>0 0.5</origin>
+      <pos>0 0.25</pos>
       <zIndex>-9</zIndex>
     </image>
   </view>

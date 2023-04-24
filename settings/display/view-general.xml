@@ -54,16 +54,10 @@
     </textlist>
 
     <image name="background">
+      <path>./assets/background.png</path>
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-    </image>
-
-    <image name="cover_list_fallback" extra="true">
-      <path>./assets/background.png</path>
-      <size>1 0</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
       <zIndex>-10</zIndex>
     </image>
 
@@ -71,9 +65,19 @@
       <path>./assets/systems/${system.theme}.webp</path>
       <opacity>0.3</opacity>
       <size>1 0</size>
+      <origin>0 0.5</origin>
+      <pos>0 0.125</pos>
+      <zIndex>-5</zIndex>
+    </image>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/gamelist-basic.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-basic.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-basic.png</path>
+      <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>-5</zIndex>
+      <zIndex>-4</zIndex>
     </image>
   </view>
 
