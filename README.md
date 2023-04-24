@@ -18,12 +18,19 @@
 
 # About
 
-![Version 1.230417](https://img.shields.io/badge/Version_1.230417-de3e80?style=for-the-badge)
-
-**For instructions regard Custom Backgrounds, please read [CUSTOMBG.md](/CUSTOMBG.md)**
+![Version 1.230424](https://img.shields.io/badge/Version_1.230424-de3e80?style=for-the-badge)
 
 Elementerial is a theme built totally from scratch for EmulationStation.
-It's based on Android TV's interface using some principles from Material Design with the adition of ElementaryOS color palette.
+It's based on Android TV's interface using some principles from Material Design with the addition of ElementaryOS color palette.
+
+> This theme supports custom backgrounds. Read [CUSTOMBG.md](CUSTOMBG.md) for more details.
+> 
+> I made an web app to load, crop and save images named as the designated system.
+> It's not powerful as Photoshop or GIMP, but help collect a lot of images and download them in one go.
+> 
+> Access [Albedo Wallpaper Cropper](https://albedo-wallpaper-cropper.vercel.app).
+> 
+>  If you're concerned about privacy, this web app will never collect or send any information anywhere. The images loaded are saved locally on the browser database. As an web app, it can be used offline after the first load.
 
 <br>
 
@@ -33,6 +40,8 @@ It's based on Android TV's interface using some principles from Material Design 
 
 # Last changes
 ```
+- Updated all existent backgrounds and added new
+- Remade custom background functionality
 - Added Capcom PlaySystem 1, 2 & 3 logos
 - Added auto collection logos
 - Added option to use random game screenshots as system background
@@ -88,19 +97,19 @@ https://user-images.githubusercontent.com/57257682/229651591-5ea370f6-df3a-437e-
 https://user-images.githubusercontent.com/57257682/229651681-24c01dc0-fa6b-4f80-b13e-3e5d797f486e.mp4
 
 ## Main Screen
-| ![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png) |
-| :-----------------------------: | :------------------------------: |
-|        Strawberry + Dark        |     Pikachu Edition + Light      |
+| ![](https://i.imgur.com/smncxP7.png) | ![](https://i.imgur.com/qDWQhaB.png) |
+| :----------------------------------: | :----------------------------------: |
+|          Strawberry + Dark           |       Pikachu Edition + Light        |
 
 ## Game List
-| ![](./.github/GamelistDark.png) | ![](./.github/GamelistLight.png) |
-| :-----------------------------: | :------------------------------: |
-|   Mint + Dark + Detailed View   | SNES Sheme + Light + Boxes View  |
+| ![](https://i.imgur.com/7aPxKvO.png) | ![](https://i.imgur.com/ADsrJET.png) |
+| :----------------------------------: | :----------------------------------: |
+|     Mint + Dark + Detailed View      |   SNES Sheme + Light + Boxes View    |
 
 ## Menu
-| ![](./.github/MenuDark.png) | ![](./.github/MenuLight.png) |
-| :-------------------------: | :--------------------------: |
-|      Blueberry + Dark      |    Game Boy Scheme + Light    |
+| ![](https://i.imgur.com/rXcTHq0.png) | ![](https://i.imgur.com/F8b0CXZ.png) |
+| :----------------------------------: | :----------------------------------: |
+|           Blueberry + Dark           |       Game Boy Scheme + Light        |
 
 <br>
 
@@ -140,12 +149,6 @@ The names listed are case sensitive and with white spaces (like in `Final Fantas
 <br>
 
 # Supported Platforms
-
-![Full Support: 92](https://img.shields.io/badge/Full_Support:_94-3a9104?style=for-the-badge)
-![Partial Supported: 20](https://img.shields.io/badge/Partial_Support:_20-0e9a83?style=for-the-badge)
-![Fully Supported: 7](https://img.shields.io/badge/Hacks:_7-0d52bf?style=for-the-badge)
-![Tools: 14](https://img.shields.io/badge/Collections_'n_Tools:_14-485a6c?style=for-the-badge)
-![Custom Collections: 5](https://img.shields.io/badge/Custom_Collections:_5-94558c?style=for-the-badge)
 
 **Systems:** 
 3DO,

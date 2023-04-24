@@ -37,17 +37,17 @@
       <minSize>1 0.5</minSize>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <zIndex>-8</zIndex>
-      <delay>1</delay>
+      <delay>1.5</delay>
 
       <storyboard>
-        <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut" />
       </storyboard>
     </video>
 
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/ratio32/custom-bg-fg.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/custom-bg-fg.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/custom-bg-fg.png</path>
+      <path>./assets/ratio32/carousel-background.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/carousel-background.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/carousel-background.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -96,31 +96,48 @@
     </text>
 
     <!-- System Background -->
-    <image name="cover_fallback" extra="true">
+    <image name="background" extra="true">
       <path>./assets/background.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
       <tile>true</tile>
-      <zIndex>-10</zIndex>
+      <zIndex>-50</zIndex>
     </image>
-    
+
     <!-- System Background -->
     <image name="cover" extra="true">
       <path>{random:image}</path>
       <path>./assets/systems/${system.theme}.webp</path>
       <size>1 0</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
+      <origin>0 0.5</origin>
+      <pos>0 0.25</pos>
+      <zIndex>-9</zIndex>
+      <storyboard>
+        <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut" />
+      </storyboard>
+    </image>
+
+    <image name="cover" extra="true" ifSubset="Background Style:custom">
+      <path>./customBackground/${system.theme}.jpg</path>
+      <path>./customBackground/${system.theme}.jpeg</path>
+      <path>./customBackground/${system.theme}.png</path>
+      <path>./customBackground/${system.theme}.webp</path>
+    </image>
+
+    <image name="cover_general" extra="true" ifSubset="Background Style:custom">
+      <path>./customBackground/general.jpg</path>
+      <path>./customBackground/general.jpeg</path>
+      <path>./customBackground/general.png</path>
+      <path>./customBackground/general.webp</path>
+      <size>1 0</size>
+      <origin>0 0.5</origin>
+      <pos>0 0.25</pos>
       <zIndex>-9</zIndex>
     </image>
 
-    <image name="cover_2" extra="true" ifSubset="Background Style:random">
+    <image name="cover" extra="true" ifSubset="Background Style:random">
       <path>{random:image}</path>
-      <size>1 0</size>
-      <origin>0 0</origin>
-      <pos>0 -0.25</pos>
-      <zIndex>-9</zIndex>
     </image>
   </view>
 
