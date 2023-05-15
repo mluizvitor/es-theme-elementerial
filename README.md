@@ -18,7 +18,7 @@
 
 # About
 
-![Version 1.230424](https://img.shields.io/badge/Version_1.230424-de3e80?style=for-the-badge)
+![Version 1.230514](https://img.shields.io/badge/Version_1.230514-de3e80?style=for-the-badge)
 
 Elementerial is a theme built totally from scratch for EmulationStation.
 It's based on Android TV's interface using some principles from Material Design with the addition of ElementaryOS color palette.
@@ -43,7 +43,8 @@ It's based on Android TV's interface using some principles from Material Design 
 - Updated all existent backgrounds and added new
 - Remade custom background functionality
 - Added Capcom PlaySystem 1, 2 & 3 logos
-- Added auto collection logos
+- Added auto collection logos and backgrounds
+- Added 3 selectable text sizes
 - Added option to use random game screenshots as system background
 - Updated Vertical Arcade logo
 - Updated carousel background to use random images when there is no background provided by theme
@@ -75,15 +76,20 @@ And 2 styles:
 * Dark
 * Light
 
+Selectable text sizes:
+* Small
+* Medium
+* Large
+
 <br>
 
 # Compatibility
 
 Elementerial was made for the following resolutions:
 
-- **480x320** (3:2 screen ratio), tested on Anbernic RG351M running AmberElec
-- **640x480** (4:3 screen ratio), tested on VirtualBox running Batocera
-- **1920x1152** (5:3 screen ratio), tested on VirtualBox running Batocera
+- **480x320** (3:2 screen ratio), tested on Anbernic RG351M running AmberElec and RetroBat
+- **640x480** (4:3 screen ratio), tested on VirtualBox running Batocera and RetroBat
+- **1920x1152** (5:3 screen ratio), tested on VirtualBox running Batocera and RetroBat
 
 \* It's possible to use Elementerial in other resolutions and systems based on EmulationStation, however full compatibility is not guaranteed.
 
@@ -140,6 +146,8 @@ There is a couple of logos for the following franchises:
 - `Persona`
   - I like to create Persona collection as a dynamic collection and use the text `persona, megami tensei` as **Find Games** content, so the collection gathers all games with *Persona* and *Megami Tensei* in its titles (which includes Shin Megami Tensei as well).
 - `Pokemon`
+- `SaGa`
+- `Zelda`
 
 Miscellaneous Collections:
 - `Grouvee Playing`
