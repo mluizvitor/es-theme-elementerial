@@ -10,7 +10,7 @@
   <customView name="boxes" inherits="grid">
     <imagegrid name="gamegrid">
       <size>1 0.775</size>      <!--480x320 / 480x 256y-->
-      <size ifHelpPrompts="true">1 0.75</size>      <!--480x320 / 480x 232y-->
+      <size ifHelpPrompts="true">1 0.725</size>      <!--480x320 / 480x 232y-->
 
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>2 2</autoLayout>
@@ -62,7 +62,9 @@
     <text name="gridtile">
       <size>1 0.2</size>
       <pos>0 0.7</pos>
-      <fontSize>${tinyF}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
       <lineSpacing>1.2</lineSpacing>

@@ -6,21 +6,15 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <variables>
-    <header1F>0.0625</header1F>
-    <header2F>0.05</header2F>
-    <header3F>0.040625</header3F>
-    <bodyF>0.034375</bodyF>
-    <tinyF>0.028125</tinyF>
-  </variables>
-
   <!--Configurações de ajuda-->
   <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
-      <fontSize>${bodyF}</fontSize>
-      <origin>0 1</origin>
-      <pos>0.016666667 0.98</pos>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <origin>0 0.5</origin>
+      <pos>0.016666667 0.96</pos>
     </helpsystem>
 
     <image name="borderOverlay" extra="true">
@@ -39,7 +33,9 @@
   <view name="basic, detailed, grid, video">
     <text name="logoText">
       <fontPath>${fontBold}</fontPath>
-      <fontSize>${header2F}</fontSize>
+      <fontSize>${fontSizeH2-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeH2-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeH2-small}</fontSize>
       <forceUppercase>0</forceUppercase>
       <alignment>left</alignment>
       <zIndex>5</zIndex>
@@ -47,7 +43,9 @@
 
     <textlist name="gamelist">
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${bodyF}</fontSize>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
       <alignment>left</alignment>
       <origin>0 0</origin>
       <zIndex>5</zIndex>
@@ -96,7 +94,7 @@
   <view name="basic, detailed, video">
     <text name="logoText">
       <pos>0.033333 0.1</pos>      <!--480x320 / 16x 32y-->
-      <size>0.933333 ${header2F}</size>      <!-- 480x320 / 448x -->
+      <size>0.933333 ${fontSizeH2-medium}</size>      <!-- 480x320 / 448x -->
       <origin>0 0.5</origin>
     </text>
 
@@ -106,12 +104,19 @@
 
       <lineSpacing>1.55</lineSpacing>
       <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
+      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.675</lineSpacing>
 
       <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
       <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
 
       <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
       <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
+    </textlist>
+  </view>
+
+  <view name="video">
+    <textlist name="gamelist">
+      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.7</lineSpacing>
     </textlist>
   </view>
 

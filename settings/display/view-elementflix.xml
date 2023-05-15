@@ -85,7 +85,9 @@
 
       <color>${fgColor}</color>
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${tinyF}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
       <lineSpacing>1.1</lineSpacing>
     </text>
 
@@ -126,7 +128,9 @@
     <text name="gridtile">
       <size>1 0.2</size>
       <pos>0 0.75</pos>
-      <fontSize>${tinyF}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-large}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
       <lineSpacing>1.2</lineSpacing>
@@ -139,7 +143,9 @@
     <text name="logoText">
       <origin>0 0.5</origin>
       <pos>0.033333333 0.45</pos>
-      <fontSize>${header3F}</fontSize>
+      <fontSize>${fontSizeH3-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeH3-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeH3-small}</fontSize>
     </text>
   </customView>
 

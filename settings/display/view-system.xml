@@ -60,9 +60,13 @@
       <origin>0 0</origin>
       <pos>0.08333 0.325</pos>      <!-- 480x320 / 48x 104y -->
       <pos ifSubset="Ratio:ratio43">0.08333 0.375</pos>      <!-- 480x320 / 48x 104y -->
-      <size>0.866667 ${header1F}</size>      <!-- 480x320 / 416x -->
+      <size>0.866667 ${fontSizeH1-medium}</size>      <!-- 480x320 / 416x -->
       <fontPath>${fontBold}</fontPath>
-      <fontSize>${header1F}</fontSize>
+
+      <fontSize>${fontSizeH1-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeH1-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeH1-small}</fontSize>
+
       <lineSpacing>1</lineSpacing>
       <alignment>left</alignment>
       <zIndex>15</zIndex>
@@ -73,9 +77,12 @@
       <origin>0 0</origin>
       <pos>0.08333 0.41</pos>
       <pos ifSubset="Ratio:ratio43">0.08333 0.46</pos>
-      <size>0.866667 ${bodyF}</size>      <!-- 480x320 / 416x -->
+      <size>0.866667 ${fontSizeBody-medium}</size>      <!-- 480x320 / 416x -->
 
-      <fontSize>${bodyF}</fontSize>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+
       <alignment>left</alignment>
       <forceUppercase>0</forceUppercase>
       <fontPath>${fontRegular}</fontPath>
@@ -92,7 +99,9 @@
     <text name="logoText">
       <origin>0 0</origin>
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${bodyF}</fontSize>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
     </text>
 
     <!-- System Background -->
@@ -169,8 +178,8 @@
 
       <size ifSubset="Status Bar:clock">0.966667 0</size>      <!-- 480x320 / 432x-->
 
-      <fontSize>${tinyF}</fontSize>
-      <fontSize ifSubset="Ratio:ratio53">${bodyF}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="Ratio:ratio53">${fontSizeBody-medium}</fontSize>
       <!-- <backgroundColor>ff0000</backgroundColor> -->
 
       <fontPath>${fontRegular}</fontPath>

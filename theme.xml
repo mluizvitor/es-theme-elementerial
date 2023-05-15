@@ -6,23 +6,7 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <variables>
-    <fontRegular>./assets/fonts/Inter/Inter-Regular.otf</fontRegular>
-    <fontBold>./assets/fonts/Inter/Inter-Bold.otf</fontBold>
-    <fontLight>./assets/fonts/Inter/Inter-Light.otf</fontLight>
-    <fontHelper>./assets/fonts/RobotoCondensed/RobotoCondensed-Regular.ttf</fontHelper>
-
-    <percent.90>E6</percent.90>
-    <percent.80>CC</percent.80>
-    <percent.70>B3</percent.70>
-    <percent.60>99</percent.60>
-    <percent.50>80</percent.50>
-    <percent.40>66</percent.40>
-    <percent.30>4D</percent.30>
-    <percent.20>33</percent.20>
-    <percent.10>1A</percent.10>
-    <percent.5>0D</percent.5>
-  </variables>
+  <include>./variables.xml</include>
 
   <subset name="Style" displayName="Style">
     <include name="dark" displayName="Dark" />
@@ -46,49 +30,55 @@
     <include name="redBerries" displayName="Red Berries">./settings/colors/extra-red-berries.xml</include>
   </subset>
 
+  <subset name="FontSize" displayName="Font Size">
+    <include name="medium" />
+    <include name="large" />
+    <include name="small" />
+  </subset>
+
   <subset name="PlayVideo" displayName="Video on carousel">
-    <include name="true" displayName="Enabled"/>
-    <include name="false" displayName="Disabled"/>
+    <include name="true" displayName="Enabled" />
+    <include name="false" displayName="Disabled" />
   </subset>
 
   <subset name="Background Style" displayName="Background style">
-    <include name="default" displayName="Default"/>
-    <include name="random" displayName="Random"/>
+    <include name="default" displayName="Default" />
+    <include name="random" displayName="Random" />
     <include name="custom" displayName="Custom">./settings/display/customBg.xml</include>
   </subset>
 
   <subset name="Status Bar" displayName="Status Bar">
-    <include name="complete" displayName="Clock + Battery"/>
-    <include name="clock" displayName="Clock"/>
-    <include name="battery" displayName="Battery"/>
-    <include name="hidden" displayName="Hidden"/>
+    <include name="complete" displayName="Clock + Battery" />
+    <include name="clock" displayName="Clock" />
+    <include name="battery" displayName="Battery" />
+    <include name="hidden" displayName="Hidden" />
   </subset>
 
   <subset name="Ratio" displayName="Screen ratio">
-    <include name="ratio32" ifArch="rg351p,amberelec-rg351p" displayName="3:2 (Default)"/>
-    <include name="ratio43" ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="4:3 (Default)"/>
-    <include name="ratio53" ifArch="rg503,rg552,amberelec-rg503,amberelec-rg552" displayName="5:3 (Default)"/>
+    <include name="ratio32" ifArch="rg351p,amberelec-rg351p" displayName="3:2 (Default)" />
+    <include name="ratio43" ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="4:3 (Default)" />
+    <include name="ratio53" ifArch="rg503,rg552,amberelec-rg503,amberelec-rg552" displayName="5:3 (Default)" />
 
-    <include name="ratio32" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="3:2"/>
-    <include name="ratio43" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="4:3"/>
-    <include name="ratio53" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="5:3"/>
+    <include name="ratio32" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="3:2" />
+    <include name="ratio43" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="4:3" />
+    <include name="ratio53" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="5:3" />
 
-    <include name="ratio32" displayName="3:2"/>
-    <include name="ratio43" displayName="4:3"/>
-    <include name="ratio53" displayName="5:3"/>
+    <include name="ratio32" displayName="3:2" />
+    <include name="ratio43" displayName="4:3" />
+    <include name="ratio53" displayName="5:3" />
   </subset>
 
   <subset name="Grid Game Image" displayName="Grid Game Image" appliesTo="grid">
-    <include name="gridscreenshot" displayName="Screenshot"/>
-    <include name="gridthumbnail" displayName="Thumbnail"/>
-    <include name="gridlogo" displayName="Logo"/>
+    <include name="gridscreenshot" displayName="Screenshot" />
+    <include name="gridthumbnail" displayName="Thumbnail" />
+    <include name="gridlogo" displayName="Logo" />
   </subset>
 
   <subset name="VideoSnapshot" displayName="Video Snapshot" appliesTo="video, elementflix">
-    <include name="videoDefault" displayName="Adaptable"/>
-    <include name="videoThumbnail" displayName="Thumbnail"/>
-    <include name="videoScreenshot" displayName="Screenshot"/>
-    <include name="videoMarquee" displayName="Marquee"/>
+    <include name="videoDefault" displayName="Adaptable" />
+    <include name="videoThumbnail" displayName="Thumbnail" />
+    <include name="videoScreenshot" displayName="Screenshot" />
+    <include name="videoMarquee" displayName="Marquee" />
   </subset>
 
   <include>./settings/colors/scheme.xml</include>

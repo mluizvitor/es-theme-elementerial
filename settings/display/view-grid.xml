@@ -30,16 +30,18 @@
     <text name="logoText">
       <pos>0.033333 0.078125</pos>      <!--480x320 / 16x 25y-->
       <origin>0 0.5</origin>
-      <size>0.675 ${header2F}</size>
+      <size>0.675 ${fontSizeH2-medium}</size>
       <zIndex>5</zIndex>
     </text>
 
     <text name="md_name">
-      <fontSize>${bodyF}</fontSize>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
       <fontPath>${fontRegular}</fontPath>
-      <pos>0.033333 0.1375</pos>      <!--480x320 / 16x 44y-->
+      <pos>0.033333 0.14375</pos>      <!--480x320 / 16x 44y-->
       <origin>0 0.5</origin>      <!--vertical center-->
-      <size>0.9 ${bodyF}</size>
+      <size>0.9 ${fontSizeBody-medium}</size>
       <alignment>left</alignment>
       <zIndex>5</zIndex>
     </text>
@@ -89,7 +91,10 @@
     </ninepatch>
     
     <text name="gridtile">
-      <fontSize>${tinyF}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
       <singleLineScroll>false</singleLineScroll>

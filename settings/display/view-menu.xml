@@ -10,22 +10,30 @@
   <view name="menu">
     <menuText name="menutext">
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${bodyF}</fontSize>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
     </menuText>
 
     <menuTextSmall name="menutextsmall">
       <fontPath>${fontLight}</fontPath>
-      <fontSize>${tinyF}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
     </menuTextSmall>
 
     <menuGroup name="menugroup">
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${tinyF}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
     </menuGroup>
 
     <menuText name="menutitle">
       <fontPath>${fontBold}</fontPath>
-      <fontSize>${header2F}</fontSize>
+      <fontSize>${fontSizeH2-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeH2-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeH2-small}</fontSize>
     </menuText>
 
     <menuBackground name="menubg">
@@ -48,7 +56,9 @@
 
     <menuText name="menufooter">
       <fontPath>${fontBold}</fontPath>
-      <fontSize>${tinyF}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
     </menuText>
 
     <menuIcons name="menuicons">
