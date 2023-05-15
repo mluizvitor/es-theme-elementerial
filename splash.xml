@@ -8,24 +8,30 @@
 
   <view name="splash">
     <splash name="splash">
-      <backgroundColor>121212</backgroundColor>
+      <backgroundColor>000000</backgroundColor>
     </splash>
 
     <image name="background">
       <!-- Leave default for better OS/device portability -->
     </image>
     <image name="progressbar">
-      <color>454545</color>
-      <roundCorners>0.015</roundCorners>
+      <color>000000</color>
+      <origin>0.5 1</origin>
+      <pos>0.5 1</pos>
+      <maxSize>1 0.00625</maxSize>
+      <minSize>1 0.00625</minSize>
     </image>
     <image name="progressbar:active">
-      <color>DEDEDE</color>
+      <color>AAAAAA</color>
+      <tile>true</tile>
     </image>
     <text name="label">
       <alignment>center</alignment>
       <fontPath>./assets/fonts/Inter/Inter-Regular.otf</fontPath>
-      <fontSize>0.03125</fontSize>
+      <fontSize>0.0375</fontSize> <!-- 12-->
       <color>ffffff</color>
+      <origin>0.5 1</origin>
+      <pos>0.5 0.95</pos>
     </text>
   </view>
 </theme>
