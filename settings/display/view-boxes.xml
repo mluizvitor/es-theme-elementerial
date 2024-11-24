@@ -22,7 +22,7 @@
 
       <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!-- 480x320 / 16x 16y -->
       <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y -->
-      <margin ifSubset="Ratio:ratio43">0.025 0.041667</margin>      <!-- 1920x1152 / 48x 48y -->
+      <margin ifSubset="Ratio:ratio53">0.025 0.041667</margin>      <!-- 1920x1152 / 48x 48y -->
     </imagegrid>
 
     <gridtile name="default, selected">
