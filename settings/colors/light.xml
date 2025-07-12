@@ -1,0 +1,43 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <fgColor>000000</fgColor>
+  </variables>
+
+  <view name="menu">
+    <menuTextEdit name="menutextedit">
+      <inactive>./assets/input_inactive-light.svg</inactive>
+      <active>./assets/input_active-light.svg</active>
+    </menuTextEdit>
+  </view>
+
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <gameImage>./assets/icons/cartridge-light.png</gameImage>
+      <folderImage>./assets/icons/folder-light.png</folderImage>
+    </imagegrid>
+  </view>
+
+  <subset name="Color scheme" displayName="Color scheme">
+    <include name="strawberry" displayName="strawberry">./light/strawberry.xml</include>
+    <include name="orange" displayName="orange">./light/orange.xml</include>
+    <include name="banana" displayName="banana">./light/banana.xml</include>
+    <include name="lime" displayName="lime">./light/lime.xml</include>
+    <include name="mint" displayName="mint">./light/mint.xml</include>
+    <include name="blueberry" displayName="blueberry">./light/blueberry.xml</include>
+    <include name="grape" displayName="grape">./light/grape.xml</include>
+    <include name="bubblegum" displayName="bubblegum">./light/bubblegum.xml</include>
+    <include name="cocoa" displayName="cocoa">./light/cocoa.xml</include>
+    <include name="slate" displayName="slate">./light/slate.xml</include>
+    <include name="snes" displayName="Snes Scheme">./light/extra-snes.xml</include>
+    <include name="gb" displayName="Game Boy Scheme">./light/extra-gameboy.xml</include>
+    <include name="pikachu" displayName="Pikachu Edition">./light/extra-pikachu-edition.xml</include>
+    <include name="redBerries" displayName="Red Berries">./light/extra-red-berries.xml</include>
+  </subset>
+</theme>

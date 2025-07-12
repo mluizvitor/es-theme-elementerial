@@ -6,11 +6,6 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <variables>
-    <fgColor ifSubset="Style:dark">FFFFFF</fgColor>
-    <fgColor ifSubset="Style:light">000000</fgColor>
-  </variables>
-
   <!--Configurações de ajuda-->
   <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
@@ -77,30 +72,10 @@
     <menuText name="menutitle">
       <color>${fgColor}</color>
     </menuText>
-
-    <menuTextEdit name="menutextedit" ifSubset="Style:dark">
-      <inactive>./assets/input_inactive-dark.svg</inactive>
-      <active>./assets/input_active-dark.svg</active>
-    </menuTextEdit>
-
-    <menuTextEdit name="menutextedit" ifSubset="Style:light">
-      <inactive>./assets/input_inactive-light.svg</inactive>
-      <active>./assets/input_active-light.svg</active>
-    </menuTextEdit>
   </view>
 
   <!--Configurações da view "grid"-->
   <view name="grid">
-    <imagegrid name="gamegrid" ifSubset="Style:dark">
-      <gameImage>./assets/icons/cartridge-dark.png</gameImage>
-      <folderImage>./assets/icons/folder-dark.png</folderImage>
-    </imagegrid>
-
-    <imagegrid name="gamegrid" ifSubset="Style:light">
-      <gameImage>./assets/icons/cartridge-light.png</gameImage>
-      <folderImage>./assets/icons/folder-light.png</folderImage>
-    </imagegrid>
-
     <text name="gridtile">
       <color>${fgColor}</color>
     </text>

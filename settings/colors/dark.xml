@@ -1,0 +1,43 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <fgColor>FFFFFF</fgColor>
+  </variables>
+
+  <view name="menu">
+    <menuTextEdit name="menutextedit">
+      <inactive>./assets/input_inactive-dark.svg</inactive>
+      <active>./assets/input_active-dark.svg</active>
+    </menuTextEdit>
+  </view>
+
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <gameImage>./assets/icons/cartridge-dark.png</gameImage>
+      <folderImage>./assets/icons/folder-dark.png</folderImage>
+    </imagegrid>
+  </view>
+
+  <subset name="Color scheme" displayName="Color scheme">
+    <include name="strawberry" displayName="strawberry">./dark/strawberry.xml</include>
+    <include name="orange" displayName="orange">./dark/orange.xml</include>
+    <include name="banana" displayName="banana">./dark/banana.xml</include>
+    <include name="lime" displayName="lime">./dark/lime.xml</include>
+    <include name="mint" displayName="mint">./dark/mint.xml</include>
+    <include name="blueberry" displayName="blueberry">./dark/blueberry.xml</include>
+    <include name="grape" displayName="grape">./dark/grape.xml</include>
+    <include name="bubblegum" displayName="bubblegum">./dark/bubblegum.xml</include>
+    <include name="cocoa" displayName="cocoa">./dark/cocoa.xml</include>
+    <include name="slate" displayName="slate">./dark/slate.xml</include>
+    <include name="snes" displayName="Snes Scheme">./dark/extra-snes.xml</include>
+    <include name="gb" displayName="Game Boy Scheme">./dark/extra-gameboy.xml</include>
+    <include name="pikachu" displayName="Pikachu Edition">./dark/extra-pikachu-edition.xml</include>
+    <include name="redBerries" displayName="Red Berries">./dark/extra-red-berries.xml</include>
+  </subset>
+</theme>

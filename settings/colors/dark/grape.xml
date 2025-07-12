@@ -1,0 +1,16 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <mainColor>A56DE2</mainColor>
+    <onMainColor>F8EFFF</onMainColor>
+
+    <bgColor>19161D</bgColor>
+    <sectColor>e4c6fa</sectColor>
+  </variables>
+</theme>
