@@ -10,9 +10,7 @@
   <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
-      <fontSize>${fontSizeBody-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <fontSize>${fontSizeBody}</fontSize>
       <origin>0 0.5</origin>
       <pos>0.016666667 0.96</pos>
     </helpsystem>
@@ -33,9 +31,7 @@
   <view name="basic, detailed, grid, video">
     <text name="logoText">
       <fontPath>${fontBold}</fontPath>
-      <fontSize>${fontSizeH2-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeH2-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeH2-small}</fontSize>
+      <fontSize>${fontSizeH2}</fontSize>
       <forceUppercase>0</forceUppercase>
       <alignment>left</alignment>
       <zIndex>5</zIndex>
@@ -43,9 +39,7 @@
 
     <textlist name="gamelist">
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${fontSizeBody-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <fontSize>${fontSizeBody}</fontSize>
       <alignment>left</alignment>
       <origin>0 0</origin>
       <zIndex>5</zIndex>
@@ -94,7 +88,7 @@
   <view name="basic, detailed, video">
     <text name="logoText">
       <pos>0.033333 0.1</pos>      <!--480x320 / 16x 32y-->
-      <size>0.933333 ${fontSizeH2-medium}</size>      <!-- 480x320 / 448x -->
+      <size>0.933333 ${fontSizeH2}</size>      <!-- 480x320 / 448x -->
       <origin>0 0.5</origin>
     </text>
 
@@ -104,19 +98,12 @@
 
       <lineSpacing>1.55</lineSpacing>
       <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
-      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.675</lineSpacing>
 
       <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
       <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
 
       <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
       <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
-    </textlist>
-  </view>
-
-  <view name="video">
-    <textlist name="gamelist">
-      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.7</lineSpacing>
     </textlist>
   </view>
 

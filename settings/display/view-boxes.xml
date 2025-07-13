@@ -62,9 +62,7 @@
     <text name="gridtile">
       <size>1 0.2</size>
       <pos>0 0.7</pos>
-      <fontSize>${fontSizeCaption-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <fontSize>${fontSizeCaption}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
       <lineSpacing>1.2</lineSpacing>

@@ -1,0 +1,11 @@
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <fontSizeH1>0.06875</fontSizeH1> <!-- 22 -->
+    <fontSizeH2>0.05625</fontSizeH2> <!-- 18 -->
+    <fontSizeH3>0.046875</fontSizeH3> <!-- 15 -->
+    <fontSizeBody>0.040625</fontSizeBody> <!-- 13 -->
+    <fontSizeCaption>0.03125</fontSizeCaption> <!-- 10 -->
+  </variables>
+</theme>
