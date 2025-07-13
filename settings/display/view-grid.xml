@@ -30,18 +30,16 @@
     <text name="logoText">
       <pos>0.033333 0.078125</pos>      <!--480x320 / 16x 25y-->
       <origin>0 0.5</origin>
-      <size>0.675 ${fontSizeH2-medium}</size>
+      <size>0.675 ${fontSizeH2}</size>
       <zIndex>5</zIndex>
     </text>
 
     <text name="md_name">
-      <fontSize>${fontSizeBody-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <fontSize>${fontSizeBody}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <pos>0.033333 0.14375</pos>      <!--480x320 / 16x 44y-->
       <origin>0 0.5</origin>      <!--vertical center-->
-      <size>0.9 ${fontSizeBody-medium}</size>
+      <size>0.9 ${fontSizeBody}</size>
       <alignment>left</alignment>
       <zIndex>5</zIndex>
     </text>
@@ -89,11 +87,9 @@
       <path>./assets/grid-selector@3.png</path>
       <cornerSize>10 10</cornerSize>
     </ninepatch>
-    
+
     <text name="gridtile">
-      <fontSize>${fontSizeCaption-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <fontSize>${fontSizeCaption}</fontSize>
 
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>

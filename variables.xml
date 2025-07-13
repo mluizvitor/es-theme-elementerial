@@ -7,24 +7,6 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <fontSizeH1-medium>0.0625</fontSizeH1-medium> <!-- 20 -->
-    <fontSizeH2-medium>0.05</fontSizeH2-medium> <!-- 16 -->
-    <fontSizeH3-medium>0.04375</fontSizeH3-medium> <!-- 14 -->
-    <fontSizeBody-medium>0.0375</fontSizeBody-medium> <!-- 12 -->
-    <fontSizeCaption-medium>0.028125</fontSizeCaption-medium> <!-- 9 -->
-
-    <fontSizeH1-large>0.06875</fontSizeH1-large> <!-- 22 -->
-    <fontSizeH2-large>0.05625</fontSizeH2-large> <!-- 18 -->
-    <fontSizeH3-large>0.046875</fontSizeH3-large> <!-- 15 -->
-    <fontSizeBody-large>0.040625</fontSizeBody-large> <!-- 13 -->
-    <fontSizeCaption-large>0.03125</fontSizeCaption-large> <!-- 10 -->
-
-    <fontSizeH1-small>0.05625</fontSizeH1-small> <!-- 18 -->
-    <fontSizeH2-small>0.04375</fontSizeH2-small> <!-- 14 -->
-    <fontSizeH3-small>0.0375</fontSizeH3-small> <!-- 12 -->
-    <fontSizeBody-small>0.03125</fontSizeBody-small> <!-- 10 -->
-    <fontSizeCaption-small>0.028125</fontSizeCaption-small> <!-- 9 -->
-    
     <fontRegular>./assets/fonts/Inter/Inter-Regular.otf</fontRegular>
     <fontBold>./assets/fonts/Inter/Inter-Bold.otf</fontBold>
     <fontLight>./assets/fonts/Inter/Inter-Light.otf</fontLight>
@@ -42,4 +24,3 @@
     <percent.5>0D</percent.5>
   </variables>
 </theme>
-  

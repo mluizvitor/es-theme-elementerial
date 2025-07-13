@@ -1,0 +1,23 @@
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <fontSizeH1>0.05625</fontSizeH1> <!-- 18 -->
+    <fontSizeH2>0.04375</fontSizeH2> <!-- 14 -->
+    <fontSizeH3>0.0375</fontSizeH3> <!-- 12 -->
+    <fontSizeBody>0.03125</fontSizeBody> <!-- 10 -->
+    <fontSizeCaption>0.028125</fontSizeCaption> <!-- 9 -->
+  </variables>
+
+  <view name="basic, detailed, video">
+    <textlist name="gamelist">
+      <lineSpacing ifHelpPrompts="true">1.675</lineSpacing>
+    </textlist>
+  </view>
+
+  <view name="video">
+    <textlist name="gamelist">
+      <lineSpacing ifHelpPrompts="true">1.7</lineSpacing>
+    </textlist>
+  </view>
+</theme>

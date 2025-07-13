@@ -14,9 +14,9 @@
   </subset>
 
   <subset name="FontSize" displayName="Font Size">
-    <include name="medium" />
-    <include name="large" />
-    <include name="small" />
+    <include name="medium" displayName="Medium">./settings/font-size/medium.xml</include>
+    <include name="large" displayName="Large">./settings/font-size/large.xml</include>
+    <include name="small" displayName="Small">./settings/font-size/small.xml</include>
   </subset>
 
   <subset name="PlayVideo" displayName="Video on carousel">
