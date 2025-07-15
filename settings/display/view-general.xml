@@ -18,10 +18,6 @@
     </helpsystem>
 
     <image name="borderOverlay" extra="true">
-      <path ifSubset="Ratio:ratio32">./assets/ratio32/borders.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/borders.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/borders.png</path>
-
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
@@ -61,10 +57,10 @@
 
     <image name="cover_list" extra="true">
       <path>./assets/systems/${system.theme}.webp</path>
-      <opacity>0.3</opacity>
       <size>1 0</size>
       <origin>0 0.5</origin>
-      <pos>0 0.125</pos>
+      <pos>0 0.225</pos>
+      <minSize>1 0.45</minSize>
       <zIndex>-5</zIndex>
     </image>
 
@@ -81,9 +77,6 @@
     </image>
 
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/ratio32/gamelist-basic.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-basic.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-basic.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -101,16 +94,6 @@
     <textlist name="gamelist">
       <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y -->
       <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
-
-      <lineSpacing>1.55</lineSpacing>
-      <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
-      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.675</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
-      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
-      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
     </textlist>
   </view>
 
@@ -127,6 +110,19 @@
     </textlist>
   </view>
 
+  <view name="detailed, video, grid">
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
+      <visible>false</visible>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${fontSizeCaption-small}</fontSize>
+      <lineSpacing>1.25</lineSpacing>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+  </view>
+
   <view name="detailed">
     <textlist name="gamelist">
       <size>0.466667 0.8</size>      <!-- 480x320 / 224x 256y-->
@@ -138,7 +134,7 @@
       <origin>0.5 0.5</origin>
       <maxSize>0.466667 0.55</maxSize>      <!-- 480x320 / 224x 176y -->
       <zIndex>5</zIndex>
-      <roundCorners>0.02</roundCorners>
+      <roundCorners>0.05</roundCorners>
     </image>
 
     <image name="md_marquee">
@@ -151,26 +147,11 @@
     <rating name="md_rating">
       <origin>0 0</origin>
 
-      <pos>0.61 0.83125</pos>      <!-- 480x320 / 304x 272y-->
-      <pos ifSubset="Ratio:ratio43">0.6075 0.83125</pos>
-      <pos ifSubset="Ratio:ratio53">0.62 0.83125</pos>
-
-      <size>0.075</size>
-      <size ifSubset="Ratio:ratio43">0.066667</size>
-
       <filledPath>./assets/icons/star.svg</filledPath>
       <unfilledPath>./assets/icons/star_border.svg</unfilledPath>
 
       <zIndex>5</zIndex>
     </rating>
-
-    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
-      <visible>false</visible>
-    </text>
-
-    <datetime name="md_releasedate, md_lastplayed">
-      <visible>false</visible>
-    </datetime>
   </view>
 
 
@@ -182,36 +163,25 @@
     </image>
 
     <video name="md_video">
-      <origin>0 0.5</origin>
-      <pos>0.4 0.2875</pos> <!-- 192x 92y -->
-      <minSize>0.6 0.575</minSize> <!-- 288x 184y -->
+      <origin>0.5 0.5</origin>
+      <pos>0.7 0.25</pos>
+      <minSize>0.6 0.5</minSize>
+      <zIndex>0</zIndex>
       <delay>1</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
 
-      <snapshotSource ifSubset="VideoSnapshot:videoThumbnail|videoDefault">thumbnail</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot">image</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoThumbnail">thumbnail</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot|videoDefault">image</snapshotSource>
       <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource>
-      <zIndex>0</zIndex>
     </video>
-
-    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
-      <visible>false</visible>
-    </text>
-
-    <datetime name="md_releasedate, md_lastplayed">
-      <visible>false</visible>
-    </datetime>
 
     <rating name="md_rating">
       <visible>false</visible>
     </rating>
 
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/ratio32/gamelist-video.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-video.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-video.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -229,5 +199,21 @@
       <pos>0.033333333 0.4</pos>
     </text>
   </view>
+
+  <subset name="Ratio" displayName="Screen ratio">
+    <include name="ratio11" displayName="1:1 (Default)">./aspect/1-1.xml</include>
+    
+    <include name="ratio32" ifArch="rg351p,amberelec-rg351p" displayName="3:2 (Default)">./aspect/3-2.xml</include>
+    <include name="ratio43" ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="4:3 (Default)">./aspect/4-3.xml</include>
+    <include name="ratio53" ifArch="rg503,rg552,amberelec-rg503,amberelec-rg552" displayName="5:3 (Default)">./aspect/5-3.xml</include>
+
+    <include name="ratio32" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="3:2">./aspect/3-2.xml</include>
+    <include name="ratio43" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="4:3">./aspect/4-3.xml</include>
+    <include name="ratio53" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="5:3">./aspect/5-3.xml</include>
+
+    <include name="ratio32" displayName="3:2">./aspect/3-2.xml</include>
+    <include name="ratio43" displayName="4:3">./aspect/4-3.xml</include>
+    <include name="ratio53" displayName="5:3">./aspect/5-3.xml</include>
+  </subset>
 
 </theme>

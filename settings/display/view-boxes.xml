@@ -13,16 +13,10 @@
       <size ifHelpPrompts="true">1 0.725</size>      <!--480x320 / 480x 232y-->
 
       <scrollDirection>horizontal</scrollDirection>
-      <autoLayout>2 2</autoLayout>
-      <autoLayout ifSubset="Ratio:ratio53">3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
       <imageSource>image</imageSource>
 
-      <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
-
-      <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!-- 480x320 / 16x 16y -->
-      <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y -->
-      <margin ifSubset="Ratio:ratio53">0.025 0.041667</margin>      <!-- 1920x1152 / 48x 48y -->
+      <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>     <!-- 1920x1152 / 48x 48y -->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -34,18 +28,6 @@
       <backgroundColor>00000000</backgroundColor>
       <imageColor>aaaaaaFF</imageColor>
     </gridtile>
-
-    <image name="gridtile.image">
-      <roundCorners ifSubset="Ratio:ratio32">0.025</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio43">0.025</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio53">0.015</roundCorners>
-    </image>
-
-    <image name="gridtile.image:selected">
-      <roundCorners ifSubset="Ratio:ratio32">0.025</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio43">0.01</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio53">0.01</roundCorners>
-    </image>
 
     <image name="gridtile.marquee">
       <color>FFFFFFFF</color>

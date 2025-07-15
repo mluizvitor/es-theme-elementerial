@@ -38,9 +38,6 @@
 
     <menuBackground name="menubg">
       <fadePath>./assets/fade.png</fadePath>
-      <path ifSubset="Ratio:ratio32">./assets/ratio32/menu.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/menu.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/menu.png</path>
       <size>1 1</size>
     </menuBackground>
 

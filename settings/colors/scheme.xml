@@ -41,6 +41,21 @@
     <image name="custom_bg_fg" extra="true">
       <color>${bgColor}</color>
     </image>
+
+    <text name="md_name">
+      <color>${fgColor}${percent.90}</color>
+      <textColor>${fgColor}${percent.90}</textColor>
+    </text>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description">
+      <color>${fgColor}${percent.90}</color>
+      <textColor>${fgColor}${percent.90}</textColor>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>${fgColor}${percent.90}</color>
+      <textColor>${fgColor}${percent.90}</textColor>
+    </datetime>
   </view>
 
   <view name="menu">

@@ -22,7 +22,7 @@
     <fontSizeH1-small>0.05625</fontSizeH1-small> <!-- 18 -->
     <fontSizeH2-small>0.04375</fontSizeH2-small> <!-- 14 -->
     <fontSizeH3-small>0.0375</fontSizeH3-small> <!-- 12 -->
-    <fontSizeBody-small>0.03125</fontSizeBody-small> <!-- 10 -->
+    <fontSizeBody-small>0.03</fontSizeBody-small> <!-- 10 -->
     <fontSizeCaption-small>0.028125</fontSizeCaption-small> <!-- 9 -->
     
     <fontRegular>./assets/fonts/Inter/Inter-Regular.otf</fontRegular>

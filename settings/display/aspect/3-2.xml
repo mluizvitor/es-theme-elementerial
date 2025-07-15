@@ -1,0 +1,162 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system, basic, detailed, grid, video">
+    <image name="borderOverlay" extra="true">
+      <path>./assets/ratio32/borders.png</path>
+    </image>
+  </view>
+
+  <view name="basic, detailed, grid, video">
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/gamelist-basic.png</path>
+    </image>
+  </view>
+
+  <view name="basic, detailed, video">
+    <textlist name="gamelist">
+      <lineSpacing>1.55</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
+      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.675</lineSpacing>
+    </textlist>
+  </view>
+
+  <view name="detailed">
+    <rating name="md_rating">
+      <pos>0.61 0.83125</pos>
+      <size>0.075</size>
+    </rating>
+  </view>
+
+  <view name="video">
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/gamelist-video.png</path>
+    </image>
+  </view>
+
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <autoLayout>3 2</autoLayout>
+      <margin>0.033333 0.025</margin>
+    </imagegrid>
+
+    <gridtile name="default">
+      <padding>3 3</padding>
+    </gridtile>
+
+    <image name="gridtile.image">
+      <roundCorners>0.03</roundCorners>
+    </image>
+
+    <image name="gridtile.image:selected">
+      <roundCorners>0.02</roundCorners>
+    </image>
+
+    <ninepatch name="gridtile.background">
+      <path>./assets/grid-selector.png</path>
+      <cornerSize>6 6</cornerSize>
+    </ninepatch>
+
+    <text name="gridtile">
+      <size>0.92 0.225</size>
+      <padding>0.04 0</padding>
+      <lineSpacing>1.15</lineSpacing>
+    </text>
+  </view>
+
+  <view name="menu">
+    <menuBackground name="menubg">
+      <fadePath>./assets/fade.png</fadePath>
+      <path>./assets/ratio32/menu.png</path>
+    </menuBackground>
+  </view>
+
+  <view name="system">
+    <carousel name="systemcarousel">
+      <size>1.1 1</size>
+      <maxLogoCount>4</maxLogoCount>
+      <logoPos>0.15 0.55</logoPos>
+    </carousel>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/carousel-background.png</path>
+    </image>
+
+    <text name="systemName" extra="true">
+      <pos>0.08333 0.325</pos>
+    </text>
+
+    <text name="systemInfo">
+      <pos>0.08333 0.41</pos>
+    </text>
+  </view>
+
+  <view name="system, basic, detailed, grid">
+    <image name="osdBackground" extra="true">
+      <path>./assets/ratio32/osd-bg.png</path>
+    </image>
+  </view>
+
+  <!--Confugurações
+  da view "grid"-->
+  <customView name="boxes" inherits="grid">
+    <imagegrid name="gamegrid">
+      <autoLayout>2 2</autoLayout>
+      <margin>0.0333333 0.05</margin>
+    </imagegrid>
+
+    <image name="gridtile.image">
+      <roundCorners>0.025</roundCorners>
+    </image>
+
+    <image name="gridtile.image:selected">
+      <roundCorners>0.025</roundCorners>
+    </image>
+  </customView>
+
+  <customView name="elementflix" inherits="grid">
+    <imagegrid name="gamegrid">
+      <autoLayout>3 1</autoLayout>
+    </imagegrid>
+
+    <ninepatch name="gridtile.background">
+      <path>./assets/grid-selector.png</path>
+      <cornerSize>6 6</cornerSize>
+    </ninepatch>
+
+    <gridtile name="default">
+      <padding>2 2</padding>
+    </gridtile>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/gamelist-video.png</path>
+    </image>
+  </customView>
+
+  <view name="screen">
+    <text name="clock">
+      <pos>0 0.0375</pos>
+      <size>0.84 0</size>
+      <size ifSubset="Status Bar:clock">0.966667 0</size>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.93 0.0125</pos>
+      <size>0.05</size>
+      <itemSpacing>0.008333333</itemSpacing>
+
+      <full>./assets/icons/screen/16x16/battery=full.svg</full>
+      <at75>./assets/icons/screen/16x16/battery=75.svg</at75>
+      <at50>./assets/icons/screen/16x16/battery=50.svg</at50>
+      <at25>./assets/icons/screen/16x16/battery=25.svg</at25>
+      <empty>./assets/icons/screen/16x16/battery=empty.svg</empty>
+      <incharge>./assets/icons/screen/16x16/battery=charging.svg</incharge>
+      <networkIcon>./assets/icons/screen/16x16/wifi=on.svg</networkIcon>
+    </batteryIndicator>
+  </view>
+</theme>

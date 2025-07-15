@@ -14,18 +14,8 @@
       <defaultTransition>fade</defaultTransition>
       <systemInfoDelay>300</systemInfoDelay>
 
-      <size>1.1 1</size>
-      <size ifSubset="Ratio:ratio53">1.2 1</size>
-
       <logoSize>0.25 0.25</logoSize>      <!-- 480x320 / 120x 80y -->
       <logoScale>1.4</logoScale>
-
-      <maxLogoCount>4</maxLogoCount>
-      <maxLogoCount ifSubset="Ratio:ratio53">5</maxLogoCount>
-
-      <logoPos>0.15 0.55</logoPos>
-      <logoPos ifSubset="Ratio:ratio43">0.15 0.6</logoPos>
-      <logoPos ifSubset="Ratio:ratio53">0.2 0.55</logoPos>
 
       <zIndex>10</zIndex>
     </carousel>
@@ -45,9 +35,6 @@
     </video>
 
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/ratio32/carousel-background.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/carousel-background.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/carousel-background.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -58,8 +45,6 @@
     <text name="systemName" extra="true">
       <text>${system.fullName}</text>
       <origin>0 0</origin>
-      <pos>0.08333 0.325</pos>      <!-- 480x320 / 48x 104y -->
-      <pos ifSubset="Ratio:ratio43">0.08333 0.375</pos>      <!-- 480x320 / 48x 104y -->
       <size>0.866667 ${fontSizeH1-medium}</size>      <!-- 480x320 / 416x -->
       <fontPath>${fontBold}</fontPath>
 
@@ -75,8 +60,6 @@
     <!-- Total games per system -->
     <text name="systemInfo">
       <origin>0 0</origin>
-      <pos>0.08333 0.41</pos>
-      <pos ifSubset="Ratio:ratio43">0.08333 0.46</pos>
       <size>0.866667 ${fontSizeBody-medium}</size>      <!-- 480x320 / 416x -->
 
       <fontSize>${fontSizeBody-medium}</fontSize>
@@ -156,10 +139,6 @@
       <origin>0 0</origin>
       <size>1 1</size>
 
-      <path ifSubset="Ratio:ratio32">./assets/ratio32/osd-bg.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/osd-bg.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/osd-bg.png</path>
-
       <visible ifSubset="Status Bar:hidden">false</visible>
       <zIndex>100</zIndex>
     </image>
@@ -168,19 +147,8 @@
   <view name="screen">
     <text name="clock">
       <origin>0 0.5</origin>
-      <pos>0 0.0375</pos>      <!-- 480x320 / 0x 12y-->
-      <pos ifSubset="Ratio:ratio43">0 0.0375</pos>      <!-- 480x320 / 0x 16y-->
-      <pos ifSubset="Ratio:ratio53">0 0.041666667</pos>      <!-- 480x320 / 0x 4y-->
-
-      <size>0.84 0</size>      <!-- 480x320 / 424x-->
-      <size ifSubset="Ratio:ratio43">0.83 0</size>      <!-- 640x480 / 544x-->
-      <size ifSubset="Ratio:ratio53">0.84 0</size>      <!-- 640x480 / 544x-->
-
-      <size ifSubset="Status Bar:clock">0.966667 0</size>      <!-- 480x320 / 432x-->
-
       <fontSize>${fontSizeCaption-medium}</fontSize>
       <fontSize ifSubset="Ratio:ratio53">${fontSizeBody-medium}</fontSize>
-      <!-- <backgroundColor>ff0000</backgroundColor> -->
 
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
@@ -190,47 +158,7 @@
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <pos>0.93 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y-->
-      <size>0.05</size>      <!-- 16x 16y-->
       <visible ifSubset="Status Bar:hidden|clock">false</visible>
-      <itemSpacing>0.008333333</itemSpacing>
-
-      <!-- Assets -->
-      <full>./assets/icons/screen/16x16/battery=full.svg</full>
-      <at75>./assets/icons/screen/16x16/battery=75.svg</at75>
-      <at50>./assets/icons/screen/16x16/battery=50.svg</at50>
-      <at25>./assets/icons/screen/16x16/battery=25.svg</at25>
-      <empty>./assets/icons/screen/16x16/battery=empty.svg</empty>
-      <incharge>./assets/icons/screen/16x16/battery=charging.svg</incharge>
-      <networkIcon>./assets/icons/screen/16x16/wifi=on.svg</networkIcon>
-    </batteryIndicator>
-
-    <batteryIndicator name="batteryIndicator" ifSubset="Ratio:ratio43">
-      <size>0.05</size>      <!-- 24x 24y-->
-      <visible ifSubset="Status Bar:hidden|clock">false</visible>
-
-      <!-- Assets -->
-      <full>./assets/icons/screen/24x24/battery=full.svg</full>
-      <at75>./assets/icons/screen/24x24/battery=75.svg</at75>
-      <at50>./assets/icons/screen/24x24/battery=50.svg</at50>
-      <at25>./assets/icons/screen/24x24/battery=25.svg</at25>
-      <empty>./assets/icons/screen/24x24/battery=empty.svg</empty>
-      <incharge>./assets/icons/screen/24x24/battery=charging.svg</incharge>
-      <networkIcon>./assets/icons/screen/24x24/wifi=on.svg</networkIcon>
-    </batteryIndicator>
-
-    <batteryIndicator name="batteryIndicator" ifSubset="Ratio:ratio53">
-      <size>0.0625</size>      <!-- 72x 72y-->
-      <visible ifSubset="Status Bar:hidden|clock">false</visible>
-
-      <!-- Assets -->
-      <full>./assets/icons/screen/72x72/battery=full.svg</full>
-      <at75>./assets/icons/screen/72x72/battery=75.svg</at75>
-      <at50>./assets/icons/screen/72x72/battery=50.svg</at50>
-      <at25>./assets/icons/screen/72x72/battery=25.svg</at25>
-      <empty>./assets/icons/screen/72x72/battery=empty.svg</empty>
-      <incharge>./assets/icons/screen/72x72/battery=charging.svg</incharge>
-      <networkIcon>./assets/icons/screen/72x72/wifi=on.svg</networkIcon>
     </batteryIndicator>
 
     <controllerActivity name="controllerActivity">
