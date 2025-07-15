@@ -201,7 +201,6 @@
   </view>
 
   <subset name="Ratio" displayName="Screen ratio">
-    <include name="ratio11" displayName="1:1 (Default)">./aspect/1-1.xml</include>
     
     <include name="ratio32" ifArch="rg351p,amberelec-rg351p" displayName="3:2 (Default)">./aspect/3-2.xml</include>
     <include name="ratio43" ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="4:3 (Default)">./aspect/4-3.xml</include>
@@ -210,7 +209,8 @@
     <include name="ratio32" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="3:2">./aspect/3-2.xml</include>
     <include name="ratio43" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="4:3">./aspect/4-3.xml</include>
     <include name="ratio53" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" displayName="5:3">./aspect/5-3.xml</include>
-
+    
+    <include name="ratio11" displayName="1:1">./aspect/1-1.xml</include>
     <include name="ratio32" displayName="3:2">./aspect/3-2.xml</include>
     <include name="ratio43" displayName="4:3">./aspect/4-3.xml</include>
     <include name="ratio53" displayName="5:3">./aspect/5-3.xml</include>
