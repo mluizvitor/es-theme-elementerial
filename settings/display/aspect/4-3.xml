@@ -15,7 +15,7 @@
   <!--Configurações
   comuns de views-->
   <view name="basic, detailed, grid, video">
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio43/gamelist-basic.png</path>
     </image>
   </view>
@@ -35,7 +35,7 @@
   </view>
 
   <view name="video">
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio43/gamelist-video.png</path>
     </image>
   </view>
@@ -88,7 +88,7 @@
       <logoPos>0.15 0.6</logoPos>
     </carousel>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio43/carousel-background.png</path>
     </image>
 
@@ -140,7 +140,7 @@
       <padding>3 3</padding>
     </gridtile>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio43/gamelist-video.png</path>
     </image>
   </customView>
@@ -155,9 +155,7 @@
 
     <batteryIndicator name="batteryIndicator">
       <size>0.05</size>      <!-- 24x 24y-->
-      <visible ifSubset="Status Bar:hidden|clock">false</visible>
 
-      <!-- Assets -->
       <full>./assets/icons/screen/24x24/battery=full.svg</full>
       <at75>./assets/icons/screen/24x24/battery=75.svg</at75>
       <at50>./assets/icons/screen/24x24/battery=50.svg</at50>

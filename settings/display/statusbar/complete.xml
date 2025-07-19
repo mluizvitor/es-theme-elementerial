@@ -1,0 +1,11 @@
+<theme>
+  <view name="screen">
+    <text name="clock">
+      <visible>true</visible>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <visible>true</visible>
+    </batteryIndicator>
+  </view>
+</theme>

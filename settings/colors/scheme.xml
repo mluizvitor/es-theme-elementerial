@@ -38,7 +38,7 @@
       <unfilledColor>${sectColor}</unfilledColor>
     </rating>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <color>${bgColor}</color>
     </image>
 
@@ -122,9 +122,7 @@
   <!-- Carousel Config -->
   <view name="system">
     <carousel name="systemcarousel">
-      <color ifSubset="Background Style:default">${bgColor}00</color>
-      <color ifSubset="Background Style:random">${bgColor}00</color>
-      <color ifSubset="Background Style:custom">${bgColor}00</color>
+      <color>${bgColor}00</color>
     </carousel>
 
     <!-- System Name -->
@@ -146,7 +144,7 @@
       <color>${bgColor}</color>
     </image>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <color>${bgColor}</color>
     </image>
 

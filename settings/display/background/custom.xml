@@ -1,0 +1,59 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system">
+    <image name="cover" extra="true">
+      <path>{random:image}</path>
+      <path>./assets/systems/${system.theme}.webp</path>
+      
+      <path>./customBackground/general.jpg</path>
+      <path>./customBackground/general.jpeg</path>
+      <path>./customBackground/general.png</path>
+      <path>./customBackground/general.webp</path>
+
+      <path>./customBackground/${system.theme}.jpg</path>
+      <path>./customBackground/${system.theme}.jpeg</path>
+      <path>./customBackground/${system.theme}.png</path>
+      <path>./customBackground/${system.theme}.webp</path>
+    </image>
+  </view>
+
+  <view name="basic, detailed, grid, video">
+    <image name="cover_list" extra="true">
+      <path>{random:image}</path>
+      <path>./assets/systems/${system.theme}.webp</path>
+
+      <path>./customBackground/general.jpg</path>
+      <path>./customBackground/general.jpeg</path>
+      <path>./customBackground/general.png</path>
+      <path>./customBackground/general.webp</path>
+
+      <path>./customBackground/${system.theme}.jpg</path>
+      <path>./customBackground/${system.theme}.jpeg</path>
+      <path>./customBackground/${system.theme}.png</path>
+      <path>./customBackground/${system.theme}.webp</path>
+    </image>
+  </view>
+
+  <customView name="elementflix" inherits="grid">
+    <image name="cover_list" extra="true">
+      <path>{random:image}</path>
+      <path>./assets/systems/${system.theme}.webp</path>
+      
+      <path>./customBackground/general.jpg</path>
+      <path>./customBackground/general.jpeg</path>
+      <path>./customBackground/general.png</path>
+      <path>./customBackground/general.webp</path>
+
+      <path>./customBackground/${system.theme}.jpg</path>
+      <path>./customBackground/${system.theme}.jpeg</path>
+      <path>./customBackground/${system.theme}.png</path>
+      <path>./customBackground/${system.theme}.webp</path>
+    </image>
+  </customView>
+</theme>

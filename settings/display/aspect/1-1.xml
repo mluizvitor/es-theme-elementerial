@@ -13,7 +13,7 @@
   </view>
 
   <view name="basic, detailed, grid, video">
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio11/gamelist-basic.png</path>
     </image>
   </view>
@@ -57,7 +57,7 @@
   </view>
 
   <view name="video">
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio11/gamelist-video.png</path>
     </image>
   </view>
@@ -106,7 +106,7 @@
       <maxLogoCount>4</maxLogoCount>
     </carousel>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio11/carousel-background.png</path>
     </image>
 
@@ -154,22 +154,20 @@
       <padding>3 3</padding>
     </gridtile>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio11/gamelist-video.png</path>
     </image>
   </customView>
 
   <view name="screen">
     <text name="clock">
-      <pos>0 0.0375</pos>
+      <pos>-0.02 0.0375</pos>
       <size>0.84 0</size>
-      <size ifSubset="Status Bar:clock">0.966667 0</size>
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <pos>0.925 0.0125</pos>
+      <pos>0.86 0.0125</pos>
       <size>0.05</size>
-      <!-- <visible ifSubset="Status Bar:hidden|clock">false</visible> -->
 
       <full>./assets/icons/screen/72x72/battery=full.svg</full>
       <at75>./assets/icons/screen/72x72/battery=75.svg</at75>

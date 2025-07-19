@@ -13,7 +13,7 @@
   </view>
 
   <view name="basic, detailed, grid, video">
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio32/gamelist-basic.png</path>
     </image>
   </view>
@@ -34,7 +34,7 @@
   </view>
 
   <view name="video">
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio32/gamelist-video.png</path>
     </image>
   </view>
@@ -83,7 +83,7 @@
       <logoPos>0.15 0.55</logoPos>
     </carousel>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio32/carousel-background.png</path>
     </image>
 
@@ -133,7 +133,7 @@
       <padding>2 2</padding>
     </gridtile>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <path>./assets/ratio32/gamelist-video.png</path>
     </image>
   </customView>

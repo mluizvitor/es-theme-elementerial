@@ -1,0 +1,21 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system">
+    <image name="cover" extra="true">
+      <path>{random:image}</path>
+      <path>./assets/systems/${system.theme}.webp</path>
+    </image>
+  </view>
+
+  <view name="basic, detailed, grid, video">
+    <image name="cover_list" extra="true">
+      <path>./assets/systems/${system.theme}.webp</path>
+    </image>
+  </view>
+</theme>

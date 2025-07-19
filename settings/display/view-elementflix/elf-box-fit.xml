@@ -1,0 +1,15 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <customView name="elementflix" inherits="grid">
+    <gridtile name="default, selected">
+      <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+    </gridtile>
+  </customView>
+</theme>

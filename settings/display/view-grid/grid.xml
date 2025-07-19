@@ -6,15 +6,17 @@
 <theme>
   <formatVersion>7</formatVersion>
 
+  <subset name="Grid Game Image" displayName="Grid Game Image" appliesTo="grid">
+    <include name="gridscreenshot" displayName="Screenshot">./grid-screenshot.xml</include>
+    <include name="gridthumbnail" displayName="Thumbnail">./grid-thumbnail.xml</include>
+    <include name="gridmarquee" displayName="Marquee">./grid-marquee.xml</include>
+  </subset>
+
   <!--Confugurações da view "grid"-->
   <view name="grid">
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
       <scrollLoop>false</scrollLoop>
-
-      <imageSource ifSubset="Grid Game Image:gridscreenshot">image</imageSource>
-      <imageSource ifSubset="Grid Game Image:gridthumbnail">thumbnail</imageSource>
-      <imageSource ifSubset="Grid Game Image:gridlogo">marquee</imageSource>
 
       <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y-->
       <size>1 0.8</size>      <!--480x320 / 480x 256y-->
@@ -42,12 +44,6 @@
       <zIndex>5</zIndex>
       <visible>true</visible>
     </text>
-
-    <gridtile name="default, selected">
-      <selectionMode>full</selectionMode>
-      <imageSizeMode ifSubset="Grid Game Image:gridscreenshot|gridthumbnail">minSize</imageSizeMode>
-      <imageSizeMode ifSubset="Grid Game Image:gridlogo">maxSize</imageSizeMode>
-    </gridtile>
 
     <gridtile name="default">
       <backgroundColor>00000000</backgroundColor>

@@ -20,34 +20,26 @@
   </subset>
 
   <subset name="PlayVideo" displayName="Video on carousel">
-    <include name="true" displayName="Enabled" />
-    <include name="false" displayName="Disabled" />
+    <include name="true" displayName="Enabled">./settings/display/background/carousel-video-on.xml</include>
+    <include name="false" displayName="Disabled"/>
   </subset>
 
   <subset name="Background Style" displayName="Background style">
-    <include name="default" displayName="Default" />
-    <include name="random" displayName="Random" />
-    <include name="custom" displayName="Custom">./settings/display/customBg.xml</include>
+    <include name="default" displayName="Default">./settings/display/background/default.xml</include>
+    <include name="random" displayName="Random">./settings/display/background/random.xml</include>
+    <include name="custom" displayName="Custom">./settings/display/background/custom.xml</include>
   </subset>
 
   <subset name="Status Bar" displayName="Status Bar">
-    <include name="complete" displayName="Clock + Battery" />
-    <include name="clock" displayName="Clock" />
-    <include name="battery" displayName="Battery" />
-    <include name="hidden" displayName="Hidden" />
-  </subset>
-
-  <subset name="Grid Game Image" displayName="Grid Game Image" appliesTo="grid">
-    <include name="gridscreenshot" displayName="Screenshot" />
-    <include name="gridthumbnail" displayName="Thumbnail" />
-    <include name="gridlogo" displayName="Logo" />
+    <include name="complete" displayName="Clock + Battery">./settings/display/statusbar/complete.xml</include>
+    <include name="clock" displayName="Clock">./settings/display/statusbar/clock.xml</include>
+    <include name="battery" displayName="Battery">./settings/display/statusbar/battery.xml</include>
+    <include name="hidden" displayName="Hidden">./settings/display/statusbar/hidden.xml</include>
   </subset>
 
   <subset name="VideoSnapshot" displayName="Video Snapshot" appliesTo="video, elementflix">
-    <include name="videoDefault" displayName="Adaptable" />
-    <include name="videoThumbnail" displayName="Thumbnail" />
-    <include name="videoScreenshot" displayName="Screenshot" />
-    <include name="videoMarquee" displayName="Marquee" />
+    <include name="videoScreenshot" displayName="Screenshot">./settings/display/video/snapshot-screenshot.xml</include>
+    <include name="videoThumbnail" displayName="Thumbnail">./settings/display/video/snapshot-thumbnail.xml</include>
   </subset>
 
   <include>./settings/colors/scheme.xml</include>
@@ -55,10 +47,10 @@
   <include>./settings/display/view-system.xml</include>
   <include>./settings/display/view-basic.xml</include>
   <include>./settings/display/view-detailed.xml</include>
-  <include>./settings/display/view-grid.xml</include>
+  <include>./settings/display/view-grid/grid.xml</include>
   <include>./settings/display/view-boxes.xml</include>
   <include>./settings/display/view-video.xml</include>
-  <include>./settings/display/view-elementflix.xml</include>
+  <include>./settings/display/view-elementflix/elf.xml</include>
   <include>./settings/display/view-menu.xml</include>
 
 </theme>

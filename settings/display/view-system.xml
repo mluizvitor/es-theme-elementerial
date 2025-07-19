@@ -20,21 +20,7 @@
       <zIndex>10</zIndex>
     </carousel>
 
-    <video name="carouselVideo" extra="true" ifSubset="PlayVideo:true">
-      <path>{random}</path>
-      <pos>0 0.25</pos>
-      <origin>0 0.5</origin>
-      <minSize>1 0.5</minSize>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <zIndex>-8</zIndex>
-      <delay>1.5</delay>
-
-      <storyboard>
-        <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut" />
-      </storyboard>
-    </video>
-
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -99,8 +85,6 @@
 
     <!-- System Background -->
     <image name="cover" extra="true">
-      <path>{random:image}</path>
-      <path>./assets/systems/${system.theme}.webp</path>
       <size>1 0</size>
       <origin>0 0.5</origin>
       <pos>0 0.25</pos>
@@ -109,28 +93,6 @@
         <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut" />
       </storyboard>
     </image>
-
-    <image name="cover" extra="true" ifSubset="Background Style:custom">
-      <path>./customBackground/${system.theme}.jpg</path>
-      <path>./customBackground/${system.theme}.jpeg</path>
-      <path>./customBackground/${system.theme}.png</path>
-      <path>./customBackground/${system.theme}.webp</path>
-    </image>
-
-    <image name="cover_general" extra="true" ifSubset="Background Style:custom">
-      <path>./customBackground/general.jpg</path>
-      <path>./customBackground/general.jpeg</path>
-      <path>./customBackground/general.png</path>
-      <path>./customBackground/general.webp</path>
-      <size>1 0</size>
-      <origin>0 0.5</origin>
-      <pos>0 0.25</pos>
-      <zIndex>-9</zIndex>
-    </image>
-
-    <image name="cover" extra="true" ifSubset="Background Style:random">
-      <path>{random:image}</path>
-    </image>
   </view>
 
   <view name="system, basic, detailed, grid">
@@ -138,8 +100,6 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-
-      <visible ifSubset="Status Bar:hidden">false</visible>
       <zIndex>100</zIndex>
     </image>
   </view>
@@ -153,13 +113,7 @@
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
       <alignment>right</alignment>
-
-      <visible ifSubset="Status Bar:hidden|battery">false</visible>
     </text>
-
-    <batteryIndicator name="batteryIndicator">
-      <visible ifSubset="Status Bar:hidden|clock">false</visible>
-    </batteryIndicator>
 
     <controllerActivity name="controllerActivity">
       <origin>0 0</origin>

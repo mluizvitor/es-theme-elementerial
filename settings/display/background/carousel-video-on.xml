@@ -1,0 +1,24 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system">
+    <video name="carouselVideo" extra="true">
+      <path>{random}</path>
+      <pos>0 0.25</pos>
+      <origin>0 0.5</origin>
+      <minSize>1 0.5</minSize>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <zIndex>-8</zIndex>
+      <delay>1.5</delay>
+
+      <storyboard>
+        <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut" />
+      </storyboard>
+    </video>
+  </view>
+</theme>

@@ -56,7 +56,6 @@
     </image>
 
     <image name="cover_list" extra="true">
-      <path>./assets/systems/${system.theme}.webp</path>
       <size>1 0</size>
       <origin>0 0.5</origin>
       <pos>0 0.225</pos>
@@ -64,19 +63,7 @@
       <zIndex>-5</zIndex>
     </image>
 
-    <image name="cover_list" extra="true" ifSubset="Background Style:custom">
-      <path>./customBackground/${system.theme}.jpg</path>
-      <path>./customBackground/${system.theme}.jpeg</path>
-      <path>./customBackground/${system.theme}.png</path>
-      <path>./customBackground/${system.theme}.webp</path>
-
-      <path>./customBackground/general.jpg</path>
-      <path>./customBackground/general.jpeg</path>
-      <path>./customBackground/general.png</path>
-      <path>./customBackground/general.webp</path>
-    </image>
-
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -162,26 +149,29 @@
       <maxSize>0.333333333 0.325</maxSize>      <!-- 480x320 / 224x 176y -->
     </image>
 
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0.7 0.25</pos>
+      <minSize>0.7 0.55</minSize>
+      <zIndex>-1</zIndex>
+    </image>
+
     <video name="md_video">
       <origin>0.5 0.5</origin>
       <pos>0.7 0.25</pos>
-      <minSize>0.6 0.5</minSize>
+      <minSize>0.7 0.55</minSize>
       <zIndex>0</zIndex>
       <delay>1</delay>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
       <effect>none</effect>
-
-      <snapshotSource ifSubset="VideoSnapshot:videoThumbnail">thumbnail</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot|videoDefault">image</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource>
     </video>
 
     <rating name="md_rating">
       <visible>false</visible>
     </rating>
 
-    <image name="custom_bg_fg" extra="true">
+    <image name="background_overlay" extra="true">
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>

@@ -1,0 +1,20 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="video">
+    <video name="md_video">
+      <snapshotSource>image</snapshotSource>
+    </video>
+  </view>
+
+  <customView name="elementflix" inherits="grid">
+    <video name="md_video">
+      <snapshotSource>image</snapshotSource>
+    </video>
+  </customView>
+</theme>

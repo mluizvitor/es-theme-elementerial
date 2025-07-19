@@ -1,0 +1,19 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <imageSource>marquee</imageSource>
+    </imagegrid>
+
+    <gridtile name="default, selected">
+      <selectionMode>full</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+    </gridtile>
+  </view>
+</theme>
